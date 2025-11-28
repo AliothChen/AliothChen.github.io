@@ -19,7 +19,7 @@ Yuheng Chen(陈昱衡) is currently a senior student majoring in Computer Scienc
 Yan Ge, Wu Wenjie, **Chen Yuheng**, Pan Kaisen, Lu Xudong, Zhou Zixiang, Wang Yuhan, Wang Ruocheng, Yan Junchi
 
 [**Related link**](https://mp.weixin.qq.com/s/TVHtSIk1zbwIY8gPBvfynw) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- In this survey, we systematically review and summarize a vast body of literature, exploring the feasibility of an integrated design and optimization scheme that spans from the algorithmic level to quantum hardware, combining the steps of logic circuit design and compilation optimization.
+<!-- - In this survey, we systematically review and summarize a vast body of literature, exploring the feasibility of an integrated design and optimization scheme that spans from the algorithmic level to quantum hardware, combining the steps of logic circuit design and compilation optimization. -->
 </div>
 </div>
 
