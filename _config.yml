@@ -272,6 +272,13 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _projects InstanceV exception (no layout)
+  - scope:
+      path: "InstanceV"
+      type: projects
+    values:
+      layout: null
+      author_profile: false
   # _talks
   - scope:
       path: ""
