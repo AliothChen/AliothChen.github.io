@@ -279,6 +279,13 @@ defaults:
     values:
       layout: null
       author_profile: false
+  # _projects CineDance exception (no layout)
+  - scope:
+      path: "CineDance"
+      type: projects
+    values:
+      layout: null
+      author_profile: false
   # _talks
   - scope:
       path: ""

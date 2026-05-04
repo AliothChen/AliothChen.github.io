@@ -1,0 +1,298 @@
+---
+layout: null
+permalink: /projects/CineDance/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
+  <meta name="description" content="CineDance-1M: A large-scale open-source T2AV dataset for multi-shot long-form cinematic audio-video generation with 1M+ sequences averaging 92.8s and 24.2 shots.">
+  <meta name="keywords" content="audio-video generation, cinematic dataset, multi-shot, long-form video, T2AV, CineDance, NeurIPS 2026">
+  <meta name="author" content="Yuheng Chen, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Xiangtai Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Shanghai Jiao Tong University">
+  <meta property="og:title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
+  <meta property="og:description" content="CineDance-1M: A large-scale open-source T2AV dataset for multi-shot long-form cinematic audio-video generation with 1M+ sequences averaging 92.8s and 24.2 shots.">
+  <meta property="og:url" content="https://aliothchen.github.io/projects/CineDance/">
+  <meta property="og:image" content="https://aliothchen.github.io/projects/CineDance/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Yuheng Chen">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="audio-video generation">
+  <meta property="article:tag" content="cinematic dataset">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
+  <meta name="twitter:description" content="CineDance-1M: A large-scale open-source T2AV dataset for multi-shot long-form cinematic audio-video generation.">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
+  <meta name="citation_author" content="Chen, Yuheng">
+  <meta name="citation_author" content="Hu, Teng">
+  <meta name="citation_author" content="Wang, Yuji">
+  <meta name="citation_author" content="He, Qingdong">
+  <meta name="citation_author" content="Xue, Zhucun">
+  <meta name="citation_author" content="Zhou, Qianyu">
+  <meta name="citation_author" content="Li, Xiangtai">
+  <meta name="citation_author" content="Ma, Lizhuang">
+  <meta name="citation_author" content="Zhang, Jiangning">
+  <meta name="citation_author" content="Tao, Dacheng">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="NeurIPS 2026">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>CineDance - Yuheng Chen et al. | NeurIPS 2026</title>
+  
+  <!-- Reuse InstanceV static assets -->
+  <link rel="icon" type="image/x-icon" href="/projects/InstanceV/static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/projects/InstanceV/static/images/favicon.ico">
+  
+  <!-- Critical CSS -->
+  <link rel="stylesheet" href="/projects/InstanceV/static/css/bulma.min.css">
+  <link rel="stylesheet" href="/projects/InstanceV/static/css/index.css">
+  
+  <!-- Non-critical CSS -->
+  <link rel="preload" href="/projects/InstanceV/static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/projects/InstanceV/static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/projects/InstanceV/static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <noscript>
+    <link rel="stylesheet" href="/projects/InstanceV/static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="/projects/InstanceV/static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="/projects/InstanceV/static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="/projects/InstanceV/static/js/fontawesome.all.min.js"></script>
+  <script defer src="/projects/InstanceV/static/js/bulma-carousel.min.js"></script>
+  <script defer src="/projects/InstanceV/static/js/bulma-slider.min.js"></script>
+  <script defer src="/projects/InstanceV/static/js/index.js"></script>
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation",
+    "description": "CineDance-1M: A large-scale open-source T2AV dataset for multi-shot long-form cinematic audio-video generation.",
+    "author": [
+      {"@type": "Person", "name": "Yuheng Chen", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Teng Hu", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Jiangning Zhang", "affiliation": {"@type": "Organization", "name": "Zhejiang University"}},
+      {"@type": "Person", "name": "Dacheng Tao", "affiliation": {"@type": "Organization", "name": "Nanyang Technological University"}}
+    ],
+    "datePublished": "2026-01-01",
+    "publisher": {"@type": "Organization", "name": "NeurIPS 2026"},
+    "url": "https://aliothchen.github.io/projects/CineDance/",
+    "keywords": ["audio-video generation", "cinematic dataset", "multi-shot video", "long-form video", "T2AV"],
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+
+  <!-- Hero / Title Section -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+            <h1 class="title is-1 publication-title">
+              CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Yuheng Chen<sup>1*</sup>,&nbsp;</span>
+              <span class="author-block">Teng Hu<sup>1†</sup>,&nbsp;</span>
+              <span class="author-block">Yuji Wang<sup>1</sup>,&nbsp;</span>
+              <span class="author-block">Qingdong He<sup>3</sup>,&nbsp;</span>
+              <span class="author-block">Zhucun Xue<sup>2</sup>,&nbsp;</span>
+              <span class="author-block">Qianyu Zhou<sup>4</sup>,&nbsp;</span>
+              <span class="author-block"><strong>Xiangtai Li</strong><sup>5</sup>,&nbsp;</span>
+              <span class="author-block"><strong>Lizhuang Ma</strong><sup>1‡</sup>,&nbsp;</span>
+              <span class="author-block"><strong>Jiangning Zhang</strong><sup>2‡</sup>,&nbsp;</span>
+              <span class="author-block"><strong>Dacheng Tao</strong><sup>5</sup></span>
+            </div>
+
+            <div class="is-size-6 publication-authors" style="margin-top: 0.75rem;">
+              <span class="author-block">
+                <sup>1</sup>Shanghai Jiao Tong University &nbsp;
+                <sup>2</sup>Zhejiang University &nbsp;
+                <sup>3</sup>University of Electronic Science and Technology of China<br>
+                <sup>4</sup>The University of Tokyo &nbsp;
+                <sup>5</sup>Nanyang Technological University
+              </span>
+              <span class="eql-cntrb">
+                <small><br><sup>*</sup>First author &nbsp; <sup>†</sup>Equal contribution &nbsp; <sup>‡</sup>Corresponding / Project lead</small>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors" style="margin-top: 0.5rem;">
+              <span class="author-block"><strong>NeurIPS 2026 — Evaluations &amp; Datasets Track</strong></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <!-- Paper (placeholder) -->
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark" style="pointer-events: none; opacity: 0.6;">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper (Coming Soon)</span>
+                  </a>
+                </span>
+
+                <!-- arXiv (placeholder) -->
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark" style="pointer-events: none; opacity: 0.6;">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv (Coming Soon)</span>
+                  </a>
+                </span>
+
+                <!-- GitHub (placeholder) -->
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark" style="pointer-events: none; opacity: 0.6;">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code (Coming Soon)</span>
+                  </a>
+                </span>
+
+                <!-- Dataset (placeholder) -->
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark" style="pointer-events: none; opacity: 0.6;">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Dataset (Coming Soon)</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+
+  <!-- Abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              The fidelity and structural diversity of training datasets fundamentally dictate the generative quality and capability boundaries of video synthesis models. Furthermore, powered by the recent advent of foundational audio-visual architectures, conventional single-modality datasets are increasingly insufficient to meet modern research demands. While proprietary commercial systems have recently demonstrated explosive capabilities in generating cinematic narratives, the progress of open-source models remains severely hindered by the profound scarcity of high-quality training data.
+            </p>
+            <p>
+              To address this critical bottleneck, we introduce <strong>CineDance-1M</strong>, a large-scale open-source Text-to-Audio-Video (T2AV) dataset engineered specifically for multi-shot long-form generation. Each sequence features an unprecedented average duration of 92.8 seconds and 24.2 continuous shots, natively providing premium audio-visual pairings coupled with configurable structured annotations. The exceptional quality of CineDance-1M is driven by a rigorous three-stage curation pipeline: <em>(i)</em> diverse sourcing and comprehensive cleansing, <em>(ii)</em> film-theory-inspired narrative parsing for coherent shot grouping, and <em>(iii)</em> hierarchical dual-modal captioning utilizing anchor tokens.
+            </p>
+            <p>
+              To systematically assess this new paradigm, we concurrently propose <strong>CineBench</strong>, a difficulty-stratified evaluation suite that features a five-dimensional, human-aligned metric system. Furthermore, we expand LTX-2.3 to <strong>CineDance</strong>, which maintains highly consistent audio-video alignment and identity consistency across complex multi-shot sequences, effectively validating our curation strategy. We anticipate this work will serve as a pivotal foundation, accelerating future research in multi-shot, long-form audio-video generation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Abstract -->
+
+
+  <!-- BibTeX -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@inproceedings{chen2026cinedance,
+  title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation},
+  author={Chen, Yuheng and Hu, Teng and Wang, Yuji and He, Qingdong and Xue, Zhucun and Zhou, Qianyu and Li, Xiangtai and Ma, Lizhuang and Zhang, Jiangning and Tao, Dacheng},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026},
+  url={https://aliothchen.github.io/projects/CineDance/}
+}</code></pre>
+    </div>
+  </section>
+  <!-- End BibTeX -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </main>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    function copyBibTeX() {
+      const code = document.getElementById('bibtex-code').innerText;
+      navigator.clipboard.writeText(code).then(function() {
+        const btn = document.querySelector('.copy-bibtex-btn .copy-text');
+        if (btn) { btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = 'Copy', 2000); }
+      });
+    }
+    // Show scroll-to-top button
+    window.addEventListener('scroll', function() {
+      const btn = document.querySelector('.scroll-to-top');
+      if (btn) btn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+    });
+  </script>
+
+</body>
+</html>
