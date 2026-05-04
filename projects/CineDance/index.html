@@ -114,13 +114,13 @@
 
             <div class="is-size-5 publication-authors">
               <span class="author-block">Yuheng Chen<sup>1*</sup>,&nbsp;</span>
-              <span class="author-block">Teng Hu<sup>1†</sup>,&nbsp;</span>
+              <span class="author-block">Teng Hu<sup>1*</sup>,&nbsp;</span>
               <span class="author-block">Yuji Wang<sup>1</sup>,&nbsp;</span>
               <span class="author-block">Qingdong He<sup>3</sup>,&nbsp;</span>
               <span class="author-block">Zhucun Xue<sup>2</sup>,&nbsp;</span>
               <span class="author-block">Qianyu Zhou<sup>4</sup>,&nbsp;</span>
               <span class="author-block"><strong>Xiangtai Li</strong><sup>5</sup>,&nbsp;</span>
-              <span class="author-block"><strong>Lizhuang Ma</strong><sup>1‡</sup>,&nbsp;</span>
+              <span class="author-block"><strong>Lizhuang Ma</strong><sup>1†</sup>,&nbsp;</span>
               <span class="author-block"><strong>Jiangning Zhang</strong><sup>2‡</sup>,&nbsp;</span>
               <span class="author-block"><strong>Dacheng Tao</strong><sup>5</sup></span>
             </div>
@@ -134,12 +134,8 @@
                 <sup>5</sup>Nanyang Technological University
               </span>
               <span class="eql-cntrb">
-                <small><br><sup>*</sup>First author &nbsp; <sup>†</sup>Equal contribution &nbsp; <sup>‡</sup>Corresponding / Project lead</small>
+                <small><br><sup>*</sup>Equal contributions. &nbsp; <sup>†</sup>Corresponding author. &nbsp; <sup>‡</sup>Project lead.</small>
               </span>
-            </div>
-
-            <div class="is-size-5 publication-authors" style="margin-top: 0.5rem;">
-              <span class="author-block"><strong>NeurIPS 2026 — Evaluations &amp; Datasets Track</strong></span>
             </div>
 
             <div class="column has-text-centered">
@@ -212,26 +208,7 @@
   <!-- End Abstract -->
 
 
-  <!-- BibTeX -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@inproceedings{chen2026cinedance,
-  title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation},
-  author={Chen, Yuheng and Hu, Teng and Wang, Yuji and He, Qingdong and Xue, Zhucun and Zhou, Qianyu and Li, Xiangtai and Ma, Lizhuang and Zhang, Jiangning and Tao, Dacheng},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2026},
-  url={https://aliothchen.github.io/projects/CineDance/}
-}</code></pre>
-    </div>
-  </section>
-  <!-- End BibTeX -->
+
 
 
   <footer class="footer">
@@ -254,13 +231,6 @@
   <script>
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-    function copyBibTeX() {
-      const code = document.getElementById('bibtex-code').innerText;
-      navigator.clipboard.writeText(code).then(function() {
-        const btn = document.querySelector('.copy-bibtex-btn .copy-text');
-        if (btn) { btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = 'Copy', 2000); }
-      });
     }
     // Show scroll-to-top button
     window.addEventListener('scroll', function() {
