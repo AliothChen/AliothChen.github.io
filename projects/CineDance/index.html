@@ -4,21 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="CineDance-1M is a large-scale text-to-audio-video dataset for multi-shot long-form cinematic generation.">
-  <meta name="keywords" content="CineDance, CineDance-1M, CineBench, text-to-audio-video generation, cinematic video generation, multi-shot video, long-form video">
+  <meta name="description" content="CineDance-1M is a million-scale 1080p text-to-audio-video dataset for multi-shot long-form cinematic generation.">
+  <meta name="keywords" content="CineDance, CineDance-1M, CineBench, text-to-audio-video generation, long-form video generation, multi-shot generation, cinematic dataset">
   <meta name="author" content="Yuheng Chen, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Xiangtai Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao">
   <meta name="robots" content="index, follow">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Shanghai Jiao Tong University">
   <meta property="og:title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
-  <meta property="og:description" content="A large-scale open-source T2AV dataset and benchmark for multi-shot long-form cinematic audio-video generation.">
+  <meta property="og:description" content="A million-scale 1080p T2AV dataset, CineBench benchmark, and CineDance baseline for multi-shot long-form cinematic audio-video generation.">
   <meta property="og:url" content="https://aliothchen.github.io/projects/CineDance/">
-  <meta property="og:image" content="https://aliothchen.github.io/projects/CineDance/static/images/favicon.ico">
+  <meta property="og:image" content="https://aliothchen.github.io/projects/CineDance/static/images/teaser13.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CineDance">
   <meta name="twitter:description" content="Multi-shot long-form cinematic audio-video generation with CineDance-1M and CineBench.">
+  <meta name="twitter:image" content="https://aliothchen.github.io/projects/CineDance/static/images/teaser13.png">
 
   <meta name="citation_title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
   <meta name="citation_author" content="Chen, Yuheng">
@@ -33,6 +34,7 @@
   <meta name="citation_author" content="Tao, Dacheng">
   <meta name="citation_publication_date" content="2026">
   <meta name="citation_conference_title" content="NeurIPS 2026">
+  <meta name="citation_pdf_url" content="https://aliothchen.github.io/projects/CineDance/static/pdfs/CineDance_Manuscript.pdf">
 
   <title>CineDance: Multi-Shot Long-Form Cinematic Audio-Video Generation</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -57,7 +59,7 @@
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
     "headline": "CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation",
-    "description": "CineDance-1M is a large-scale open-source text-to-audio-video dataset for multi-shot long-form cinematic generation.",
+    "description": "CineDance-1M is a million-scale open research text-to-audio-video dataset for multi-shot long-form cinematic generation.",
     "author": [
       {"@type": "Person", "name": "Yuheng Chen", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
       {"@type": "Person", "name": "Teng Hu", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
@@ -73,7 +75,9 @@
     "datePublished": "2026",
     "publisher": {"@type": "Organization", "name": "NeurIPS 2026"},
     "url": "https://aliothchen.github.io/projects/CineDance/",
-    "keywords": ["text-to-audio-video generation", "cinematic video generation", "multi-shot video", "long-form video", "dataset", "benchmark"],
+    "image": "https://aliothchen.github.io/projects/CineDance/static/images/teaser13.png",
+    "encoding": {"@type": "MediaObject", "contentUrl": "https://aliothchen.github.io/projects/CineDance/static/pdfs/CineDance_Manuscript.pdf"},
+    "keywords": ["text-to-audio-video generation", "long-form video generation", "multi-shot generation", "cinematic dataset", "audio-video benchmark"],
     "isAccessibleForFree": true
   }
   </script>
@@ -90,34 +94,30 @@
           </h1>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><a href="https://aliothchen.github.io/" target="_blank" rel="noopener">Yuheng Chen</a><sup>1*</sup>,</span>
-            <span class="author-block"><a href="https://sjtuplayer.github.io/" target="_blank" rel="noopener">Teng Hu</a><sup>1*</sup>,</span>
+            <span class="author-block"><a href="https://aliothchen.github.io/" target="_blank" rel="noopener">Yuheng Chen</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://sjtuplayer.github.io/" target="_blank" rel="noopener">Teng Hu</a><sup>1</sup>,</span>
             <span class="author-block">Yuji Wang<sup>1</sup>,</span>
-            <span class="author-block">Qingdong He<sup>3</sup>,</span>
-            <span class="author-block"><a href="https://xzc-zju.github.io/" target="_blank" rel="noopener">Zhucun Xue</a><sup>2</sup>,</span>
+            <span class="author-block">Qingdong He<sup>2</sup>,</span>
+            <span class="author-block"><a href="https://xzc-zju.github.io/" target="_blank" rel="noopener">Zhucun Xue</a><sup>3</sup>,</span>
             <span class="author-block">Qianyu Zhou<sup>4</sup>,</span>
             <span class="author-block">Xiangtai Li<sup>5</sup>,</span>
-            <span class="author-block"><a href="https://dmcv.sjtu.edu.cn/people/" target="_blank" rel="noopener">Lizhuang Ma</a><sup>1&dagger;</sup>,</span>
-            <span class="author-block"><a href="https://zhangzjn.github.io/" target="_blank" rel="noopener">Jiangning Zhang</a><sup>2&#8225;</sup>,</span>
+            <span class="author-block"><a href="https://dmcv.sjtu.edu.cn/people/" target="_blank" rel="noopener">Lizhuang Ma</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://zhangzjn.github.io/" target="_blank" rel="noopener">Jiangning Zhang</a><sup>3</sup>,</span>
             <span class="author-block">Dacheng Tao<sup>5</sup></span>
           </div>
 
-          <div class="is-size-5 publication-authors">
+          <div class="is-size-5 publication-authors affiliation-list">
             <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University</span>
-            <span class="author-block"><sup>2</sup>Zhejiang University</span>
-            <span class="author-block"><sup>3</sup>University of Electronic Science and Technology of China</span>
+            <span class="author-block"><sup>2</sup>University of Electronic Science and Technology of China</span>
+            <span class="author-block"><sup>3</sup>Zhejiang University</span>
             <span class="author-block"><sup>4</sup>The University of Tokyo</span>
             <span class="author-block"><sup>5</sup>Nanyang Technological University</span>
-          </div>
-
-          <div class="is-size-6 contribution-note">
-            <sup>*</sup>Equal contribution. <sup>&dagger;</sup>Corresponding author. <sup>&#8225;</sup>Project lead.
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="#" class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true">
+                <a href="static/pdfs/CineDance_Manuscript.pdf" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fas fa-file-pdf"></i></span>
                   <span>Paper</span>
                 </a>
@@ -129,7 +129,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="#" class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true">
+                <a href="https://github.com/AliothChen/CineDance" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fab fa-github"></i></span>
                   <span>Code</span>
                 </a>
@@ -141,7 +141,7 @@
                 </a>
               </span>
             </div>
-            <p class="coming-soon">Links will be updated upon release.</p>
+            <p class="release-note">The paper opens directly in the browser PDF viewer. Dataset and arXiv links will be updated upon release.</p>
           </div>
         </div>
       </div>
@@ -150,39 +150,17 @@
 </section>
 
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container">
     <div class="hero-body">
-      <div class="cinedance-teaser" role="img" aria-label="CineDance multi-shot audio-video generation overview">
-        <div class="film-strip">
-          <div class="shot shot-wide"><span>Shot 01</span><strong>Establish</strong></div>
-          <div class="shot shot-close"><span>Shot 02</span><strong>Motion</strong></div>
-          <div class="shot shot-light"><span>Shot 03</span><strong>Rhythm</strong></div>
-          <div class="shot shot-stage"><span>Shot 04</span><strong>Cut</strong></div>
-          <div class="shot shot-final"><span>Shot 05</span><strong>Resolve</strong></div>
-        </div>
-        <div class="audio-track" aria-hidden="true">
-          <span style="height: 34%"></span>
-          <span style="height: 58%"></span>
-          <span style="height: 46%"></span>
-          <span style="height: 78%"></span>
-          <span style="height: 52%"></span>
-          <span style="height: 88%"></span>
-          <span style="height: 64%"></span>
-          <span style="height: 44%"></span>
-          <span style="height: 72%"></span>
-          <span style="height: 40%"></span>
-          <span style="height: 62%"></span>
-          <span style="height: 84%"></span>
-        </div>
-        <div class="caption-stack">
-          <span>structured captions</span>
-          <span>native audio</span>
-          <span>shot-level continuity</span>
-        </div>
-      </div>
-      <h2 class="subtitle has-text-centered">
-        CineDance-1M targets long-form text-to-audio-video generation: coherent multi-shot sequences with native audio, structured captions, and cinematic temporal composition.
-      </h2>
+      <figure class="paper-figure teaser-figure">
+        <picture>
+          <source srcset="static/images/teaser13.webp" type="image/webp">
+          <img src="static/images/teaser13.png" width="3024" height="2023" alt="CineDance-1M overview showing long-form multi-shot audio-video sequences and narrative structures">
+        </picture>
+        <figcaption>
+          <strong>CineDance-1M</strong> features 1M long-form (92.8s) and multi-shot (24.2 shots) audio-video sequences, paired with hierarchical structured captions for both modalities. Compared with typical T2V datasets, it covers richer narrative structures for cinematic, narrative-driven joint generation.
+        </figcaption>
+      </figure>
     </div>
   </div>
 </section>
@@ -194,13 +172,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The fidelity and structural diversity of training datasets fundamentally dictate the generative quality and capability boundaries of video synthesis models. Furthermore, powered by the recent advent of foundational audio-visual architectures, conventional single-modality datasets are increasingly insufficient to meet modern research demands. While proprietary commercial systems have recently demonstrated explosive capabilities in generating cinematic narratives, the progress of open-source models remains severely hindered by the profound scarcity of high-quality training data.
+            The fidelity and structural diversity of training datasets fundamentally determine the capabilities of video generation models. While commercial systems show remarkable ability to generate cinematic narratives, the progress of open-source models remains limited by the scarcity of high-quality training data.
           </p>
           <p>
-            To address this critical bottleneck, we introduce <strong>CineDance-1M</strong>, a large-scale open-source Text-to-Audio-Video (T2AV) dataset engineered specifically for multi-shot long-form generation. Each sequence features an unprecedented average duration of 92.8 seconds and 24.2 continuous shots, natively providing premium audio-visual pairings coupled with configurable structured annotations. The exceptional quality of CineDance-1M is driven by a rigorous three-stage curation pipeline: <em>(i)</em> diverse sourcing and comprehensive cleansing, <em>(ii)</em> film-theory-inspired narrative parsing for coherent shot grouping, and <em>(iii)</em> hierarchical dual-modal captioning utilizing anchor tokens.
+            To bridge this gap, we introduce <strong>CineDance-1M</strong>, a large-scale, open research Text-to-Audio-Video (T2AV) dataset designed specifically for multi-shot, long-form joint audio-video generation. Averaging 92.8 seconds and 24.2 continuous shots per video, it provides configurable, structured annotations for both audio and video modalities. This quality is achieved through a rigorous three-stage curation pipeline: <em>(i)</em> diverse sourcing and comprehensive cleansing, <em>(ii)</em> film-theory-inspired narrative parsing, and <em>(iii)</em> hierarchical dual-modal captioning.
           </p>
           <p>
-            To systematically assess this new paradigm, we concurrently propose <strong>CineBench</strong>, a difficulty-stratified evaluation suite that features a five-dimensional, human-aligned metric system. Furthermore, we expand LTX-2.3 to <strong>CineDance</strong>, which maintains highly consistent audio-video alignment and identity consistency across complex multi-shot sequences, effectively validating our curation strategy. We anticipate this work will serve as a pivotal foundation, accelerating future research in multi-shot, long-form audio-video generation.
+            For comprehensive assessment, we propose <strong>CineBench</strong>, featuring a diverse prompt suite and a six-dimensional, human-aligned metric system tailored for complex narrative audio-video evaluation. Furthermore, we adapt LTX-2.3 into <strong>CineDance</strong>, which demonstrates strong single-modality quality, precise audio-video alignment, and robust subject and environment consistency.
           </p>
         </div>
       </div>
@@ -215,17 +193,13 @@
         <div class="content has-text-justified">
           <h2 class="title is-3 has-text-centered">CineDance-1M</h2>
           <p>
-            CineDance-1M is designed around the unit that modern cinematic generation actually needs to learn: not isolated short clips, but long audio-video sequences with consistent shot structure, aligned sound, and reusable annotations. The dataset pipeline turns large-scale raw video sources into long-form T2AV examples through three stages:
+            CineDance-1M targets the missing training unit for modern cinematic generation: not isolated short clips, but long audio-video sequences with consistent shot structure, aligned sound, and reusable annotations. The curation pipeline consists of three stages: data preparation and quality assessment, bottom-up multi-shot narrative parsing, and configurable structured dual-modal annotation.
           </p>
-          <ol>
-            <li><strong>Diverse sourcing and cleansing.</strong> We remove low-quality, duplicated, and weakly aligned content before sequence construction.</li>
-            <li><strong>Narrative-aware shot grouping.</strong> Film-theory-inspired parsing groups shots into coherent long-form sequences rather than unrelated clip fragments.</li>
-            <li><strong>Hierarchical dual-modal captioning.</strong> Anchor tokens connect global sequence intent, shot-level visual events, and audio cues.</li>
-          </ol>
         </div>
+
         <div class="stats-grid">
           <div class="stat-item">
-            <span class="stat-value">1M+</span>
+            <span class="stat-value">1M</span>
             <span class="stat-label">Curated sequences</span>
           </div>
           <div class="stat-item">
@@ -237,70 +211,133 @@
             <span class="stat-label">Average shots</span>
           </div>
           <div class="stat-item">
-            <span class="stat-value">T2AV</span>
-            <span class="stat-label">Text, audio, video</span>
+            <span class="stat-value">1080p</span>
+            <span class="stat-label">Minimum resolution</span>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item">
-          <div class="result-panel sequence-panel">
-            <div class="mini-timeline">
-              <span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <h3>Long-Form Sequences</h3>
-            <p>Examples preserve shot order, scene transitions, and temporal continuity across extended cinematic segments.</p>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <em><b>Multi-shot structure.</b></em> CineDance-1M keeps long-form composition as a first-class training signal.
-          </h2>
-        </div>
-        <div class="item">
-          <div class="result-panel annotation-panel">
-            <div class="token-row"><span>global</span><span>shot</span><span>audio</span><span>motion</span></div>
-            <div class="annotation-lines"><span></span><span></span><span></span></div>
-            <h3>Hierarchical Captions</h3>
-            <p>Structured annotations connect sequence-level story intent with shot-level visual and acoustic details.</p>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <em><b>Dual-modal annotation.</b></em> Captions are organized for text-conditioned audio-video generation.
-          </h2>
-        </div>
-        <div class="item">
-          <div class="result-panel benchmark-panel">
-            <div class="metric-wheel">
-              <span>AV</span><span>ID</span><span>Shot</span><span>Temp</span><span>Qual</span>
-            </div>
-            <h3>CineBench</h3>
-            <p>A difficulty-stratified evaluation suite measures quality, temporal consistency, audio-video alignment, and cinematic structure.</p>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <em><b>Human-aligned evaluation.</b></em> CineBench evaluates long-form generation beyond isolated frame quality.
-          </h2>
-        </div>
+        <figure class="paper-figure">
+          <picture>
+            <source srcset="static/images/pipeline16.webp" type="image/webp">
+            <img src="static/images/pipeline16.png" width="1870" height="1094" alt="CineDance-1M curation pipeline">
+          </picture>
+          <figcaption>
+            <strong>Curation pipeline.</strong> CineDance-1M combines source preparation, quality assessment, multi-shot narrative parsing, and hierarchical audio-video annotation to produce structured long-form T2AV examples.
+          </figcaption>
+        </figure>
       </div>
     </div>
   </div>
 </section>
 
 <section class="section hero is-light is-small">
+  <div class="container is-fluid">
+    <div class="content has-text-centered">
+      <h2 class="title is-3">Dataset Comparison</h2>
+      <p class="table-intro">
+        CineDance-1M is the only 1M-scale dataset in this comparison with 1080p resolution, long-form multi-shot sequences, all-native audio, and structured audio-video annotations.
+      </p>
+    </div>
+
+    <div class="table-scroll">
+      <table class="table is-bordered is-striped is-hoverable dataset-table">
+        <thead>
+          <tr>
+            <th>Dataset</th>
+            <th>Res.</th>
+            <th>Avg. dur.</th>
+            <th>Avg. shots</th>
+            <th>Shot caps.</th>
+            <th>Audio</th>
+            <th>Audio ann.</th>
+            <th>Cap. len.</th>
+            <th>Total dur.</th>
+            <th>Clips</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>HowTo100M</td><td>240p</td><td>3.6s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>4</td><td>134.5Khr</td><td>136M</td><td>2019</td></tr>
+          <tr><td>HD-VILA-100M</td><td>720p</td><td>13.4s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>32.5</td><td>371.5Khr</td><td>103M</td><td>2022</td></tr>
+          <tr><td>Koala-36M</td><td>720p</td><td>13.6s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>202.3</td><td>137Khr</td><td>36M</td><td>2024</td></tr>
+          <tr><td>VIDGEN-1M</td><td>720p</td><td>10.6s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>89.3</td><td>2.9Khr</td><td>1M</td><td>2024</td></tr>
+          <tr><td>MiraData</td><td>720p</td><td>72.1s</td><td>7.15</td><td>None</td><td>None</td><td>None</td><td>319</td><td>6.6Khr</td><td>330K</td><td>2024</td></tr>
+          <tr><td>LVD-2M</td><td>720p</td><td>20.2s</td><td>1.86</td><td>None</td><td>None</td><td>None</td><td>88.8</td><td>14.6Khr</td><td>2.1M</td><td>2024</td></tr>
+          <tr><td>OpenHumanVid</td><td>720p</td><td>4.6s</td><td>1</td><td>None</td><td>All</td><td>None</td><td>99.7</td><td>12Khr</td><td>16M</td><td>2025</td></tr>
+          <tr><td>OpenS2V-5M</td><td>720p</td><td>5.6s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>312.06</td><td>5.8Khr</td><td>3.75M</td><td>2025</td></tr>
+          <tr><td>UltraVideo</td><td>4K/8K</td><td>5.3s</td><td>1.17</td><td>None</td><td>No</td><td>None</td><td>824.3</td><td>62hr</td><td>42K</td><td>2025</td></tr>
+          <tr><td>OpenVid-1M</td><td>720p</td><td>7.2s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>126.5</td><td>2.1Khr</td><td>1M</td><td>2025</td></tr>
+          <tr><td>CineTrans</td><td>720p</td><td>10.7s</td><td>2.53</td><td>2</td><td>None</td><td>None</td><td>250.78</td><td>752hr</td><td>252K</td><td>2025</td></tr>
+          <tr><td>SpeakerVid-5M</td><td>1080p</td><td>8.3s</td><td>1.27</td><td>None</td><td>All</td><td>ASR</td><td>20.69</td><td>11.6Khr</td><td>5.07M</td><td>2025</td></tr>
+          <tr class="ours-row"><td>CineDance-1M</td><td>1080p</td><td>92.8s</td><td>24.2</td><td>22</td><td>All</td><td>Structured</td><td>6496.3</td><td>26.3Khr</td><td>1M</td><td>2026</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">Dataset Quality And Diversity</h2>
+        <figure class="paper-figure">
+          <picture>
+            <source srcset="static/images/metric1.webp" type="image/webp">
+            <img src="static/images/metric1.png" width="2268" height="1378" alt="Statistical overview of the CineDance-1M dataset">
+          </picture>
+          <figcaption>
+            CineDance-1M is analyzed across taxonomy, quality, duration, annotation density, narrative structure, and semantic vocabulary. These statistics support filtering, benchmark construction, and controllable long-form generation research.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light is-small">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">CineBench</h2>
+        <div class="content has-text-justified is-max-readable">
+          <p>
+            CineBench evaluates whether a model can synthesize temporally ordered multi-shot sequences from structured conditions. It contains 1,000 test cases stratified by theme/style, duration and shot count, and generation difficulty. The benchmark covers 10s with 2-3 shots, 30s with 4-9 shots, and forward-looking 60s with 10-20 shots.
+          </p>
+        </div>
+        <figure class="paper-figure">
+          <picture>
+            <source srcset="static/images/bench.webp" type="image/webp">
+            <img src="static/images/bench.png" width="1920" height="596" alt="Comprehensive statistical overview of CineBench">
+          </picture>
+          <figcaption>
+            <strong>CineBench.</strong> The benchmark combines diverse taxonomic flow, quality distributions, and semantic vocabulary for long-form multi-shot audio-video evaluation.
+          </figcaption>
+        </figure>
+        <div class="metric-grid">
+          <div><strong>Video Quality</strong><span>fidelity, imaging quality, motion smoothness</span></div>
+          <div><strong>Audio Quality</strong><span>speech clarity, background sound, acoustic artifacts</span></div>
+          <div><strong>AV Sync</strong><span>lip synchronization and semantic audio-video alignment</span></div>
+          <div><strong>Prompt Alignment</strong><span>characters, scenes, events, dialogue, sound descriptions</span></div>
+          <div><strong>Narrative Continuity</strong><span>identity, scene, object persistence, ordered events</span></div>
+          <div><strong>Shot Structure Response</strong><span>shot count, transitions, and temporal shot layout</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content has-text-justified">
           <h2 class="title is-3 has-text-centered">CineDance Model</h2>
           <p>
-            Beyond data construction, we expand LTX-2.3 into CineDance to validate the dataset and benchmark design. The model is optimized for long-form audio-video generation where identity, motion, shot transitions, and sound remain coherent over complex multi-shot sequences.
+            We adapt LTX-2.3 into CineDance as a robust open baseline for multi-shot long-form audio-video generation. The model uses the native joint audio-video backbone while learning shot-transition capability, subject and environment consistency, and structured prompt response from CineDance-1M.
           </p>
           <p>
-            The resulting system provides an open baseline for studying long-form T2AV generation under a shared data, annotation, and evaluation protocol.
+            The training strategy uses visual-temporal reference scaffolds as optimization aids, then progressively removes them so the model can retain multi-shot organization under reduced inference conditions.
           </p>
         </div>
       </div>
@@ -315,7 +352,7 @@
   title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation},
   author={Chen, Yuheng and Hu, Teng and Wang, Yuji and He, Qingdong and Xue, Zhucun and Zhou, Qianyu and Li, Xiangtai and Ma, Lizhuang and Zhang, Jiangning and Tao, Dacheng},
   year={2026},
-  note={Project page. Paper coming soon}
+  note={Project page}
 }</code></pre>
   </div>
 </section>
