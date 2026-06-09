@@ -17,7 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Yuheng Chen(陈昱衡) is currently a senior student majoring in Computer Science and Technology in the [School of Electronic Information and Electrical Engineering](https://english.seiee.sjtu.edu.cn/english/index.htm) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), also a member of the [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/) Engineering Honors Program. Next year(2025), he will join the [DMCV lab](https://dmcv.sjtu.edu.cn/) lead by Prof. [Lizhuang Ma](https://dmcv.sjtu.edu.cn/people/). He will then be a Phd student under the guidance of Prof. [Lizhuang Ma](https://dmcv.sjtu.edu.cn/people/) and Prof. [Yi Ran](https://yiranran.github.io/). His research interests include computer vision, deep learning, computer graphics and embodied ai.
+Yuheng Chen(陈昱衡) is currently a senior student majoring in Computer Science and Technology in the [School of Electronic Information and Electrical Engineering](https://english.seiee.sjtu.edu.cn/english/index.htm) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), also a member of the [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/) Engineering Honors Program. Next year(2025), he will join the [DMCV lab](https://dmcv.sjtu.edu.cn/) lead by Prof. [Lizhuang Ma](https://dmcv.sjtu.edu.cn/people/). He will then be a Phd student under the guidance of Prof. [Lizhuang Ma](https://dmcv.sjtu.edu.cn/people/).
+<!-- and Prof. [Yi Ran](https://yiranran.github.io/).  -->
+He works closely with Prof. [Jiangning Zhang](https://zhangzjn.github.io/) and [Teng Hu](https://sjtuplayer.github.io/).
+His research interests include Video Generation, World Model and Embodied AI.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=FlhfEiwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=FlhfEiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -26,20 +29,93 @@ Yuheng Chen(陈昱衡) is currently a senior student majoring in Computer Scienc
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/publications/quantum_survey.webp' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<h2 class="publication-year-heading">2026</h2>
 
-[Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects](https://arxiv.org/abs/2407.00736)
+<div class="publication-list">
+  <article class="publication-item has-thumb">
+    <figure class="publication-thumb">
+      <img src="/assets/publications/2026/omni-customizer.png" alt="Omni-Customizer overview figure">
+    </figure>
+    <div class="publication-content">
+      <p class="publication-title-line">Omni-Customizer: End-to-End MultiModal Customization for Joint Audio-Video Generation</p>
+      <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Qingdong He, Teng Hu, Yuji Wang, Yabiao Wang, Lizhuang Ma, Jiangning Zhang</p>
+      <p class="publication-venue-line">arXiv preprint, 2026</p>
+      <div class="publication-links-row">
+        <a class="publication-link" href="https://arxiv.org/abs/2605.17488" target="_blank" rel="noopener">Paper</a>
+        <span class="publication-link is-disabled" aria-disabled="true">Page</span>
+      </div>
+    </div>
+  </article>
 
-Yan Ge, Wu Wenjie, **Chen Yuheng**, Pan Kaisen, Lu Xudong, Zhou Zixiang, Wang Yuhan, Wang Ruocheng, Yan Junchi
+  <article class="publication-item has-thumb">
+    <figure class="publication-thumb">
+      <img src="/assets/publications/2026/stdrc.png" alt="ST-DRC overview figure">
+    </figure>
+    <div class="publication-content">
+      <p class="publication-title-line">Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation</p>
+      <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Lizhuang Ma, Jiangning Zhang</p>
+      <p class="publication-venue-line">arXiv preprint, 2026</p>
+      <div class="publication-links-row">
+        <a class="publication-link" href="https://arxiv.org/abs/2606.02441" target="_blank" rel="noopener">Paper</a>
+        <span class="publication-link is-disabled" aria-disabled="true">Page</span>
+      </div>
+    </div>
+  </article>
 
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)  -->
-[**Related link**](https://mp.weixin.qq.com/s/TVHtSIk1zbwIY8gPBvfynw)
-<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This survey reviews the feasibility of integrated design and optimization from algorithms to quantum hardware, covering logic circuit design and compilation.
+  <article class="publication-item has-thumb">
+    <figure class="publication-thumb">
+      <img src="/assets/publications/2026/cinedance.png" alt="CineDance overview figure">
+    </figure>
+    <div class="publication-content">
+      <p class="publication-title-line">CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation</p>
+      <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Xiangtai Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao</p>
+      <p class="publication-venue-line">arXiv preprint, 2026</p>
+      <div class="publication-links-row">
+        <a class="publication-link" href="https://arxiv.org/abs/2606.09639" target="_blank" rel="noopener">Paper</a>
+        <a class="publication-link" href="/projects/CineDance/">Page</a>
+      </div>
+    </div>
+  </article>
 </div>
+
+<h2 class="publication-year-heading">2025</h2>
+
+<div class="publication-list">
+  <article class="publication-item has-thumb">
+    <figure class="publication-thumb">
+      <img src="/assets/publications/2025/instancev.png" alt="InstanceV overview figure">
+    </figure>
+    <div class="publication-content">
+      <p class="publication-title-line">InstanceV: Instance-Level Video Generation</p>
+      <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Jiangning Zhang, Zhucun Xue, Ran Yi, Lizhuang Ma</p>
+      <p class="publication-venue-line">arXiv preprint, 2025</p>
+      <div class="publication-links-row">
+        <a class="publication-link" href="https://arxiv.org/abs/2511.23146" target="_blank" rel="noopener">Paper</a>
+        <a class="publication-link" href="/projects/InstanceV/">Page</a>
+      </div>
+    </div>
+  </article>
+</div>
+
+<h2 class="publication-year-heading">2024</h2>
+
+<div class="publication-list">
+  <article class="publication-item has-thumb">
+    <figure class="publication-thumb">
+      <img src="/images/publications/quantum_survey.webp" alt="Quantum circuit synthesis survey figure">
+    </figure>
+    <div class="publication-content">
+      <p class="publication-title-line">Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects</p>
+      <p class="publication-authors-line">Yan Ge, Wu Wenjie, <strong>Chen Yuheng</strong>, Pan Kaisen, Lu Xudong, Zhou Zixiang, Wang Yuhan, Wang Ruocheng, Yan Junchi</p>
+      <p class="publication-venue-line">arXiv preprint, 2024</p>
+      <div class="publication-links-row">
+        <a class="publication-link" href="https://arxiv.org/abs/2407.00736" target="_blank" rel="noopener">Paper</a>
+        <a class="publication-link" href="https://mp.weixin.qq.com/s/TVHtSIk1zbwIY8gPBvfynw" target="_blank" rel="noopener">Page</a>
+      </div>
+    </div>
+  </article>
 </div>
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
