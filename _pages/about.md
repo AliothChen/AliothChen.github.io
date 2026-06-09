@@ -41,10 +41,9 @@ His research interests include Video Generation, World Model and Embodied AI.
     <div class="publication-content">
       <p class="publication-title-line">Omni-Customizer: End-to-End MultiModal Customization for Joint Audio-Video Generation</p>
       <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Qingdong He, Teng Hu, Yuji Wang, Yabiao Wang, Lizhuang Ma, Jiangning Zhang</p>
-      <p class="publication-venue-line">arXiv preprint, 2026</p>
       <div class="publication-links-row">
-        <a class="publication-link" href="https://arxiv.org/abs/2605.17488" target="_blank" rel="noopener">Paper</a>
         <span class="publication-link is-disabled" aria-disabled="true">Page</span>
+        <a class="publication-link" href="https://arxiv.org/abs/2605.17488" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>
@@ -56,10 +55,9 @@ His research interests include Video Generation, World Model and Embodied AI.
     <div class="publication-content">
       <p class="publication-title-line">Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation</p>
       <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Lizhuang Ma, Jiangning Zhang</p>
-      <p class="publication-venue-line">arXiv preprint, 2026</p>
       <div class="publication-links-row">
-        <a class="publication-link" href="https://arxiv.org/abs/2606.02441" target="_blank" rel="noopener">Paper</a>
         <span class="publication-link is-disabled" aria-disabled="true">Page</span>
+        <a class="publication-link" href="https://arxiv.org/abs/2606.02441" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>
@@ -71,10 +69,9 @@ His research interests include Video Generation, World Model and Embodied AI.
     <div class="publication-content">
       <p class="publication-title-line">CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation</p>
       <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Xiangtai Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao</p>
-      <p class="publication-venue-line">arXiv preprint, 2026</p>
       <div class="publication-links-row">
-        <a class="publication-link" href="https://arxiv.org/abs/2606.09639" target="_blank" rel="noopener">Paper</a>
         <a class="publication-link" href="/projects/CineDance/">Page</a>
+        <a class="publication-link" href="https://arxiv.org/abs/2606.09639" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>
@@ -90,10 +87,9 @@ His research interests include Video Generation, World Model and Embodied AI.
     <div class="publication-content">
       <p class="publication-title-line">InstanceV: Instance-Level Video Generation</p>
       <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Jiangning Zhang, Zhucun Xue, Ran Yi, Lizhuang Ma</p>
-      <p class="publication-venue-line">arXiv preprint, 2025</p>
       <div class="publication-links-row">
-        <a class="publication-link" href="https://arxiv.org/abs/2511.23146" target="_blank" rel="noopener">Paper</a>
         <a class="publication-link" href="/projects/InstanceV/">Page</a>
+        <a class="publication-link" href="https://arxiv.org/abs/2511.23146" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>
@@ -109,10 +105,9 @@ His research interests include Video Generation, World Model and Embodied AI.
     <div class="publication-content">
       <p class="publication-title-line">Quantum Circuit Synthesis and Compilation Optimization: Overview and Prospects</p>
       <p class="publication-authors-line">Yan Ge, Wu Wenjie, <strong>Chen Yuheng</strong>, Pan Kaisen, Lu Xudong, Zhou Zixiang, Wang Yuhan, Wang Ruocheng, Yan Junchi</p>
-      <p class="publication-venue-line">arXiv preprint, 2024</p>
       <div class="publication-links-row">
-        <a class="publication-link" href="https://arxiv.org/abs/2407.00736" target="_blank" rel="noopener">Paper</a>
         <a class="publication-link" href="https://mp.weixin.qq.com/s/TVHtSIk1zbwIY8gPBvfynw" target="_blank" rel="noopener">Page</a>
+        <a class="publication-link" href="https://arxiv.org/abs/2407.00736" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>
