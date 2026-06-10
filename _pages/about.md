@@ -71,7 +71,7 @@ His research interests include Video Generation, World Model and Embodied AI.
       <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Xiangtai Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao</p>
       <div class="publication-links-row">
         <a class="publication-link" href="/projects/CineDance/">Page</a>
-        <a class="publication-link" href="https://arxiv.org/abs/2606.09639" target="_blank" rel="noopener">Paper</a>
+        <a class="publication-link" href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>

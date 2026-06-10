@@ -115,13 +115,13 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
-                <a href="static/pdfs/CineDance_Manuscript.pdf" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fas fa-file-pdf"></i></span>
                   <span>Paper</span>
                 </a>
               </span>
               <span class="link-block">
-                <a href="#" class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true">
+                <a href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="ai ai-arxiv"></i></span>
                   <span>arXiv</span>
                 </a>
@@ -133,13 +133,13 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="#" class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true">
+                <a href="https://aliothchen.github.io/projects/CineDance/" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fas fa-database"></i></span>
                   <span>Dataset</span>
                 </a>
               </span>
             </div>
-            <p class="release-note">The paper opens directly in the browser PDF viewer. Dataset and arXiv links will be updated upon release.</p>
+            <p class="release-note">📢 The dataset is large in scale, exceeding 80 TB. To save time before training, we did not apply hard cropping to the raw videos; instead, we used slice-based soft cropping guided by metadata. We are now performing hard cropping, which is a purely CPU-bound and highly CPU-intensive task, so the processing time is expected to be substantial. Meanwhile, the authors are discussing the open-source release approach for the dataset, and we plan to adopt a gated access mechanism. If you have any questions, feel free to reach out at <a href="mailto:fengjianliuli627@gmail.com">fengjianliuli627@gmail.com</a> 😊. Thanks for your attention 🙏!</p>
           </div>
         </div>
       </div>
@@ -346,11 +346,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{chen2026cinedance,
-  title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation},
-  author={Chen, Yuheng and Hu, Teng and Wang, Yuji and He, Qingdong and Xue, Zhucun and Zhou, Qianyu and Li, Xiangtai and Ma, Lizhuang and Zhang, Jiangning and Tao, Dacheng},
-  year={2026},
-  note={Project page}
+    <pre><code>@misc{chen2026cinedancenextgenerationmultishotlongform,
+      title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation}, 
+      author={Yuheng Chen and Teng Hu and Yuji Wang and Qingdong He and Zhucun Xue and Qianyu Zhou and Xiangtai Li and Lizhuang Ma and Jiangning Zhang and Dacheng Tao},
+      year={2026},
+      eprint={2606.09639},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.09639}, 
 }</code></pre>
   </div>
 </section>
