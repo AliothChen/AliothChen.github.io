@@ -68,7 +68,7 @@ His research interests include Video Generation, World Model and Embodied AI.
     </figure>
     <div class="publication-content">
       <p class="publication-title-line">CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation</p>
-      <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Xiangtai Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao</p>
+      <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Jason Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao</p>
       <div class="publication-links-row">
         <a class="publication-link" href="/projects/CineDance/">Page</a>
         <a class="publication-link" href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener">Paper</a>
