@@ -1,0 +1,174 @@
+body {
+  color: #1f2933;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footer .icon-link {
+  color: #000;
+  font-size: 25px;
+}
+
+.link-block a {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.publication-header .hero-body {
+  padding-bottom: 2.25rem;
+}
+
+.publication-title {
+  font-family: 'Google Sans', sans-serif;
+  line-height: 1.08;
+}
+
+.publication-authors {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors a {
+  color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+}
+
+.affiliation-list {
+  color: #3f4a56;
+  margin-top: 0.6rem;
+}
+
+.publication-links {
+  margin-top: 1rem;
+}
+
+.button.is-disabled {
+  cursor: not-allowed;
+  opacity: 0.62;
+  pointer-events: none;
+}
+
+.release-note {
+  color: #68727d;
+  font-size: 0.95rem;
+  margin-top: 0.35rem;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.section.hero.is-light {
+  background: #f5f6f8;
+}
+
+.content p {
+  line-height: 1.75;
+}
+
+.is-max-readable {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+.paper-figure {
+  margin: 1.35rem auto 0;
+  max-width: 1120px;
+}
+
+.teaser-figure {
+  margin-top: 0;
+  max-width: 1180px;
+}
+
+.paper-figure picture,
+.paper-figure img {
+  display: block;
+}
+
+.paper-figure img {
+  background: #fff;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(22, 34, 51, 0.08);
+  height: auto;
+  width: 100%;
+}
+
+.paper-figure figcaption {
+  color: #4f5b66;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  margin: 0.85rem auto 0;
+  max-width: 960px;
+  text-align: center;
+}
+
+.highlight-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem auto 0;
+  max-width: 1060px;
+}
+
+.highlight-grid div {
+  background: #fff;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.highlight-grid strong {
+  color: #1f2933;
+  display: block;
+  font-family: 'Google Sans', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.highlight-grid span {
+  color: #5d6874;
+  display: block;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+pre {
+  background: #f5f6f8 !important;
+  border: 1px solid #dfe3e8;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .publication-title {
+    font-size: 2rem !important;
+  }
+
+  .publication-authors {
+    font-size: 1rem !important;
+  }
+
+  .paper-figure figcaption {
+    font-size: 0.92rem;
+    text-align: left;
+  }
+
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+}

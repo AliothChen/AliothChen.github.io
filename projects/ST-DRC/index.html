@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="ST-DRC: Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation">
+  <meta name="keywords" content="ST-DRC, identity-preserving, text-to-video generation, reference conditioning, TASS-RoPE, video generation">
+  <meta name="author" content="Yuheng Chen, Teng Hu, Yuji Wang, Qingdong He, Lizhuang Ma, Jiangning Zhang">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Shanghai Jiao Tong University">
+  <meta property="og:title" content="ST-DRC: Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation">
+  <meta property="og:description" content="An effective spatial-temporal decoupled reference conditioning framework for identity-preserving text-to-video generation.">
+  <meta property="og:url" content="https://aliothchen.github.io/projects/ST-DRC/">
+  <meta property="og:image" content="https://aliothchen.github.io/projects/ST-DRC/static/images/teaser.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ST-DRC">
+  <meta name="twitter:description" content="Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation.">
+  <meta name="twitter:image" content="https://aliothchen.github.io/projects/ST-DRC/static/images/teaser.png">
+
+  <meta name="citation_title" content="Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation">
+  <meta name="citation_author" content="Chen, Yuheng">
+  <meta name="citation_author" content="Hu, Teng">
+  <meta name="citation_author" content="Wang, Yuji">
+  <meta name="citation_author" content="He, Qingdong">
+  <meta name="citation_author" content="Ma, Lizhuang">
+  <meta name="citation_author" content="Zhang, Jiangning">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2606.02441">
+
+  <title>ST-DRC: Spatial-Temporal Decoupled Reference Conditioning</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation",
+    "description": "ST-DRC is an effective spatial-temporal decoupled reference conditioning framework for identity-preserving text-to-video generation.",
+    "author": [
+      {"@type": "Person", "name": "Yuheng Chen", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Teng Hu", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Yuji Wang", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Qingdong He", "affiliation": {"@type": "Organization", "name": "University of Electronic Science and Technology of China"}},
+      {"@type": "Person", "name": "Lizhuang Ma", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
+      {"@type": "Person", "name": "Jiangning Zhang", "affiliation": {"@type": "Organization", "name": "Zhejiang University"}}
+    ],
+    "datePublished": "2026",
+    "url": "https://aliothchen.github.io/projects/ST-DRC/",
+    "image": "https://aliothchen.github.io/projects/ST-DRC/static/images/teaser.png",
+    "encoding": {"@type": "MediaObject", "contentUrl": "https://arxiv.org/pdf/2606.02441"},
+    "keywords": ["identity-preserving video generation", "text-to-video generation", "reference conditioning", "TASS-RoPE", "diffusion model"],
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+<body>
+
+<section class="hero publication-header">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            ST-DRC: Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation
+          </h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://aliothchen.github.io/" target="_blank" rel="noopener">Yuheng Chen</a><sup>1,*</sup>,</span>
+            <span class="author-block"><a href="https://sjtuplayer.github.io/" target="_blank" rel="noopener">Teng Hu</a><sup>1,*</sup>,</span>
+            <span class="author-block">Yuji Wang<sup>1</sup>,</span>
+            <span class="author-block">Qingdong He<sup>2</sup>,</span>
+            <span class="author-block"><a href="https://dmcv.sjtu.edu.cn/people/" target="_blank" rel="noopener">Lizhuang Ma</a><sup>1,†</sup>,</span>
+            <span class="author-block"><a href="https://zhangzjn.github.io/" target="_blank" rel="noopener">Jiangning Zhang</a><sup>3,‡</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors affiliation-list">
+            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University</span>
+            <span class="author-block"><sup>2</sup>University of Electronic Science and Technology of China</span>
+            <span class="author-block"><sup>3</sup>Zhejiang University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2606.02441" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2606.02441" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/AliothChen/ST-DRC" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container">
+    <div class="hero-body">
+      <figure class="paper-figure teaser-figure">
+        <img src="static/images/teaser.png" alt="ST-DRC teaser showing identity-preserving text-to-video generation results">
+        <figcaption>
+          <strong>ST-DRC</strong> performs latent in-context reference injection by encoding the reference image with the video VAE and concatenating it with noisy video latents, enabling rich low-level identity details without additional adapters.
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Identity-preserving video generation (IPVG) aims to synthesize high-fidelity videos that follow text prompts while faithfully preserving a reference identity. Despite recent progress, existing IPVG methods still struggle to balance high-level semantic control and low-level identity fidelity.
+          </p>
+          <p>
+            To bridge this gap, we propose <strong>ST-DRC</strong>, an effective Spatial-Temporal Decoupled Reference Conditioning framework for identity-preserving text-to-video generation. At the framework level, ST-DRC performs latent in-context feature injection by encoding the reference image with the video VAE and concatenating it with noisy video latents, enabling rich low-level identity details to be accessed without additional adapters. To separate identity-aware reference retrieval from appearance copying, we introduce <strong>TASS-RoPE</strong>, a Temporal-Adjacent Spatial-Shifted RoPE scheme that places reference tokens near the video sequence in time but shifts them in space, allowing reference information to flow through spatio-temporal attention while suppressing pixel-level copy-paste shortcuts.
+          </p>
+          <p>
+            To further prevent shortcut learning and strengthen the otherwise diluted identity supervision in the diffusion objective, we combine appearance-invariant reference augmentation with face-guided identity objectives, encouraging the model to preserve identity under variations in color, pose, and layout. At inference time, we introduce a three-stream reference classifier-free guidance strategy that independently controls text adherence and reference fidelity. Experiments demonstrate that ST-DRC achieves strong identity preservation, prompt alignment, temporal consistency, and video quality with a lightweight design built on LTX-2.3.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">Method</h2>
+        <figure class="paper-figure">
+          <img src="static/images/method.png" alt="ST-DRC method overview showing the spatial-temporal decoupled reference conditioning framework">
+          <figcaption>
+            <strong>ST-DRC framework.</strong> The reference image is encoded by the video VAE and concatenated with noisy video latents for latent in-context injection. TASS-RoPE temporally adjacent but spatially shifted positional encoding suppresses pixel-level copy-paste. Reference-robust identity enhancement with appearance-invariant augmentation and face-guided objectives strengthens identity supervision. Decoupled text-reference guidance enables independent control at inference.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">Key Components</h2>
+        <div class="highlight-grid">
+          <div>
+            <strong>Latent In-Context Reference Injection</strong>
+            <span>Encodes the reference image with the video VAE and concatenates it with noisy video latents, providing low-level identity details without additional adapters.</span>
+          </div>
+          <div>
+            <strong>TASS-RoPE</strong>
+            <span>Temporal-Adjacent Spatial-Shifted RoPE keeps reference tokens temporally accessible while spatially shifting them to suppress pixel-level copy-paste shortcuts.</span>
+          </div>
+          <div>
+            <strong>Reference-Robust Identity Enhancement</strong>
+            <span>Combines appearance-invariant reference augmentation with face-guided identity objectives to prevent shortcut learning and strengthen identity supervision.</span>
+          </div>
+          <div>
+            <strong>Decoupled Text-Reference Guidance</strong>
+            <span>A three-stream reference classifier-free guidance strategy that independently controls text adherence and reference fidelity at inference time.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{chen2026spatial,
+  title={Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation},
+  author={Chen, Yuheng and Hu, Teng and Wang, Yuji and He, Qingdong and Ma, Lizhuang and Zhang, Jiangning},
+  journal={arXiv preprint arXiv:2606.02441},
+  year={2026}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>, adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a> project page.
+            This website is licensed under a <a rel="license noopener" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

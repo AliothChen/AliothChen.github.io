@@ -56,7 +56,7 @@ His research interests include Video Generation, World Model and Embodied AI.
       <p class="publication-title-line">Spatial-Temporal Decoupled Reference Conditioning for Identity-Preserving Text-to-Video Generation</p>
       <p class="publication-authors-line"><strong>Yuheng Chen</strong>, Teng Hu, Yuji Wang, Qingdong He, Lizhuang Ma, Jiangning Zhang</p>
       <div class="publication-links-row">
-        <span class="publication-link is-disabled" aria-disabled="true">Page</span>
+        <a class="publication-link" href="/projects/ST-DRC/">Page</a>
         <a class="publication-link" href="https://arxiv.org/abs/2606.02441" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
