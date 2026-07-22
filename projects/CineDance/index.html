@@ -133,13 +133,15 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://aliothchen.github.io/projects/CineDance/" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://huggingface.co/datasets/CineDance/CineDance_01" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fas fa-database"></i></span>
                   <span>Dataset</span>
                 </a>
               </span>
             </div>
+            <!--
             <p class="release-note">📢 The dataset is large in scale, exceeding 80 TB. To save time before training, we did not apply hard cropping to the raw videos; instead, we used slice-based soft cropping guided by metadata. We are now performing hard cropping, which is a purely CPU-bound and highly CPU-intensive task, so the processing time is expected to be substantial. Meanwhile, the authors are discussing the open-source release approach for the dataset, and we plan to adopt a gated access mechanism. If you have any questions, feel free to reach out at <a href="mailto:fengjianliuli627@gmail.com">fengjianliuli627@gmail.com</a> 😊. Thanks for your attention 🙏!</p>
+            -->
           </div>
         </div>
       </div>
@@ -330,7 +332,7 @@
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content has-text-justified">
-          <h2 class="title is-3 has-text-centered">CineDance Model</h2>
+          <h2 class="title is-3 has-text-centered">CineDance Model <span class="tag is-warning is-light">Under Review</span></h2>
           <p>
             We adapt LTX-2.3 into CineDance as a robust open baseline for multi-shot long-form audio-video generation. The model uses the native joint audio-video backbone while learning shot-transition capability, subject and environment consistency, and structured prompt response from CineDance-1M.
           </p>
