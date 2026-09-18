@@ -131,5 +131,5 @@ His research interests include Video Generation, World Model and Embodied AI.
 
 # 💻 Internships
 <!-- - *2024.12 - current*, [Lorem](https://github.com/), China. -->
-- *2026.07 - current*, AI Engine Department, Tencent Games, Shanghai, China.
+- *2026.07 - current*, Game AI Engine Department, Tencent, Shanghai, China.
 - *2024.12 - 2026.06*, YouTu Lab, Tencent, Shanghai, China.
