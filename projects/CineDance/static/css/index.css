@@ -195,9 +195,15 @@ header.nav {
   display: block;
 }
 
+.hero-poster {
+  z-index: 0;
+  animation: posterHide 2.4s ease forwards;
+}
+
 .hero-bg video {
+  z-index: 1;
   opacity: 0;
-  animation: heroCross 42s infinite;
+  animation: heroCross 42s infinite both;
 }
 
 .hero-bg video:nth-child(2) { animation-delay: 0s; }
@@ -207,11 +213,18 @@ header.nav {
 .hero-bg video:nth-child(6) { animation-delay: 28s; }
 .hero-bg video:nth-child(7) { animation-delay: 35s; }
 
+@keyframes posterHide {
+  0%, 60% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* 7s slots: fade in on top of the previous clip, then hold until the next
+   clip is fully opaque so the Nezha poster cannot show through. */
 @keyframes heroCross {
   0% { opacity: 0; }
-  3.5% { opacity: 1; }
-  14.5% { opacity: 1; }
-  18.5% { opacity: 0; }
+  4% { opacity: 1; }
+  20% { opacity: 1; }
+  24% { opacity: 0; }
   100% { opacity: 0; }
 }
 
