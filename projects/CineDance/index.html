@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="CineDance-1M is a million-scale 1080p text-to-audio-video dataset for multi-shot long-form cinematic generation.">
-  <meta name="keywords" content="CineDance, CineDance-1M, CineBench, text-to-audio-video generation, long-form video generation, multi-shot generation, cinematic dataset">
+  <meta name="description" content="CineDance: A Large-Scale Dataset and Benchmark for Multi-Shot Long-Form Cinematic Audio-Video Generation. We introduce CineDance-1M, CineBench, and CineDance-LTX.">
+  <meta name="keywords" content="CineDance, CineDance-1M, CineBench, CineDance-LTX, text-to-audio-video generation, long-form video generation, multi-shot generation, cinematic dataset, audio-video benchmark">
   <meta name="author" content="Yuheng Chen, Teng Hu, Yuji Wang, Qingdong He, Zhucun Xue, Qianyu Zhou, Jason Li, Lizhuang Ma, Jiangning Zhang, Dacheng Tao">
   <meta name="robots" content="index, follow">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Shanghai Jiao Tong University">
-  <meta property="og:title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
-  <meta property="og:description" content="A million-scale 1080p T2AV dataset, CineBench benchmark, and CineDance baseline for multi-shot long-form cinematic audio-video generation.">
+  <meta property="og:title" content="CineDance: A Large-Scale Dataset and Benchmark for Multi-Shot Long-Form Cinematic Audio-Video Generation">
+  <meta property="og:description" content="CineDance-1M, CineBench, and CineDance-LTX for multi-shot long-form cinematic audio-video generation.">
   <meta property="og:url" content="https://aliothchen.github.io/projects/CineDance/">
   <meta property="og:image" content="https://aliothchen.github.io/projects/CineDance/static/images/teaser13.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CineDance">
-  <meta name="twitter:description" content="Multi-shot long-form cinematic audio-video generation with CineDance-1M and CineBench.">
+  <meta name="twitter:title" content="CineDance: A Large-Scale Dataset and Benchmark">
+  <meta name="twitter:description" content="CineDance-1M, CineBench, and CineDance-LTX for multi-shot long-form cinematic audio-video generation.">
   <meta name="twitter:image" content="https://aliothchen.github.io/projects/CineDance/static/images/teaser13.png">
 
-  <meta name="citation_title" content="CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation">
+  <meta name="citation_title" content="CineDance: A Large-Scale Dataset and Benchmark for Multi-Shot Long-Form Cinematic Audio-Video Generation">
   <meta name="citation_author" content="Chen, Yuheng">
   <meta name="citation_author" content="Hu, Teng">
   <meta name="citation_author" content="Wang, Yuji">
@@ -35,30 +35,19 @@
   <meta name="citation_publication_date" content="2026">
   <meta name="citation_pdf_url" content="https://aliothchen.github.io/projects/CineDance/static/pdfs/CineDance_Manuscript.pdf">
 
-  <title>CineDance: Multi-Shot Long-Form Cinematic Audio-Video Generation</title>
+  <title>CineDance: A Large-Scale Dataset and Benchmark for Multi-Shot Long-Form Cinematic Audio-Video Generation</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/index.css?v=9">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation",
-    "description": "CineDance-1M is a million-scale open research text-to-audio-video dataset for multi-shot long-form cinematic generation.",
+    "headline": "CineDance: A Large-Scale Dataset and Benchmark for Multi-Shot Long-Form Cinematic Audio-Video Generation",
+    "description": "A large-scale dataset and benchmark for multi-shot long-form cinematic audio-video generation, introducing CineDance-1M, CineBench, and CineDance-LTX.",
     "author": [
       {"@type": "Person", "name": "Yuheng Chen", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
       {"@type": "Person", "name": "Teng Hu", "affiliation": {"@type": "Organization", "name": "Shanghai Jiao Tong University"}},
@@ -81,77 +70,140 @@
   </script>
 </head>
 <body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2" stroke="#d4b483" stroke-width="1.4"/>
+          <path d="M7 5v14M17 5v14" stroke="#9b2144" stroke-width="1.4"/>
+          <circle cx="7" cy="9" r="0.8" fill="#d4b483"/>
+          <circle cx="7" cy="15" r="0.8" fill="#d4b483"/>
+          <circle cx="17" cy="9" r="0.8" fill="#d4b483"/>
+          <circle cx="17" cy="15" r="0.8" fill="#d4b483"/>
+        </svg>
+        <span>
+          <span class="brand-name">CineDance</span>
+          <span class="brand-sub">Project page</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#abstract" data-section="abstract">Abstract</a>
+        <a href="#dataset" data-section="dataset">Dataset</a>
+        <a href="#cinebench" data-section="cinebench">CineBench</a>
+        <a href="#model" data-section="model">Model</a>
+        <a href="#gallery" data-section="gallery">Demo</a>
+        <a href="#BibTeX" data-section="BibTeX">BibTeX</a>
+        <a class="ext" href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener">Paper</a>
+        <a class="ext" href="https://github.com/AliothChen/CineDance" target="_blank" rel="noopener">Code</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero publication-header">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">
-            CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation
-          </h1>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><a href="https://aliothchen.github.io/" target="_blank" rel="noopener">Yuheng Chen</a><sup>1</sup>,</span>
-            <span class="author-block"><a href="https://sjtuplayer.github.io/" target="_blank" rel="noopener">Teng Hu</a><sup>1</sup>,</span>
-            <span class="author-block">Yuji Wang<sup>1</sup>,</span>
-            <span class="author-block">Qingdong He<sup>2</sup>,</span>
-            <span class="author-block"><a href="https://xzc-zju.github.io/" target="_blank" rel="noopener">Zhucun Xue</a><sup>3</sup>,</span>
-            <span class="author-block">Qianyu Zhou<sup>4</sup>,</span>
-            <span class="author-block">Jason Li<sup>5</sup>,</span>
-            <span class="author-block"><a href="https://dmcv.sjtu.edu.cn/people/" target="_blank" rel="noopener">Lizhuang Ma</a><sup>1</sup>,</span>
-            <span class="author-block"><a href="https://zhangzjn.github.io/" target="_blank" rel="noopener">Jiangning Zhang</a><sup>3</sup>,</span>
-            <span class="author-block">Dacheng Tao<sup>5</sup></span>
-          </div>
-
-          <div class="is-size-5 publication-authors affiliation-list">
-            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University</span>
-            <span class="author-block"><sup>2</sup>University of Electronic Science and Technology of China</span>
-            <span class="author-block"><sup>3</sup>Zhejiang University</span>
-            <span class="author-block"><sup>4</sup>The University of Tokyo</span>
-            <span class="author-block"><sup>5</sup>Nanyang Technological University</span>
-          </div>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                  <span>Paper</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="ai ai-arxiv"></i></span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://github.com/AliothChen/CineDance" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>Code</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://huggingface.co/datasets/CineDance/CineDance_01" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fas fa-database"></i></span>
-                  <span>Dataset</span>
-                </a>
-              </span>
-            </div>
-            <!--
-            <p class="release-note">📢 The dataset is large in scale, exceeding 80 TB. To save time before training, we did not apply hard cropping to the raw videos; instead, we used slice-based soft cropping guided by metadata. We are now performing hard cropping, which is a purely CPU-bound and highly CPU-intensive task, so the processing time is expected to be substantial. Meanwhile, the authors are discussing the open-source release approach for the dataset, and we plan to adopt a gated access mechanism. If you have any questions, feel free to reach out at <a href="mailto:fengjianliuli627@gmail.com">fengjianliuli627@gmail.com</a> 😊. Thanks for your attention 🙏!</p>
-            -->
-          </div>
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <img class="hero-poster" src="static/hero/stage/nezha.jpg" alt="" />
+      <video autoplay muted loop playsinline preload="auto" poster="static/hero/stage/nezha.jpg">
+        <source src="static/hero/stage/nezha.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop playsinline preload="auto" poster="static/hero/stage/potter.jpg">
+        <source src="static/hero/stage/potter.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop playsinline preload="auto" poster="static/hero/stage/interstellar.jpg">
+        <source src="static/hero/stage/interstellar.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop playsinline preload="auto" poster="static/hero/stage/luofan.jpg">
+        <source src="static/hero/stage/luofan.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop playsinline preload="auto" poster="static/hero/stage/imitation.jpg">
+        <source src="static/hero/stage/imitation.mp4" type="video/mp4" />
+      </video>
+      <video autoplay muted loop playsinline preload="auto" poster="static/hero/stage/panda.jpg">
+        <source src="static/hero/stage/panda.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-veil"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-main">
+      <div class="hero-copy">
+        <div class="kicker">Multi-shot long-form cinematic audio-video</div>
+        <h1>CineDance</h1>
+        <p class="paper-title">A Large-Scale Dataset and Benchmark for Multi-Shot Long-Form Cinematic Audio-Video Generation</p>
+        <p class="authors">
+          <span class="author-name"><a href="https://aliothchen.github.io/" target="_blank" rel="noopener">Yuheng Chen</a><sup>1,∗</sup></span>,
+          <span class="author-name"><a href="https://sjtuplayer.github.io/" target="_blank" rel="noopener">Teng Hu</a><sup>1,∗</sup></span>,
+          <span class="author-name">Yuji Wang<sup>1</sup></span>,
+          <span class="author-name">Qingdong He<sup>2</sup></span>,
+          <span class="author-name"><a href="https://xzc-zju.github.io/" target="_blank" rel="noopener">Zhucun Xue</a><sup>3</sup></span>,
+          <span class="author-name">Qianyu Zhou<sup>4</sup></span>,
+          <span class="author-name">Jason Li<sup>5</sup></span>,
+          <span class="author-name"><a href="https://dmcv.sjtu.edu.cn/people/" target="_blank" rel="noopener">Lizhuang Ma</a><sup>1,†</sup></span>,
+          <span class="author-name"><a href="https://zhangzjn.github.io/" target="_blank" rel="noopener">Jiangning Zhang</a><sup>3,‡</sup></span>,
+          <span class="author-name">Dacheng Tao<sup>5</sup></span>
+        </p>
+        <p class="affiliations">
+          <span><sup>1</sup>Shanghai Jiao Tong University</span>
+          <span><sup>2</sup>University of Electronic Science and Technology of China</span>
+          <span><sup>3</sup>Zhejiang University</span>
+          <span><sup>4</sup>The University of Tokyo</span>
+          <span><sup>5</sup>Nanyang Technological University</span>
+        </p>
+        <p class="author-note">
+          <sup>∗</sup>Equal contribution.
+          <sup>†</sup>Corresponding author.
+          <sup>‡</sup>Project lead.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#gallery">Watch generations</a>
+          <a class="btn" href="https://arxiv.org/pdf/2606.09639" target="_blank" rel="noopener">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.5"/><path d="M14 3v6h6" stroke="currentColor" stroke-width="1.5"/></svg>
+            Paper
+          </a>
+          <a class="btn" href="https://arxiv.org/abs/2606.09639" target="_blank" rel="noopener">arXiv 2606.09639</a>
+          <a class="btn" href="https://github.com/AliothChen/CineDance" target="_blank" rel="noopener">Code</a>
+          <a class="btn" href="https://huggingface.co/datasets/CineDance/CineDance_01" target="_blank" rel="noopener">Dataset</a>
         </div>
       </div>
     </div>
-  </div>
-</section>
+    <div class="hero-rail" aria-label="Featured films">
+      <figure>
+        <div class="frame"><img src="static/hero/stage/nezha.jpg" alt="Nezha and Ao Bing" /></div>
+        <figcaption>Nezha</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><img src="static/hero/stage/potter.jpg" alt="Harry, Hermione and Ron" /></div>
+        <figcaption>Harry Potter</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><img src="static/hero/stage/interstellar.jpg" alt="Cooper and Brand" /></div>
+        <figcaption>Interstellar</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><img src="static/hero/stage/luofan.jpg" alt="Luo Fan Chen" /></div>
+        <figcaption>落凡尘</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><img src="static/hero/stage/imitation.jpg" alt="The Imitation Game" /></div>
+        <figcaption>Imitation Game</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><img src="static/hero/stage/panda.jpg" alt="Fu Bao" /></div>
+        <figcaption>Fu Bao</figcaption>
+      </figure>
+    </div>
+  </section>
 
-<section class="hero teaser">
-  <div class="container">
-    <div class="hero-body">
+  <section class="stats-bar">
+    <div class="wrap stats">
+      <div class="stat"><b>1M</b><span>curated sequences</span></div>
+      <div class="stat"><b>92.8s</b><span>average duration</span></div>
+      <div class="stat"><b>24.2</b><span>average shots</span></div>
+      <div class="stat"><b>1080p</b><span>minimum resolution</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="teaser">
+    <div class="wrap">
       <figure class="paper-figure teaser-figure">
         <picture>
           <source srcset="static/images/teaser13.webp" type="image/webp">
@@ -162,218 +214,834 @@
         </figcaption>
       </figure>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            The fidelity and structural diversity of training datasets fundamentally determine the capabilities of video generation models. While commercial systems show remarkable ability to generate cinematic narratives, the progress of open-source models remains limited by the scarcity of high-quality training data.
-          </p>
-          <p>
-            To bridge this gap, we introduce <strong>CineDance-1M</strong>, a large-scale, open research Text-to-Audio-Video (T2AV) dataset designed specifically for multi-shot, long-form joint audio-video generation. Averaging 92.8 seconds and 24.2 continuous shots per video, it provides configurable, structured annotations for both audio and video modalities. This quality is achieved through a rigorous three-stage curation pipeline: <em>(i)</em> diverse sourcing and comprehensive cleansing, <em>(ii)</em> film-theory-inspired narrative parsing, and <em>(iii)</em> hierarchical dual-modal captioning.
-          </p>
-          <p>
-            For comprehensive assessment, we propose <strong>CineBench</strong>, featuring a diverse prompt suite and a six-dimensional, human-aligned metric system tailored for complex narrative audio-video evaluation. Furthermore, we adapt LTX-2.3 into <strong>CineDance</strong>, which demonstrates strong single-modality quality, precise audio-video alignment, and robust subject and environment consistency.
-          </p>
-        </div>
+  <section class="section alt" id="abstract">
+    <div class="wrap">
+      <div class="sec-kicker">Paper</div>
+      <h2>Abstract</h2>
+      <div class="prose">
+        <p>
+          The fidelity and structural diversity of training datasets fundamentally determine the capabilities of video generation models. While commercial systems show remarkable ability to generate cinematic narratives, the progress of open-source models remains limited by the scarcity of high-quality training data. To bridge this gap, we introduce <strong>CineDance-1M</strong>, a large-scale, open research Text-to-Audio-Video (T2AV) dataset designed specifically for multi-shot, long-form joint audio-video generation. Averaging 92.8 seconds and 24.2 continuous shots per video, it provides configurable, structured annotations for both audio and video modalities. This exceptional quality is achieved through a rigorous three-stage curation pipeline: <em>(i)</em> diverse sourcing and comprehensive cleansing, <em>(ii)</em> film-theory-inspired narrative parsing, and <em>(iii)</em> hierarchical dual-modal captioning.
+        </p>
+        <p>
+          For a comprehensive assessment, we propose <strong>CineBench</strong>, featuring a diverse prompt suite and a six-dimensional, human-aligned metric system tailored for complex narrative audio-video evaluation. Furthermore, we adapt LTX-2.3 into <strong>CineDance-LTX</strong>, which improves imaging quality from 0.56 to 0.68, reduces WER from 0.66 to 0.52, improves Sync-C from 1.11 to 1.53, and increases cross-shot identity consistency from 0.23 to 0.30 over the LTX-2.3 baseline, validating the effectiveness of both CineDance-1M and our training strategy. We anticipate that this work will serve as a solid foundation for accelerating future research in multi-shot, long-form joint audio-video generation.
+        </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <div class="content has-text-justified">
-          <h2 class="title is-3 has-text-centered">CineDance-1M</h2>
-          <p>
-            CineDance-1M targets the missing training unit for modern cinematic generation: not isolated short clips, but long audio-video sequences with consistent shot structure, aligned sound, and reusable annotations. The curation pipeline consists of three stages: data preparation and quality assessment, bottom-up multi-shot narrative parsing, and configurable structured dual-modal annotation.
-          </p>
-        </div>
-
-        <div class="stats-grid">
-          <div class="stat-item">
-            <span class="stat-value">1M</span>
-            <span class="stat-label">Curated sequences</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value">92.8s</span>
-            <span class="stat-label">Average duration</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value">24.2</span>
-            <span class="stat-label">Average shots</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value">1080p</span>
-            <span class="stat-label">Minimum resolution</span>
-          </div>
-        </div>
-
-        <figure class="paper-figure">
-          <picture>
-            <source srcset="static/images/pipeline16.webp" type="image/webp">
-            <img src="static/images/pipeline16.png" width="1870" height="1094" alt="CineDance-1M curation pipeline">
-          </picture>
-          <figcaption>
-            <strong>Curation pipeline.</strong> CineDance-1M combines source preparation, quality assessment, multi-shot narrative parsing, and hierarchical audio-video annotation to produce structured long-form T2AV examples.
-          </figcaption>
-        </figure>
+  <section class="section" id="dataset">
+    <div class="wrap">
+      <div class="sec-kicker">CineDance-1M</div>
+      <h2>A million-scale cinematic T2AV dataset</h2>
+      <div class="prose">
+        <p>
+          CineDance-1M targets the missing training unit for modern cinematic generation: not isolated short clips, but long audio-video sequences with consistent shot structure, aligned sound, and reusable annotations. The curation pipeline consists of three stages: data preparation and quality assessment, bottom-up multi-shot narrative parsing, and configurable structured dual-modal annotation.
+        </p>
       </div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-value">1M</span>
+          <span class="stat-label">Curated sequences</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">92.8s</span>
+          <span class="stat-label">Average duration</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">24.2</span>
+          <span class="stat-label">Average shots</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">1080p</span>
+          <span class="stat-label">Minimum resolution</span>
+        </div>
+      </div>
+      <figure class="paper-figure">
+        <picture>
+          <source srcset="static/images/pipeline16.webp" type="image/webp">
+          <img src="static/images/pipeline16.png" width="1870" height="1094" alt="CineDance-1M curation pipeline">
+        </picture>
+        <figcaption>
+          <strong>Curation pipeline.</strong> CineDance-1M combines source preparation, quality assessment, multi-shot narrative parsing, and hierarchical audio-video annotation to produce structured long-form T2AV examples.
+        </figcaption>
+      </figure>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section hero is-light is-small">
-  <div class="container is-fluid">
-    <div class="content has-text-centered">
-      <h2 class="title is-3">Dataset Comparison</h2>
+  <section class="section alt" id="comparison">
+    <div class="wrap-wide">
+      <div class="sec-kicker">Comparison</div>
+      <h2>Dataset Comparison</h2>
       <p class="table-intro">
         CineDance-1M is the only 1M-scale dataset in this comparison with 1080p resolution, long-form multi-shot sequences, all-native audio, and structured audio-video annotations.
       </p>
-    </div>
-
-    <div class="table-scroll">
-      <table class="table is-bordered is-striped is-hoverable dataset-table">
-        <thead>
-          <tr>
-            <th>Dataset</th>
-            <th>Res.</th>
-            <th>Avg. dur.</th>
-            <th>Avg. shots</th>
-            <th>Shot caps.</th>
-            <th>Audio</th>
-            <th>Audio ann.</th>
-            <th>Cap. len.</th>
-            <th>Total dur.</th>
-            <th>Clips</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>HowTo100M</td><td>240p</td><td>3.6s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>4</td><td>134.5Khr</td><td>136M</td><td>2019</td></tr>
-          <tr><td>HD-VILA-100M</td><td>720p</td><td>13.4s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>32.5</td><td>371.5Khr</td><td>103M</td><td>2022</td></tr>
-          <tr><td>Koala-36M</td><td>720p</td><td>13.6s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>202.3</td><td>137Khr</td><td>36M</td><td>2024</td></tr>
-          <tr><td>VIDGEN-1M</td><td>720p</td><td>10.6s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>89.3</td><td>2.9Khr</td><td>1M</td><td>2024</td></tr>
-          <tr><td>MiraData</td><td>720p</td><td>72.1s</td><td>7.15</td><td>None</td><td>None</td><td>None</td><td>319</td><td>6.6Khr</td><td>330K</td><td>2024</td></tr>
-          <tr><td>LVD-2M</td><td>720p</td><td>20.2s</td><td>1.86</td><td>None</td><td>None</td><td>None</td><td>88.8</td><td>14.6Khr</td><td>2.1M</td><td>2024</td></tr>
-          <tr><td>OpenHumanVid</td><td>720p</td><td>4.6s</td><td>1</td><td>None</td><td>All</td><td>None</td><td>99.7</td><td>12Khr</td><td>16M</td><td>2025</td></tr>
-          <tr><td>OpenS2V-5M</td><td>720p</td><td>5.6s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>312.06</td><td>5.8Khr</td><td>3.75M</td><td>2025</td></tr>
-          <tr><td>UltraVideo</td><td>4K/8K</td><td>5.3s</td><td>1.17</td><td>None</td><td>No</td><td>None</td><td>824.3</td><td>62hr</td><td>42K</td><td>2025</td></tr>
-          <tr><td>OpenVid-1M</td><td>720p</td><td>7.2s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>126.5</td><td>2.1Khr</td><td>1M</td><td>2025</td></tr>
-          <tr><td>CineTrans</td><td>720p</td><td>10.7s</td><td>2.53</td><td>2</td><td>None</td><td>None</td><td>250.78</td><td>752hr</td><td>252K</td><td>2025</td></tr>
-          <tr><td>SpeakerVid-5M</td><td>1080p</td><td>8.3s</td><td>1.27</td><td>None</td><td>All</td><td>ASR</td><td>20.69</td><td>11.6Khr</td><td>5.07M</td><td>2025</td></tr>
-          <tr class="ours-row"><td>CineDance-1M</td><td>1080p</td><td>92.8s</td><td>24.2</td><td>22</td><td>All</td><td>Structured</td><td>6496.3</td><td>26.3Khr</td><td>1M</td><td>2026</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<section class="section hero is-small">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">Dataset Quality And Diversity</h2>
-        <figure class="paper-figure">
-          <picture>
-            <source srcset="static/images/metric1.webp" type="image/webp">
-            <img src="static/images/metric1.png" width="2268" height="1378" alt="Statistical overview of the CineDance-1M dataset">
-          </picture>
-          <figcaption>
-            CineDance-1M is analyzed across taxonomy, quality, duration, annotation density, narrative structure, and semantic vocabulary. These statistics support filtering, benchmark construction, and controllable long-form generation research.
-          </figcaption>
-        </figure>
+      <div class="table-scroll">
+        <table class="dataset-table">
+          <thead>
+            <tr>
+              <th>Dataset</th>
+              <th>Res.</th>
+              <th>Avg. dur.</th>
+              <th>Avg. shots</th>
+              <th>Shot caps.</th>
+              <th>Audio</th>
+              <th>Audio ann.</th>
+              <th>Cap. len.</th>
+              <th>Total dur.</th>
+              <th>Clips</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>HowTo100M</td><td>240p</td><td>3.6s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>4</td><td>134.5Khr</td><td>136M</td><td>2019</td></tr>
+            <tr><td>HD-VILA-100M</td><td>720p</td><td>13.4s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>32.5</td><td>371.5Khr</td><td>103M</td><td>2022</td></tr>
+            <tr><td>Koala-36M</td><td>720p</td><td>13.6s</td><td>1</td><td>None</td><td>None</td><td>None</td><td>202.3</td><td>137Khr</td><td>36M</td><td>2024</td></tr>
+            <tr><td>VIDGEN-1M</td><td>720p</td><td>10.6s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>89.3</td><td>2.9Khr</td><td>1M</td><td>2024</td></tr>
+            <tr><td>MiraData</td><td>720p</td><td>72.1s</td><td>7.15</td><td>None</td><td>None</td><td>None</td><td>319</td><td>6.6Khr</td><td>330K</td><td>2024</td></tr>
+            <tr><td>LVD-2M</td><td>720p</td><td>20.2s</td><td>1.86</td><td>None</td><td>None</td><td>None</td><td>88.8</td><td>14.6Khr</td><td>2.1M</td><td>2024</td></tr>
+            <tr><td>OpenHumanVid</td><td>720p</td><td>4.6s</td><td>1</td><td>None</td><td>All</td><td>None</td><td>99.7</td><td>12Khr</td><td>16M</td><td>2025</td></tr>
+            <tr><td>OpenS2V-5M</td><td>720p</td><td>5.6s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>312.06</td><td>5.8Khr</td><td>3.75M</td><td>2025</td></tr>
+            <tr><td>UltraVideo</td><td>4K/8K</td><td>5.3s</td><td>1.17</td><td>None</td><td>No</td><td>None</td><td>824.3</td><td>62hr</td><td>42K</td><td>2025</td></tr>
+            <tr><td>OpenVid-1M</td><td>720p</td><td>7.2s</td><td>1</td><td>None</td><td>Partial</td><td>None</td><td>126.5</td><td>2.1Khr</td><td>1M</td><td>2025</td></tr>
+            <tr><td>CineTrans</td><td>720p</td><td>10.7s</td><td>2.53</td><td>2</td><td>None</td><td>None</td><td>250.78</td><td>752hr</td><td>252K</td><td>2025</td></tr>
+            <tr><td>SpeakerVid-5M</td><td>1080p</td><td>8.3s</td><td>1.27</td><td>None</td><td>All</td><td>ASR</td><td>20.69</td><td>11.6Khr</td><td>5.07M</td><td>2025</td></tr>
+            <tr class="ours-row"><td>CineDance-1M</td><td>1080p</td><td>92.8s</td><td>24.2</td><td>22</td><td>All</td><td>Structured</td><td>6496.3</td><td>26.3Khr</td><td>1M</td><td>2026</td></tr>
+          </tbody>
+        </table>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section hero is-light is-small">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <h2 class="title is-3 has-text-centered">CineBench</h2>
-        <div class="content has-text-justified is-max-readable">
-          <p>
-            CineBench evaluates whether a model can synthesize temporally ordered multi-shot sequences from structured conditions. It contains 1,000 test cases stratified by theme/style, duration and shot count, and generation difficulty. The benchmark covers 10s with 2-3 shots, 30s with 4-9 shots, and forward-looking 60s with 10-20 shots.
-          </p>
-        </div>
-        <figure class="paper-figure">
-          <picture>
-            <source srcset="static/images/bench.webp" type="image/webp">
-            <img src="static/images/bench.png" width="1920" height="596" alt="Comprehensive statistical overview of CineBench">
-          </picture>
-          <figcaption>
-            <strong>CineBench.</strong> The benchmark combines diverse taxonomic flow, quality distributions, and semantic vocabulary for long-form multi-shot audio-video evaluation.
-          </figcaption>
-        </figure>
-        <div class="metric-grid">
-          <div><strong>Video Quality</strong><span>fidelity, imaging quality, motion smoothness</span></div>
-          <div><strong>Audio Quality</strong><span>speech clarity, background sound, acoustic artifacts</span></div>
-          <div><strong>AV Sync</strong><span>lip synchronization and semantic audio-video alignment</span></div>
-          <div><strong>Prompt Alignment</strong><span>characters, scenes, events, dialogue, sound descriptions</span></div>
-          <div><strong>Narrative Continuity</strong><span>identity, scene, object persistence, ordered events</span></div>
-          <div><strong>Shot Structure Response</strong><span>shot count, transitions, and temporal shot layout</span></div>
-        </div>
+  <section class="section" id="quality">
+    <div class="wrap">
+      <div class="sec-kicker">Statistics</div>
+      <h2>Dataset Quality And Diversity</h2>
+      <figure class="paper-figure">
+        <picture>
+          <source srcset="static/images/metric1.webp" type="image/webp">
+          <img src="static/images/metric1.png" width="2268" height="1378" alt="Statistical overview of the CineDance-1M dataset">
+        </picture>
+        <figcaption>
+          CineDance-1M is analyzed across taxonomy, quality, duration, annotation density, narrative structure, and semantic vocabulary. These statistics support filtering, benchmark construction, and controllable long-form generation research.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section alt" id="cinebench">
+    <div class="wrap">
+      <div class="sec-kicker">Benchmark</div>
+      <h2>CineBench</h2>
+      <div class="prose">
+        <p>
+          CineBench evaluates whether a model can synthesize temporally ordered multi-shot sequences from structured conditions. It contains 1,000 test cases stratified by theme/style, duration and shot count, and generation difficulty. The benchmark covers 10s with 2-3 shots, 30s with 4-9 shots, and forward-looking 60s with 10-20 shots.
+        </p>
+      </div>
+      <figure class="paper-figure">
+        <picture>
+          <source srcset="static/images/bench.webp" type="image/webp">
+          <img src="static/images/bench.png" width="1920" height="596" alt="Comprehensive statistical overview of CineBench">
+        </picture>
+        <figcaption>
+          <strong>CineBench.</strong> The benchmark combines diverse taxonomic flow, quality distributions, and semantic vocabulary for long-form multi-shot audio-video evaluation.
+        </figcaption>
+      </figure>
+      <div class="metric-grid">
+        <div><strong>Video Quality</strong><span>fidelity, imaging quality, motion smoothness</span></div>
+        <div><strong>Audio Quality</strong><span>speech clarity, background sound, acoustic artifacts</span></div>
+        <div><strong>AV Sync</strong><span>lip synchronization and semantic audio-video alignment</span></div>
+        <div><strong>Prompt Alignment</strong><span>characters, scenes, events, dialogue, sound descriptions</span></div>
+        <div><strong>Narrative Continuity</strong><span>identity, scene, object persistence, ordered events</span></div>
+        <div><strong>Shot Structure Response</strong><span>shot count, transitions, and temporal shot layout</span></div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <div class="content has-text-justified">
-          <h2 class="title is-3 has-text-centered">CineDance Model <span class="tag is-warning is-light">Under Review</span></h2>
-          <p>
-            We adapt LTX-2.3 into CineDance as a robust open baseline for multi-shot long-form audio-video generation. The model uses the native joint audio-video backbone while learning shot-transition capability, subject and environment consistency, and structured prompt response from CineDance-1M.
-          </p>
-          <p>
-            The training strategy uses visual-temporal reference scaffolds as optimization aids, then progressively removes them so the model can retain multi-shot organization under reduced inference conditions.
-          </p>
-        </div>
+  <section class="section" id="model">
+    <div class="wrap">
+      <div class="sec-kicker">Baseline</div>
+      <h2>CineDance-LTX <span class="badge">Under Review</span></h2>
+      <div class="prose">
+        <p>
+          We adapt LTX-2.3 into CineDance-LTX as a robust open baseline for multi-shot long-form audio-video generation. The model uses the native joint audio-video backbone while learning shot-transition capability, subject and environment consistency, and structured prompt response from CineDance-1M.
+        </p>
+        <p>
+          The training strategy uses visual-temporal reference scaffolds as optimization aids, then progressively removes them so the model can retain multi-shot organization under reduced inference conditions.
+        </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{chen2026cinedancenextgenerationmultishotlongform,
-      title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation}, 
+  <section class="section alt gallery-sec" id="gallery">
+    <div class="wrap">
+      <div class="sec-kicker">Generations</div>
+      <div class="sec-head">
+        <h2>Selected generations</h2>
+        <p id="demo-stat">Click a still to open the case. Click a shot to seek the cut.</p>
+      </div>
+      <p class="table-intro" style="margin-bottom: 22px; text-align: left; max-width: none;">
+        Structured prompts in, multi-shot audio-video out. Each case below is a CineDance inference result, shown with the hierarchical character and shot script used at generation time.
+      </p>
+      <div class="gallery" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <div id="cases"></div>
+
+  <section class="section alt" id="BibTeX">
+    <div class="wrap">
+      <div class="sec-kicker">Cite</div>
+      <h2>BibTeX</h2>
+      <div class="bib">
+        <div class="bib-tools">
+          <button type="button" id="copy-bib">Copy BibTeX</button>
+        </div>
+        <pre id="bibtex-block">@misc{chen2026cinedancenextgenerationmultishotlongform,
+      title={CineDance: Towards Next-Generation Multi-Shot Long-Form Cinematic Audio-Video Generation},
       author={Yuheng Chen and Teng Hu and Yuji Wang and Qingdong He and Zhucun Xue and Qianyu Zhou and Jason Li and Lizhuang Ma and Jiangning Zhang and Dacheng Tao},
       year={2026},
       eprint={2606.09639},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2606.09639}, 
-}</code></pre>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>, adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a> project page.
-            This website is licensed under a <a rel="license noopener" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-        </div>
+      url={https://arxiv.org/abs/2606.09639},
+}</pre>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
 
+  <footer>
+    <div class="wrap foot">
+      <div>
+        This page was built from the
+        <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>,
+        adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a> project page.
+        Licensed under
+        <a rel="license noopener" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
+      </div>
+      <div>Videos are model outputs; prompts are the exact inference scripts.</div>
+    </div>
+  </footer>
+
+  <script id="case-data" type="application/json">[
+  {
+    "out": "0001",
+    "title": "Night Bokeh",
+    "logline": "A clenched fist, city lights, and a Korean memory of Sunday ramen — two young men talking through the night.",
+    "setting": "Night street",
+    "language": "Korean",
+    "duration": 17.21,
+    "video": "static/videos/0001.mp4",
+    "poster": "static/posters/0001.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Young man, grey jacket",
+        "text": "A young adult male with a fair complexion and short, dark black hair styled simply with texture on top. He has a clean-shaven face and a slim build. He is wearing a light grey, collared jacket made of a matte fabric, unbuttoned to reveal a dark charcoal or black crew-neck t-shirt underneath. The jacket has visible stitching details on the collar and shoulders. His hands are pale with visible veins when clenched. He appears to be in his twenties or early thirties."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Young man, navy sweater",
+        "text": "A young adult male with a fair complexion and short, dark black hair cut in a bowl style with bangs covering his forehead. He is clean-shaven and has a slim build. He wears a dark navy blue sweater or cardigan over a white collared shirt. The collar of the white shirt is visible at the neck, providing a sharp contrast to the dark sweater. The sweater appears to be made of a soft, knit material. He also appears to be in his twenties or early thirties."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 2.0,
+        "text": "The shot is a static medium close-up framing \u003cchar1> from the upper chest upwards, positioned on the left side of the frame and angled in profile towards the right. The lighting is distinctly cool and low-key, casting a heavy blue and teal tint over the entire scene, which suggests a nighttime exterior setting. \u003cchar1> is a young man with short, textured black hair and a clean-shaven face. He is wearing a light grey, collared jacket made of a matte fabric that shows subtle folding around the shoulder and collar area, layered over a dark charcoal or black crew-neck t-shirt. His expression is serious and contemplative, with his lips closed and his gaze fixed intently on a point off-screen to the right. As he stands in silence, his voiceover delivers \"아무것도 모른다.\" in a quiet, solemn tone. The background is rendered in a deep, soft focus, appearing as a dark void punctuated by circular bokeh lights. On the left side of the background, there are pale green and white orbs of light, while on the right, warmer orange and yellow lights suggest distant streetlamps or city traffic. The camera remains completely static throughout the duration of the shot. \u003cchar1> does not speak on-screen or make any large gestures; he remains still, with only subtle movements indicating breathing. The light source appears to be positioned to the front right, casting a soft highlight on his right cheekbone, the bridge of his nose, and the rim of his ear, while the left side of his face and neck fall into shadow. The depth of field is very shallow, keeping \u003cchar1> sharp while blurring the background elements completely. The overall atmosphere is quiet, tense, and cinematic. The texture of his hair is visible, with individual strands catching the light. The collar of the jacket is unbuttoned, revealing the neck. The background lights vary in size and intensity, creating a sense of depth behind him. The shadows on his face are soft, not harsh, suggesting a diffused light source. The framing is tight, emphasizing his facial expression and excluding the rest of the environment.",
+        "quotes": [
+          "아무것도 모른다."
+        ]
+      },
+      {
+        "n": 2,
+        "start": 2.04,
+        "end": 4.63,
+        "text": "This is an extreme close-up shot focused entirely on a hand resting on a thigh. The hand belongs to \u003cchar1>, identifiable by the sleeve of the light grey jacket visible on the left edge of the frame. The hand is clenched into a tight fist, resting on dark grey or black trousers. The skin is pale, illuminated by the cool ambient light, which highlights the tendons and veins on the back of the hand and wrist, suggesting physical tension or emotional stress. The knuckles are prominent and white from the pressure of the grip. From off-screen, \u003cchar2>'s voice is heard softly saying \"참 따뜻하신 분이셨는데.\" with a quiet, nostalgic resonance against the night ambience. Above the hand, in the upper right quadrant, is the edge of a bright blue object, likely a plastic table or tray, which is slightly out of focus. The lighting is dim, creating deep shadows in the crevices of the fingers and under the wrist. The camera is static, holding the frame steady on the hand. The fabric of the trousers has a visible texture, appearing to be a durable material like denim or heavy cotton. The background is dark and indistinct, with no discernible details other than the blue object. The shot emphasizes the internal state of the character through this small, physical gesture. There is no movement other than the static tension of the hand. The veins on the hand are distinct, indicating a strong grip. The blue object provides a splash of color in an otherwise monochromatic scene. The lighting on the hand is directional, coming from the top left. The sleeve of the jacket is visible at the wrist, revealing the forearm. The shadows define the musculature of the hand. The blue object has a smooth, curved edge. The contrast between the pale skin and the dark trousers is high. The shot is intimate and focused on the detail of the hand.",
+        "quotes": [
+          "참 따뜻하신 분이셨는데."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.67,
+        "end": 7.55,
+        "text": "The camera returns to a medium close-up of \u003cchar1>, framed similarly to the first shot but with a slight shift in angle. He is still positioned on the left, facing right. His gaze has dropped slightly, looking down and to the right rather than straight ahead. His expression remains serious, perhaps deepening into sadness or resignation. As he listens quietly, \u003cchar2>'s voice begins speaking from off-screen in a gentle cadence. The lighting remains consistent, with the cool blue tone dominating the scene. The background bokeh is still present, with the green and orange lights blurred in the distance. \u003cchar1> is wearing the same light grey jacket and dark t-shirt. The camera is static. There is no significant movement from \u003cchar1>; he appears to be listening intently in the quiet night. The light catches the texture of his hair and the collar of his jacket. The focus is sharp on his face, particularly his eyes and nose. The shadows on the left side of his face are soft but distinct. The shot is static, with no camera movement. The framing excludes the top of his head slightly, focusing on his eyes and mouth. The atmosphere continues to be quiet and tense. The repetition of this angle emphasizes his reaction or lack thereof to the conversation. The details of his hair and clothing are consistent. The shadows on his face define his jawline. The background lights remain out of focus, creating a soft backdrop. The cool lighting enhances the mood of the scene. The shot holds on his face for the duration.",
+        "quotes": []
+      },
+      {
+        "n": 4,
+        "start": 7.59,
+        "end": 10.05,
+        "text": "A medium close-up captures \u003cchar2> in profile, facing left. He is smiling slightly, moving his mouth as he speaks the line \"일요일 아침마다 아버지가 끓여주시던 라면이 생각나요.\" in a fond, wistful tone. He has short black hair with bangs covering his forehead. He wears a dark blue sweater over a white collared shirt. The background is dark green, suggesting trees or bushes at night, with scattered bokeh lights in red, yellow, and white, indicating a street or urban environment in the distance. The lighting on \u003cchar2>'s face is soft but directional, highlighting his cheekbone and nose. The camera is static. \u003cchar2>'s expression is relaxed and friendly, contrasting with the tension in the previous shots of \u003cchar1>. The depth of field is shallow, blurring the background lights into soft circles. The texture of the sweater is visible, appearing soft and knit. The white collar adds a sharp contrast to the dark sweater. The overall mood is lighter than the previous shots. The background lights include a distinct red light, possibly a traffic signal. The green foliage is barely visible in the darkness behind him. The shot frames him from the chest up. His ear is visible. The lighting is cool but warmer than on \u003cchar1>. The bangs of his hair are neat. The smile reaches his eyes. The background is very dark, making the lights stand out. The camera angle is eye-level. The shot is stable. The colors are muted except for the lights. The shot captures a moment of connection or conversation.",
+        "quotes": [
+          "일요일 아침마다 아버지가 끓여주시던 라면이 생각나요."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 10.09,
+        "end": 12.47,
+        "text": "The shot cuts back to \u003cchar1> in a medium close-up, similar to shots 1 and 3. He is facing right, his gaze directed off-screen. His expression is still serious, perhaps slightly more pensive. As \u003cchar1> remains still, the opening part of \u003cchar2>'s next sentence begins softly off-screen. The lighting and background remain consistent with the previous shots of him: cool blue tones, dark background with green and orange bokeh lights. He is wearing the same light grey jacket and dark t-shirt. The camera is static. There is no significant movement from \u003cchar1>; he appears to be listening. The light highlights the side of his face and ear. The focus is sharp on his features. The framing is tight on his upper body. The atmosphere remains tense and quiet. The repetition of this angle emphasizes his reaction or lack thereof to the conversation. The details of his hair and clothing are consistent. The shadows on his face define his jawline. The background lights remain out of focus. The cool lighting enhances the mood. The shot holds on his face. The texture of the jacket is visible. The dark t-shirt is visible at the neck. The shot is stable and focused.",
+        "quotes": []
+      },
+      {
+        "n": 6,
+        "start": 12.51,
+        "end": 16.81,
+        "text": "The final shot is a medium close-up of \u003cchar2>, facing left. He is looking down slightly, his smile softening but still present as he speaks \"도대체 뭘 넣은 건지 아무리 끓여도 그 맛이 안 나네요.\" with a subtle chuckle in his voice before trailing off. He appears to be reminiscing while interacting with \u003cchar1>. He is wearing the dark blue sweater and white collared shirt. The background is dark with the same bokeh lights as in shot 4, including red and yellow orbs. The lighting is soft and cool. The camera is static. \u003cchar2>'s expression is gentle and engaged. The focus is sharp on his face. The depth of field blurs the background. The shot ends the sequence on a note of interaction, though \u003cchar1> is not visible. The details of \u003cchar2>'s hair and clothing are clear. The mood is calm and conversational. The shot holds on his face as he looks down. The bangs of his hair are visible. The white collar is crisp. The background lights are soft circles. The shot is stable. The lighting highlights his cheek. The sweater texture is visible. The shot is intimate. The background is dark green. The lights are colorful. The shot is well-composed.",
+        "quotes": [
+          "도대체 뭘 넣은 건지 아무리 끓여도 그 맛이 안 나네요."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: A young adult male with a fair complexion and short, dark black hair styled simply with texture on top. He has a clean-shaven face and a slim build. He is wearing a light grey, collared jacket made of a matte fabric, unbuttoned to reveal a dark charcoal or black crew-neck t-shirt underneath. The jacket has visible stitching details on the collar and shoulders. His hands are pale with visible veins when clenched. He appears to be in his twenties or early thirties.\n\u003cchar2>: A young adult male with a fair complexion and short, dark black hair cut in a bowl style with bangs covering his forehead. He is clean-shaven and has a slim build. He wears a dark navy blue sweater or cardigan over a white collared shirt. The collar of the white shirt is visible at the neck, providing a sharp contrast to the dark sweater. The sweater appears to be made of a soft, knit material. He also appears to be in his twenties or early thirties.\n\nShots:\nShot 1 [0.00s-2.00s]: The shot is a static medium close-up framing \u003cchar1> from the upper chest upwards, positioned on the left side of the frame and angled in profile towards the right. The lighting is distinctly cool and low-key, casting a heavy blue and teal tint over the entire scene, which suggests a nighttime exterior setting. \u003cchar1> is a young man with short, textured black hair and a clean-shaven face. He is wearing a light grey, collared jacket made of a matte fabric that shows subtle folding around the shoulder and collar area, layered over a dark charcoal or black crew-neck t-shirt. His expression is serious and contemplative, with his lips closed and his gaze fixed intently on a point off-screen to the right. As he stands in silence, his voiceover delivers \"아무것도 모른다.\" in a quiet, solemn tone. The background is rendered in a deep, soft focus, appearing as a dark void punctuated by circular bokeh lights. On the left side of the background, there are pale green and white orbs of light, while on the right, warmer orange and yellow lights suggest distant streetlamps or city traffic. The camera remains completely static throughout the duration of the shot. \u003cchar1> does not speak on-screen or make any large gestures; he remains still, with only subtle movements indicating breathing. The light source appears to be positioned to the front right, casting a soft highlight on his right cheekbone, the bridge of his nose, and the rim of his ear, while the left side of his face and neck fall into shadow. The depth of field is very shallow, keeping \u003cchar1> sharp while blurring the background elements completely. The overall atmosphere is quiet, tense, and cinematic. The texture of his hair is visible, with individual strands catching the light. The collar of the jacket is unbuttoned, revealing the neck. The background lights vary in size and intensity, creating a sense of depth behind him. The shadows on his face are soft, not harsh, suggesting a diffused light source. The framing is tight, emphasizing his facial expression and excluding the rest of the environment.\nShot 2 [2.04s-4.63s]: This is an extreme close-up shot focused entirely on a hand resting on a thigh. The hand belongs to \u003cchar1>, identifiable by the sleeve of the light grey jacket visible on the left edge of the frame. The hand is clenched into a tight fist, resting on dark grey or black trousers. The skin is pale, illuminated by the cool ambient light, which highlights the tendons and veins on the back of the hand and wrist, suggesting physical tension or emotional stress. The knuckles are prominent and white from the pressure of the grip. From off-screen, \u003cchar2>'s voice is heard softly saying \"참 따뜻하신 분이셨는데.\" with a quiet, nostalgic resonance against the night ambience. Above the hand, in the upper right quadrant, is the edge of a bright blue object, likely a plastic table or tray, which is slightly out of focus. The lighting is dim, creating deep shadows in the crevices of the fingers and under the wrist. The camera is static, holding the frame steady on the hand. The fabric of the trousers has a visible texture, appearing to be a durable material like denim or heavy cotton. The background is dark and indistinct, with no discernible details other than the blue object. The shot emphasizes the internal state of the character through this small, physical gesture. There is no movement other than the static tension of the hand. The veins on the hand are distinct, indicating a strong grip. The blue object provides a splash of color in an otherwise monochromatic scene. The lighting on the hand is directional, coming from the top left. The sleeve of the jacket is visible at the wrist, revealing the forearm. The shadows define the musculature of the hand. The blue object has a smooth, curved edge. The contrast between the pale skin and the dark trousers is high. The shot is intimate and focused on the detail of the hand.\nShot 3 [4.67s-7.55s]: The camera returns to a medium close-up of \u003cchar1>, framed similarly to the first shot but with a slight shift in angle. He is still positioned on the left, facing right. His gaze has dropped slightly, looking down and to the right rather than straight ahead. His expression remains serious, perhaps deepening into sadness or resignation. As he listens quietly, \u003cchar2>'s voice begins speaking from off-screen in a gentle cadence. The lighting remains consistent, with the cool blue tone dominating the scene. The background bokeh is still present, with the green and orange lights blurred in the distance. \u003cchar1> is wearing the same light grey jacket and dark t-shirt. The camera is static. There is no significant movement from \u003cchar1>; he appears to be listening intently in the quiet night. The light catches the texture of his hair and the collar of his jacket. The focus is sharp on his face, particularly his eyes and nose. The shadows on the left side of his face are soft but distinct. The shot is static, with no camera movement. The framing excludes the top of his head slightly, focusing on his eyes and mouth. The atmosphere continues to be quiet and tense. The repetition of this angle emphasizes his reaction or lack thereof to the conversation. The details of his hair and clothing are consistent. The shadows on his face define his jawline. The background lights remain out of focus, creating a soft backdrop. The cool lighting enhances the mood of the scene. The shot holds on his face for the duration.\nShot 4 [7.59s-10.05s]: A medium close-up captures \u003cchar2> in profile, facing left. He is smiling slightly, moving his mouth as he speaks the line \"일요일 아침마다 아버지가 끓여주시던 라면이 생각나요.\" in a fond, wistful tone. He has short black hair with bangs covering his forehead. He wears a dark blue sweater over a white collared shirt. The background is dark green, suggesting trees or bushes at night, with scattered bokeh lights in red, yellow, and white, indicating a street or urban environment in the distance. The lighting on \u003cchar2>'s face is soft but directional, highlighting his cheekbone and nose. The camera is static. \u003cchar2>'s expression is relaxed and friendly, contrasting with the tension in the previous shots of \u003cchar1>. The depth of field is shallow, blurring the background lights into soft circles. The texture of the sweater is visible, appearing soft and knit. The white collar adds a sharp contrast to the dark sweater. The overall mood is lighter than the previous shots. The background lights include a distinct red light, possibly a traffic signal. The green foliage is barely visible in the darkness behind him. The shot frames him from the chest up. His ear is visible. The lighting is cool but warmer than on \u003cchar1>. The bangs of his hair are neat. The smile reaches his eyes. The background is very dark, making the lights stand out. The camera angle is eye-level. The shot is stable. The colors are muted except for the lights. The shot captures a moment of connection or conversation.\nShot 5 [10.09s-12.47s]: The shot cuts back to \u003cchar1> in a medium close-up, similar to shots 1 and 3. He is facing right, his gaze directed off-screen. His expression is still serious, perhaps slightly more pensive. As \u003cchar1> remains still, the opening part of \u003cchar2>'s next sentence begins softly off-screen. The lighting and background remain consistent with the previous shots of him: cool blue tones, dark background with green and orange bokeh lights. He is wearing the same light grey jacket and dark t-shirt. The camera is static. There is no significant movement from \u003cchar1>; he appears to be listening. The light highlights the side of his face and ear. The focus is sharp on his features. The framing is tight on his upper body. The atmosphere remains tense and quiet. The repetition of this angle emphasizes his reaction or lack thereof to the conversation. The details of his hair and clothing are consistent. The shadows on his face define his jawline. The background lights remain out of focus. The cool lighting enhances the mood. The shot holds on his face. The texture of the jacket is visible. The dark t-shirt is visible at the neck. The shot is stable and focused.\nShot 6 [12.51s-16.81s]: The final shot is a medium close-up of \u003cchar2>, facing left. He is looking down slightly, his smile softening but still present as he speaks \"도대체 뭘 넣은 건지 아무리 끓여도 그 맛이 안 나네요.\" with a subtle chuckle in his voice before trailing off. He appears to be reminiscing while interacting with \u003cchar1>. He is wearing the dark blue sweater and white collared shirt. The background is dark with the same bokeh lights as in shot 4, including red and yellow orbs. The lighting is soft and cool. The camera is static. \u003cchar2>'s expression is gentle and engaged. The focus is sharp on his face. The depth of field blurs the background. The shot ends the sequence on a note of interaction, though \u003cchar1> is not visible. The details of \u003cchar2>'s hair and clothing are clear. The mood is calm and conversational. The shot holds on his face as he looks down. The bangs of his hair are visible. The white collar is crisp. The background lights are soft circles. The shot is stable. The lighting highlights his cheek. The sweater texture is visible. The shot is intimate. The background is dark green. The lights are colorful. The shot is well-composed."
+  },
+  {
+    "out": "0002",
+    "title": "Cross-Cut Call",
+    "logline": "A gym walk and a moving car, cut together by one phone call: names, districts, and the next target.",
+    "setting": "Gym / car",
+    "language": "English",
+    "duration": 19.33,
+    "video": "static/videos/0002.mp4",
+    "poster": "static/posters/0002.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 3,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man on the gym floor",
+        "text": "A middle-aged Caucasian male with a balding head, retaining short, greying hair on the sides and back. He has a clean-shaven face and light skin tone. He is wearing a light-colored, possibly white or pale grey, short-sleeved button-down shirt with a subtle grid or check pattern. A dark, thick strap from a bag crosses his chest diagonally from his left shoulder. He appears to be in motion, walking with a purposeful stride."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Woman in the car",
+        "text": "A Caucasian female, appearing to be in her 40s or 50s, with long, wavy brown hair parted in the middle that falls over her shoulders. She has a light skin tone and is wearing a dark navy or black blazer over a light blue scoop-neck top. A thin silver bracelet is visible on her left wrist. She is holding a white smartphone to her left ear. She is seated in the back of a vehicle, wearing a seatbelt."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Woman in the gym",
+        "text": "A Caucasian female, appearing to be in her 30s, with long, straight dark brown hair. She has a light skin tone and a slender build. She is wearing a light grey tank top and blue jeans. She carries a large beige tote bag on her left shoulder. She is walking through a gym environment."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 5.55,
+        "text": "The shot begins with a close-up on a white wall panel on the left side of the frame, displaying the text \"MEN'S LOCKER ROOM\" in black, sans-serif capital letters. The background is a brightly lit gymnasium, initially out of focus. The camera performs a rack focus, shifting clarity from the sign to the mid-ground as \u003cchar1> enters the frame from the left. \u003cchar1> is a balding man wearing a light-colored, short-sleeved button-down shirt with a subtle grid pattern. A dark strap from a bag is slung across \u003cchar1>'s chest. \u003cchar1> raises a black smartphone to \u003cchar1>'s right ear and says \"Stamper.\" into the receiver with a focused, serious demeanor. Over the line, \u003cchar2>'s voice responds \"You're good.\", after which \u003cchar1> promptly asks \"He said yes?\". As \u003cchar1> continues walking from left to right across the frame, \u003cchar1>'s expression remains taut and downturned. The background reveals a spacious gym with rows of treadmills and exercise equipment, where several other people are visible out of focus exercising on machines. Large windows line the far wall, letting in natural daylight that mixes with the overhead fluorescent lighting in the standard drop ceiling, creating a cool, greenish tint across the interior while mirrors on the left wall reflect the active space.",
+        "quotes": [
+          "MEN'S LOCKER ROOM",
+          "Stamper.",
+          "You're good.",
+          "He said yes?"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 5.59,
+        "end": 8.47,
+        "text": "The scene cuts to the interior of a moving vehicle with black leather seats. \u003cchar2> is seated in the back seat on the left side from the camera's perspective, wearing a dark blazer over a light blue scoop-neck top with a seatbelt fastened diagonally across \u003cchar2>'s chest. \u003cchar2>'s long wavy brown hair falls loose over \u003cchar2>'s shoulders, and a thin silver bracelet glints on \u003cchar2>'s left wrist as \u003cchar2> holds a white smartphone to \u003cchar2>'s ear. With an attentive, measured expression, \u003cchar2> answers \"Took a couple of hours, but he's on board.\" while \u003cchar2>'s gaze is directed slightly downward and to the right. In the foreground, the dark-suited shoulders and backs of the heads of two men occupy the front seats, framing \u003cchar2> in the center. Through the rear and side windows, blurred green trees and roadside foliage rush past to the subtle hum of the vehicle in motion. Soft daylight enters through the windows to illuminate \u003cchar2>'s face against the dim, enclosed car cabin.",
+        "quotes": [
+          "Took a couple of hours, but he's on board."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 8.51,
+        "end": 10.93,
+        "text": "Returning to the gym, the camera is positioned behind \u003cchar1>, whose head, shoulder, and the phone pressed to \u003cchar1>'s ear occupy the left foreground in soft blur. \u003cchar1> inquires into the phone, \"Did you have to bring up Butler?\", in a low, even tone amidst the soft ambient hum of gym activity. In the sharp mid-ground, \u003cchar3> walks forward down the aisle between rows of exercise equipment, wearing a grey tank top, blue jeans, and carrying a large beige tote bag slung over \u003cchar3>'s left shoulder. \u003cchar3> maintains a neutral, composed expression as \u003cchar3> approaches. A man in a grey t-shirt stands near fitness equipment in the mid-ground, while other gym-goers exercise on treadmills and elliptical machines in the background. The facility is brightly lit by overhead fluorescent rectangular panels and daylight streaming from large windows on the right, casting a cool greenish-grey palette over the grey carpeted floor and the wall mirrors on the left.",
+        "quotes": [
+          "Did you have to bring up Butler?"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 10.97,
+        "end": 13.1,
+        "text": "The shot cuts to a profile view of \u003cchar2> seated in the back of the moving car, facing toward the right. Holding the white smartphone against \u003cchar2>'s ear, \u003cchar2> speaks firmly into the call, stating \"The prison was enough.\" with a serious, contemplative gaze directed forward. The low-key interior lighting casts soft shadows along the left contours of \u003cchar2>'s face, balanced by cool light entering from the window on the right. Outside, green foliage and roadside scenery blur rapidly past the glass to the quiet road rumble. In the extreme right foreground, the out-of-focus shoulder and neck of another passenger wearing a white top and a pearl necklace appear beside \u003cchar2>. The dark leather interior and the black seatbelt crossing \u003cchar2>'s torso reinforce the quiet, confined atmosphere of the vehicle.",
+        "quotes": [
+          "The prison was enough."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 13.14,
+        "end": 15.02,
+        "text": "Back in the gym, the perspective remains framed over the shoulder of \u003cchar1> in the soft-focus left foreground, holding the phone to \u003cchar1>'s ear. \u003cchar1> responds into the line with \"Great. Who's your next target?\" in a steady, hushed voice. In sharp focus in the mid-ground, \u003cchar3>, clad in a grey tank top and jeans with a beige shoulder tote, walks forward from the background toward the foreground right. As \u003cchar3> passes \u003cchar1>, \u003cchar3> turns \u003cchar3>'s head slightly to glance at \u003cchar1> with an attentive, unreadable expression before continuing along the light grey carpeted aisle. Behind them, rows of treadmills and workout equipment line the bright interior, where other patrons, including a man in a white shirt, exercise under rectangular ceiling fixtures and diffuse light from the large windows overlooking greenery outside.",
+        "quotes": [
+          "Great. Who's your next target?"
+        ]
+      },
+      {
+        "n": 6,
+        "start": 15.06,
+        "end": 18.94,
+        "text": "The scene cuts back to the interior of the moving vehicle, framing \u003cchar2> in the center of the rear seat between the dark-suited shoulders of the front passengers. \u003cchar2> holds the white smartphone to \u003cchar2>'s ear and speaks clearly, saying \"Willis Morrison, 12th District.\" as \u003cchar2> maintains an intense, focused gaze ahead. \u003cchar1>'s voice comes through the receiver, replying \"Ohio. I have his file at home.\" while \u003cchar2> listens intently in silence, keeping \u003cchar2>'s expression steady and vigilant. Soft daylight through the side and rear windows illuminates \u003cchar2>'s face and dark blazer against the dark black leather seating and the fastened seatbelt strap. Outside the rear glass, the passing road and tree line remain a continuous motion blur under the steady, muted sound of the moving car.",
+        "quotes": [
+          "Willis Morrison, 12th District.",
+          "Ohio. I have his file at home."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: A middle-aged Caucasian male with a balding head, retaining short, greying hair on the sides and back. He has a clean-shaven face and light skin tone. He is wearing a light-colored, possibly white or pale grey, short-sleeved button-down shirt with a subtle grid or check pattern. A dark, thick strap from a bag crosses his chest diagonally from his left shoulder. He appears to be in motion, walking with a purposeful stride.\n\u003cchar2>: A Caucasian female, appearing to be in her 40s or 50s, with long, wavy brown hair parted in the middle that falls over her shoulders. She has a light skin tone and is wearing a dark navy or black blazer over a light blue scoop-neck top. A thin silver bracelet is visible on her left wrist. She is holding a white smartphone to her left ear. She is seated in the back of a vehicle, wearing a seatbelt.\n\u003cchar3>: A Caucasian female, appearing to be in her 30s, with long, straight dark brown hair. She has a light skin tone and a slender build. She is wearing a light grey tank top and blue jeans. She carries a large beige tote bag on her left shoulder. She is walking through a gym environment.\n\nShots:\nShot 1 [0.00s-5.55s]: The shot begins with a close-up on a white wall panel on the left side of the frame, displaying the text \"MEN'S LOCKER ROOM\" in black, sans-serif capital letters. The background is a brightly lit gymnasium, initially out of focus. The camera performs a rack focus, shifting clarity from the sign to the mid-ground as \u003cchar1> enters the frame from the left. \u003cchar1> is a balding man wearing a light-colored, short-sleeved button-down shirt with a subtle grid pattern. A dark strap from a bag is slung across \u003cchar1>'s chest. \u003cchar1> raises a black smartphone to \u003cchar1>'s right ear and says \"Stamper.\" into the receiver with a focused, serious demeanor. Over the line, \u003cchar2>'s voice responds \"You're good.\", after which \u003cchar1> promptly asks \"He said yes?\". As \u003cchar1> continues walking from left to right across the frame, \u003cchar1>'s expression remains taut and downturned. The background reveals a spacious gym with rows of treadmills and exercise equipment, where several other people are visible out of focus exercising on machines. Large windows line the far wall, letting in natural daylight that mixes with the overhead fluorescent lighting in the standard drop ceiling, creating a cool, greenish tint across the interior while mirrors on the left wall reflect the active space.\nShot 2 [5.59s-8.47s]: The scene cuts to the interior of a moving vehicle with black leather seats. \u003cchar2> is seated in the back seat on the left side from the camera's perspective, wearing a dark blazer over a light blue scoop-neck top with a seatbelt fastened diagonally across \u003cchar2>'s chest. \u003cchar2>'s long wavy brown hair falls loose over \u003cchar2>'s shoulders, and a thin silver bracelet glints on \u003cchar2>'s left wrist as \u003cchar2> holds a white smartphone to \u003cchar2>'s ear. With an attentive, measured expression, \u003cchar2> answers \"Took a couple of hours, but he's on board.\" while \u003cchar2>'s gaze is directed slightly downward and to the right. In the foreground, the dark-suited shoulders and backs of the heads of two men occupy the front seats, framing \u003cchar2> in the center. Through the rear and side windows, blurred green trees and roadside foliage rush past to the subtle hum of the vehicle in motion. Soft daylight enters through the windows to illuminate \u003cchar2>'s face against the dim, enclosed car cabin.\nShot 3 [8.51s-10.93s]: Returning to the gym, the camera is positioned behind \u003cchar1>, whose head, shoulder, and the phone pressed to \u003cchar1>'s ear occupy the left foreground in soft blur. \u003cchar1> inquires into the phone, \"Did you have to bring up Butler?\", in a low, even tone amidst the soft ambient hum of gym activity. In the sharp mid-ground, \u003cchar3> walks forward down the aisle between rows of exercise equipment, wearing a grey tank top, blue jeans, and carrying a large beige tote bag slung over \u003cchar3>'s left shoulder. \u003cchar3> maintains a neutral, composed expression as \u003cchar3> approaches. A man in a grey t-shirt stands near fitness equipment in the mid-ground, while other gym-goers exercise on treadmills and elliptical machines in the background. The facility is brightly lit by overhead fluorescent rectangular panels and daylight streaming from large windows on the right, casting a cool greenish-grey palette over the grey carpeted floor and the wall mirrors on the left.\nShot 4 [10.97s-13.10s]: The shot cuts to a profile view of \u003cchar2> seated in the back of the moving car, facing toward the right. Holding the white smartphone against \u003cchar2>'s ear, \u003cchar2> speaks firmly into the call, stating \"The prison was enough.\" with a serious, contemplative gaze directed forward. The low-key interior lighting casts soft shadows along the left contours of \u003cchar2>'s face, balanced by cool light entering from the window on the right. Outside, green foliage and roadside scenery blur rapidly past the glass to the quiet road rumble. In the extreme right foreground, the out-of-focus shoulder and neck of another passenger wearing a white top and a pearl necklace appear beside \u003cchar2>. The dark leather interior and the black seatbelt crossing \u003cchar2>'s torso reinforce the quiet, confined atmosphere of the vehicle.\nShot 5 [13.14s-15.02s]: Back in the gym, the perspective remains framed over the shoulder of \u003cchar1> in the soft-focus left foreground, holding the phone to \u003cchar1>'s ear. \u003cchar1> responds into the line with \"Great. Who's your next target?\" in a steady, hushed voice. In sharp focus in the mid-ground, \u003cchar3>, clad in a grey tank top and jeans with a beige shoulder tote, walks forward from the background toward the foreground right. As \u003cchar3> passes \u003cchar1>, \u003cchar3> turns \u003cchar3>'s head slightly to glance at \u003cchar1> with an attentive, unreadable expression before continuing along the light grey carpeted aisle. Behind them, rows of treadmills and workout equipment line the bright interior, where other patrons, including a man in a white shirt, exercise under rectangular ceiling fixtures and diffuse light from the large windows overlooking greenery outside.\nShot 6 [15.06s-18.94s]: The scene cuts back to the interior of the moving vehicle, framing \u003cchar2> in the center of the rear seat between the dark-suited shoulders of the front passengers. \u003cchar2> holds the white smartphone to \u003cchar2>'s ear and speaks clearly, saying \"Willis Morrison, 12th District.\" as \u003cchar2> maintains an intense, focused gaze ahead. \u003cchar1>'s voice comes through the receiver, replying \"Ohio. I have his file at home.\" while \u003cchar2> listens intently in silence, keeping \u003cchar2>'s expression steady and vigilant. Soft daylight through the side and rear windows illuminates \u003cchar2>'s face and dark blazer against the dark black leather seating and the fastened seatbelt strap. Outside the rear glass, the passing road and tree line remain a continuous motion blur under the steady, muted sound of the moving car."
+  },
+  {
+    "out": "0003",
+    "title": "Ping Pong Balls",
+    "logline": "Warm lamplight, pearls, and a drawing-room dare: two women laugh until housekeeping is asked for ping pong balls.",
+    "setting": "Grand drawing room",
+    "language": "English",
+    "duration": 18.62,
+    "video": "static/videos/0003.mp4",
+    "poster": "static/posters/0003.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, blonde pixie cut",
+        "text": "A woman with a short, blonde pixie haircut that is swept to one side. She has a slender build and fair skin. She is wearing a sleeveless, halter-neck top or dress in a pale, muted blue-grey satin or silk fabric that drapes around her neck. On her left wrist, she wears a thin, delicate bracelet. Her lower body, visible in the wide shot, is clad in matching shiny, pale trousers or a long skirt that reflects the light. Her makeup is natural, highlighting her smile."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Older woman, pearls",
+        "text": "An older woman with shoulder-length blonde hair styled in soft, layered waves. She has fair skin and appears to be in her senior years. She is wearing a crisp white, long-sleeved blouse with a wide, open collar. Around her neck, she wears a prominent, multi-strand pearl necklace, and matching pearl earrings are visible. Her lower body is clad in dark trousers, visible in the wide shot. She has a relaxed posture."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 6.88,
+        "text": "The shot is a medium close-up of \u003cchar1>, framed from the chest up, seated on a sofa. She is positioned on the left side of the frame, facing towards the right where the out-of-focus back of \u003cchar2>'s head and shoulder occupy the foreground. \u003cchar1> has short blonde hair and is wearing a pale blue-grey halter-neck garment. She is laughing warmly, her mouth open in a wide smile showing her teeth, and her eyes are crinkled at the corners as soft chuckles fill the room. Her head tilts back slightly as she laughs, then she composes herself while maintaining eye contact with \u003cchar2>, gesturing lightly with her hand as she says \"Well, I wasn't a champion.\" in a self-deprecating, amused tone. Her left arm rests along the back of the sofa or on a cushion, and a thin bracelet is visible on her wrist. Behind her, a large window with white grid-like muntins reflects the interior of the room, including the glow of lamps. To the left of the frame, a table lamp with a decorative crystal base and a beige conical shade casts a warm, yellow light, illuminating the side of \u003cchar1>'s face and hair. The lighting in the room is dim and atmospheric, with deep shadows in the corners. The sofa fabric appears to be a textured, neutral-toned material. \u003cchar1> continues speaking, adding \"I wasn't too bad, though.\" with a gentle smile. The camera remains static throughout the shot with a shallow depth of field that keeps \u003cchar1> in sharp focus while the foreground and background remain softly blurred.",
+        "quotes": [
+          "Well, I wasn't a champion.",
+          "I wasn't too bad, though."
+        ]
+      },
+      {
+        "n": 2,
+        "start": 6.92,
+        "end": 8.51,
+        "text": "This is a medium shot of \u003cchar2>, framed from the chest up. She is seated and facing towards the left, looking at \u003cchar1> who is off-screen. \u003cchar2> has blonde hair styled in soft waves and wears a white blouse with a wide collar and a prominent pearl necklace. She is speaking, her mouth moving and her expression animated and friendly as she asks \"You?\", prompting \u003cchar1> to respond off-screen with an amused \"Mm-hmm.\" \u003cchar2> smiles broadly, showing her teeth and chuckling softly. Behind her, the background is a dimly lit room where a dark wooden console table sits against the wall, holding two matching lamps with black shades and brass bases that cast upward cones of illumination against the wall. Above the table, a framed picture hangs on the wall, though its details remain indistinct, while a white cabinet or door frame is partially visible to the right. The lighting on \u003cchar2> is soft, coming from the front left, highlighting her face and pearls. Her posture is relaxed, leaning slightly back against the sofa cushions as her hands rest in her lap. The depth of field is shallow, keeping \u003cchar2> in sharp focus against the soft background, while the warm color palette remains dominated by beige walls and her white blouse.",
+        "quotes": [
+          "You?",
+          "Mm-hmm."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 8.55,
+        "end": 11.39,
+        "text": "The camera returns to the over-the-shoulder perspective on \u003cchar1>. She is laughing again, her head tilted back and to the side, eyes closed or squinting in genuine amusement. She is wearing the same pale blue-grey sleeveless top. The table lamp with the crystal base is visible on the left, glowing warmly, while the window behind her reflects the room's lights into bright rectangular reflections against the dark glass. As her laughter subsides into an eager smile, \u003cchar1> leans slightly forward, looking intently at \u003cchar2>, and says \"I think we should play.\" in a playful, lively tone. Her posture is relaxed, leaning into the corner of the plush, patterned sofa cushion. The lighting remains low-key and warm, emphasizing the intimate setting, while the back of \u003cchar2>'s head remains softly out of focus in the foreground right. \u003cchar1> shifts her weight slightly, adjusting her position on the sofa, with the static camera capturing every nuance of her facial expression and hair texture.",
+        "quotes": [
+          "I think we should play."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 11.43,
+        "end": 12.76,
+        "text": "A medium shot of \u003cchar2> framed from the chest up as she reacts to \u003cchar1>'s proposal. She tilts her head slightly, her expression shifting to wide-eyed astonishment and amusement as she exclaims \"What?\" with an incredulous chuckle. She wears the crisp white blouse and glowing pearl necklace, her eyes fixed warmly on \u003cchar1> off-screen. The background features the two symmetrical lamps with black shades resting on the dark console table, casting soft uplight against the neutral wall. The lighting catches the sheen of her pearls and the highlights in her wavy blonde hair. The camera remains static, maintaining a conversational, intimate depth of field that softens the background while keeping \u003cchar2>'s expressive face in clear focus as her mouth widens into a laugh.",
+        "quotes": [
+          "What?"
+        ]
+      },
+      {
+        "n": 5,
+        "start": 12.8,
+        "end": 14.68,
+        "text": "Back to \u003cchar1> in a medium over-the-shoulder shot from behind \u003cchar2>. Off-screen, \u003cchar2> laughs and remarks \"Oh, you can't be serious.\" while \u003cchar1> smiles and raises her chin. \u003cchar1> begins to look past \u003cchar2> towards the back of the room, her expression attentive and amused. The lamp on the left continues to provide a warm key light, casting a soft rim glow across her short hair and the draped fabric of her pale halter-neck top. The window behind her displays faint interior reflections. \u003cchar1> gestures gently with her hand as she prepares to address someone off-screen, maintaining her comfortable seated posture on the sofa as \u003cchar2>'s shoulder frames the lower right foreground.",
+        "quotes": [
+          "Oh, you can't be serious."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 14.72,
+        "end": 18.39,
+        "text": "A wide shot reveals the entire seating area of the grand room. \u003cchar2> is seated on the left side of the large, plush sofa, and \u003cchar1> is on the right, facing her. \u003cchar2> holds \u003cchar1>'s hand with both of hers in a warm, intimate clasp. \u003cchar1> wears a long, shiny pale skirt or trousers reflecting the ambient light, while \u003cchar2> wears dark trousers. On the far left, a staff member in a black tuxedo stands attentively in a grand arched doorway beneath a distant chandelier. Looking across the room toward the attendant, \u003cchar1> speaks in a clear, polite voice, saying \"Excuse me, can you ask housekeeping to bring us some ping pong balls, please?\" Overcome with laughter, \u003cchar2> leans back against the sofa cushions, throwing her head back before smiling affectionately at \u003cchar1> and stating \"I have got to go home.\" while continuing to hold her hand. Symmetrical lamps, a framed painting, and ornate architectural moldings decorate the dimly lit, cozy room as the camera remains static.",
+        "quotes": [
+          "Excuse me, can you ask housekeeping to bring us some ping pong balls, please?",
+          "I have got to go home."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: A woman with a short, blonde pixie haircut that is swept to one side. She has a slender build and fair skin. She is wearing a sleeveless, halter-neck top or dress in a pale, muted blue-grey satin or silk fabric that drapes around her neck. On her left wrist, she wears a thin, delicate bracelet. Her lower body, visible in the wide shot, is clad in matching shiny, pale trousers or a long skirt that reflects the light. Her makeup is natural, highlighting her smile.\n\u003cchar2>: An older woman with shoulder-length blonde hair styled in soft, layered waves. She has fair skin and appears to be in her senior years. She is wearing a crisp white, long-sleeved blouse with a wide, open collar. Around her neck, she wears a prominent, multi-strand pearl necklace, and matching pearl earrings are visible. Her lower body is clad in dark trousers, visible in the wide shot. She has a relaxed posture.\n\nShots:\nShot 1 [0.00s-6.88s]: The shot is a medium close-up of \u003cchar1>, framed from the chest up, seated on a sofa. She is positioned on the left side of the frame, facing towards the right where the out-of-focus back of \u003cchar2>'s head and shoulder occupy the foreground. \u003cchar1> has short blonde hair and is wearing a pale blue-grey halter-neck garment. She is laughing warmly, her mouth open in a wide smile showing her teeth, and her eyes are crinkled at the corners as soft chuckles fill the room. Her head tilts back slightly as she laughs, then she composes herself while maintaining eye contact with \u003cchar2>, gesturing lightly with her hand as she says \"Well, I wasn't a champion.\" in a self-deprecating, amused tone. Her left arm rests along the back of the sofa or on a cushion, and a thin bracelet is visible on her wrist. Behind her, a large window with white grid-like muntins reflects the interior of the room, including the glow of lamps. To the left of the frame, a table lamp with a decorative crystal base and a beige conical shade casts a warm, yellow light, illuminating the side of \u003cchar1>'s face and hair. The lighting in the room is dim and atmospheric, with deep shadows in the corners. The sofa fabric appears to be a textured, neutral-toned material. \u003cchar1> continues speaking, adding \"I wasn't too bad, though.\" with a gentle smile. The camera remains static throughout the shot with a shallow depth of field that keeps \u003cchar1> in sharp focus while the foreground and background remain softly blurred.\nShot 2 [6.92s-8.51s]: This is a medium shot of \u003cchar2>, framed from the chest up. She is seated and facing towards the left, looking at \u003cchar1> who is off-screen. \u003cchar2> has blonde hair styled in soft waves and wears a white blouse with a wide collar and a prominent pearl necklace. She is speaking, her mouth moving and her expression animated and friendly as she asks \"You?\", prompting \u003cchar1> to respond off-screen with an amused \"Mm-hmm.\" \u003cchar2> smiles broadly, showing her teeth and chuckling softly. Behind her, the background is a dimly lit room where a dark wooden console table sits against the wall, holding two matching lamps with black shades and brass bases that cast upward cones of illumination against the wall. Above the table, a framed picture hangs on the wall, though its details remain indistinct, while a white cabinet or door frame is partially visible to the right. The lighting on \u003cchar2> is soft, coming from the front left, highlighting her face and pearls. Her posture is relaxed, leaning slightly back against the sofa cushions as her hands rest in her lap. The depth of field is shallow, keeping \u003cchar2> in sharp focus against the soft background, while the warm color palette remains dominated by beige walls and her white blouse.\nShot 3 [8.55s-11.39s]: The camera returns to the over-the-shoulder perspective on \u003cchar1>. She is laughing again, her head tilted back and to the side, eyes closed or squinting in genuine amusement. She is wearing the same pale blue-grey sleeveless top. The table lamp with the crystal base is visible on the left, glowing warmly, while the window behind her reflects the room's lights into bright rectangular reflections against the dark glass. As her laughter subsides into an eager smile, \u003cchar1> leans slightly forward, looking intently at \u003cchar2>, and says \"I think we should play.\" in a playful, lively tone. Her posture is relaxed, leaning into the corner of the plush, patterned sofa cushion. The lighting remains low-key and warm, emphasizing the intimate setting, while the back of \u003cchar2>'s head remains softly out of focus in the foreground right. \u003cchar1> shifts her weight slightly, adjusting her position on the sofa, with the static camera capturing every nuance of her facial expression and hair texture.\nShot 4 [11.43s-12.76s]: A medium shot of \u003cchar2> framed from the chest up as she reacts to \u003cchar1>'s proposal. She tilts her head slightly, her expression shifting to wide-eyed astonishment and amusement as she exclaims \"What?\" with an incredulous chuckle. She wears the crisp white blouse and glowing pearl necklace, her eyes fixed warmly on \u003cchar1> off-screen. The background features the two symmetrical lamps with black shades resting on the dark console table, casting soft uplight against the neutral wall. The lighting catches the sheen of her pearls and the highlights in her wavy blonde hair. The camera remains static, maintaining a conversational, intimate depth of field that softens the background while keeping \u003cchar2>'s expressive face in clear focus as her mouth widens into a laugh.\nShot 5 [12.80s-14.68s]: Back to \u003cchar1> in a medium over-the-shoulder shot from behind \u003cchar2>. Off-screen, \u003cchar2> laughs and remarks \"Oh, you can't be serious.\" while \u003cchar1> smiles and raises her chin. \u003cchar1> begins to look past \u003cchar2> towards the back of the room, her expression attentive and amused. The lamp on the left continues to provide a warm key light, casting a soft rim glow across her short hair and the draped fabric of her pale halter-neck top. The window behind her displays faint interior reflections. \u003cchar1> gestures gently with her hand as she prepares to address someone off-screen, maintaining her comfortable seated posture on the sofa as \u003cchar2>'s shoulder frames the lower right foreground.\nShot 6 [14.72s-18.39s]: A wide shot reveals the entire seating area of the grand room. \u003cchar2> is seated on the left side of the large, plush sofa, and \u003cchar1> is on the right, facing her. \u003cchar2> holds \u003cchar1>'s hand with both of hers in a warm, intimate clasp. \u003cchar1> wears a long, shiny pale skirt or trousers reflecting the ambient light, while \u003cchar2> wears dark trousers. On the far left, a staff member in a black tuxedo stands attentively in a grand arched doorway beneath a distant chandelier. Looking across the room toward the attendant, \u003cchar1> speaks in a clear, polite voice, saying \"Excuse me, can you ask housekeeping to bring us some ping pong balls, please?\" Overcome with laughter, \u003cchar2> leans back against the sofa cushions, throwing her head back before smiling affectionately at \u003cchar1> and stating \"I have got to go home.\" while continuing to hold her hand. Symmetrical lamps, a framed painting, and ornate architectural moldings decorate the dimly lit, cozy room as the camera remains static."
+  },
+  {
+    "out": "0004",
+    "title": "Guilty Conscience",
+    "logline": "A backyard grill, a Corona box, and a question that will not let go: come on, Fitz — tell us.",
+    "setting": "Backyard patio",
+    "language": "English",
+    "duration": 16.5,
+    "video": "static/videos/0004.mp4",
+    "poster": "static/posters/0004.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 5,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Fitz, black shirt",
+        "text": "A middle-aged Caucasian male with a fair complexion and a high forehead showing a receding hairline. His hair is thinning, light brown or dark blond, combed back but slightly wispy at the front. He has blue eyes and visible crow's feet when smiling. He is clean-shaven. He wears a black short-sleeved button-down shirt made of a smooth fabric, featuring vertical rows of white stitching or piping running down the front panels on either side of the button placket. The collar is open at the neck. He appears to be of average build."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Older man, brown fleece",
+        "text": "An older Caucasian male with short, neatly styled grey hair that is swept back. He has a fair skin tone with some age lines on his forehead and around his mouth. His eyebrows are light grey. He is wearing a brown zip-up fleece jacket with a high collar; the inside of the collar reveals a darker, possibly navy blue lining. Underneath the fleece, he wears a light grey or pale green polo shirt with a white collar and buttons at the placket. He has a sturdy, average build."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Man in blue shirt",
+        "text": "A male with dark, curly hair that is short on the sides and slightly fuller on top. He is seen primarily from the back. He wears a light blue long-sleeved button-down shirt that appears slightly wrinkled. He is seated on a wooden chair. His posture is relaxed, leaning slightly forward with one arm resting on the back of the chair."
+      },
+      {
+        "id": "char4",
+        "n": 4,
+        "label": "Man in striped shirt",
+        "text": "A male with dark, curly hair similar in texture to the man beside him. He is viewed from the rear. He wears a white short-sleeved shirt with thin, vertical grey or blue stripes. The shirt has a collar. He is seated on a wooden slat chair, facing away from the camera towards the standing men."
+      },
+      {
+        "id": "char5",
+        "n": 5,
+        "label": "Man in yellow tee",
+        "text": "A male with short, dark hair that is receding at the temples. He has a fair complexion. He is seen in profile facing left. He wears a pale yellow short-sleeved t-shirt and blue denim jeans. He is seated on a wooden folding chair, leaning back slightly with his hands resting on his legs or the chair arms."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 4.37,
+        "text": "The shot opens with a medium close-up of \u003cchar1>, framed from the upper chest to the top of the head. He is positioned slightly left of center, angled towards the right where \u003cchar2> stands. \u003cchar1> is wearing a black shirt with distinct vertical white stitching. The lighting is natural daylight, casting soft highlights on the left side of \u003cchar1>'s forehead and nose, while the right side of his face is in slight shadow. His hair is thinning and light brown. As he pops up into frame, \u003cchar1> is smiling broadly, his mouth open showing his upper teeth, and his eyes crinkling at the corners as he asks with animated amusement, \"Since when?\" As the shot progresses, his smile fades; his lips close and press together slightly, and his expression shifts to a more neutral, serious, and contemplative look while his eyebrows raise slightly. On the right edge of the frame, the back of \u003cchar2>'s head and shoulder are visible, blurred by the shallow depth of field; \u003cchar2> wears a brown garment. The background consists entirely of out-of-focus green leaves and branches, creating a bokeh effect with dappled light filtering through, alongside a diagonal metal railing behind \u003cchar1>. The camera remains static throughout the duration, keeping \u003cchar1>'s changing facial expressions as the central focus.",
+        "quotes": [
+          "Since when?"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 4.41,
+        "end": 5.74,
+        "text": "This shot is a medium close-up of \u003cchar2>, framed from the chest up. He is positioned on the right side of the frame, facing left towards \u003cchar1>. \u003cchar2> has short grey hair and is wearing a brown fleece jacket over a light-colored polo shirt. The lighting is consistent with the previous shot, natural daylight illuminating his face from the front left and highlighting the soft texture of his fleece jacket. His expression is serious and engaged as he speaks directly to \u003cchar1>, saying in a measured tone, \"Never see your wallet in the bar, do we?\" His mouth moves deliberately and his eyes remain fixed on \u003cchar1>, with his eyebrows slightly furrowed to convey concentration. On the left edge of the frame, the back of \u003cchar1>'s head and ear are visible, heavily out of focus, serving as an over-the-shoulder anchor. The background is a wall of dark green foliage, slightly out of focus but denser and darker than before. The camera is static, maintaining steady focus on \u003cchar2>'s face to capture his dialogue and nuanced reaction within the shallow depth of field.",
+        "quotes": [
+          "Never see your wallet in the bar, do we?"
+        ]
+      },
+      {
+        "n": 3,
+        "start": 5.77,
+        "end": 9.24,
+        "text": "A wide shot establishes the scene in a sunny backyard patio area with a paved stone ground. On the left, \u003cchar1> stands next to a large silver and black gas BBQ grill, wearing his black shirt and blue jeans. Looking across at \u003cchar2>, \u003cchar1> asks \"Why?\" before bending forward at the waist to pick up a cardboard box from the ground near the grill's legs, which is white with blue and gold text reading \"Corona Extra\". Straightening up while taking out a bottle, \u003cchar1> adds in a casual tone, \"Just a beer.\" \u003cchar2> stands to the right of the grill, facing \u003cchar1>, wearing his brown fleece and jeans, observing his actions closely. To the right of the standing men, three other men are seated on wooden folding chairs arranged in a semi-circle: \u003cchar3> is closest to the center wearing a blue shirt and leaning forward with his arm on the chair back; \u003cchar4> is in the foreground with his back to the camera in a striped shirt; and \u003cchar5> is on the far right in profile wearing a yellow t-shirt and jeans, watching the exchange. Behind the group is a tall, dense green hedge filling the background under dappled sunlight, with a metal railing behind the grill. The static camera captures the entire social gathering.",
+        "quotes": [
+          "Why?",
+          "Corona Extra",
+          "Just a beer."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 9.28,
+        "end": 10.61,
+        "text": "The camera returns to a medium close-up of \u003cchar2>, framed from the chest up on the right side of the frame, facing left. His neatly combed grey hair catches the natural daylight, and the brown fleece jacket's texture is distinctly visible. Looking intently at \u003cchar1> with an earnest, focused expression and a slight tension in his furrowed brow, \u003cchar2> speaks clearly, saying \"That's your guilty conscience, Fitz.\" Natural light creates a soft sheen on \u003cchar2>'s forehead and emphasizes the contours around his mouth and eyes. On the left edge of the frame, the blurred back of \u003cchar1>'s head maintains the over-the-shoulder perspective against the dark green hedge background. The static shot allows the viewer to focus entirely on \u003cchar2>'s dialogue delivery, steady head posture, and subtle facial nuances during the serious interaction.",
+        "quotes": [
+          "That's your guilty conscience, Fitz."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 10.64,
+        "end": 13.65,
+        "text": "This shot is a medium close-up of \u003cchar1>, framed from the chest up and positioned on the left side of the frame. Wearing the black shirt with vertical white stitching prominently displayed down the front, he looks towards \u003cchar2> on the right. Initially, \u003cchar1> has a slight smile with his lips curved upwards and bright eyes. As he begins to speak, his expression becomes more animated and he tilts his head slightly while daylight illuminates his face and thinning hair. He delivers his retort in a relaxed, calm tone, saying \"It's a beer.\" On the right edge of the frame, \u003cchar2>'s shoulder and ear are visible out of focus. The background consists of sunlit green foliage behind a diagonal metal railing. The static camera captures \u003cchar1>'s natural blinking, clear mouth movements, and relaxed demeanor as he finishes speaking.",
+        "quotes": [
+          "It's a beer."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 13.68,
+        "end": 16.22,
+        "text": "The final shot is a medium close-up of \u003cchar2>, framed from the chest up on the right side of the frame, facing left. His expression is noticeably more intense than in previous shots; his grey eyebrows are furrowed and his eyes are narrowed slightly as he looks directly at \u003cchar1>. Moving his head slightly to emphasize his words, \u003cchar2> opens his mouth and speaks in a firm, urgent manner, saying \"Come on, Fitz, I can see it in your face. Tell us.\" Natural daylight remains consistent across the scene, highlighting \u003cchar2>'s skin texture, short grey hair, brown fleece jacket, and polo shirt collar. On the left edge of the frame, the back of \u003cchar1>'s head is visible in soft blur against the dark green hedge background. The static camera holds sharp focus on \u003cchar2>'s face as he delivers his line with conviction.",
+        "quotes": [
+          "Come on, Fitz, I can see it in your face. Tell us."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: A middle-aged Caucasian male with a fair complexion and a high forehead showing a receding hairline. His hair is thinning, light brown or dark blond, combed back but slightly wispy at the front. He has blue eyes and visible crow's feet when smiling. He is clean-shaven. He wears a black short-sleeved button-down shirt made of a smooth fabric, featuring vertical rows of white stitching or piping running down the front panels on either side of the button placket. The collar is open at the neck. He appears to be of average build.\n\u003cchar2>: An older Caucasian male with short, neatly styled grey hair that is swept back. He has a fair skin tone with some age lines on his forehead and around his mouth. His eyebrows are light grey. He is wearing a brown zip-up fleece jacket with a high collar; the inside of the collar reveals a darker, possibly navy blue lining. Underneath the fleece, he wears a light grey or pale green polo shirt with a white collar and buttons at the placket. He has a sturdy, average build.\n\u003cchar3>: A male with dark, curly hair that is short on the sides and slightly fuller on top. He is seen primarily from the back. He wears a light blue long-sleeved button-down shirt that appears slightly wrinkled. He is seated on a wooden chair. His posture is relaxed, leaning slightly forward with one arm resting on the back of the chair.\n\u003cchar4>: A male with dark, curly hair similar in texture to the man beside him. He is viewed from the rear. He wears a white short-sleeved shirt with thin, vertical grey or blue stripes. The shirt has a collar. He is seated on a wooden slat chair, facing away from the camera towards the standing men.\n\u003cchar5>: A male with short, dark hair that is receding at the temples. He has a fair complexion. He is seen in profile facing left. He wears a pale yellow short-sleeved t-shirt and blue denim jeans. He is seated on a wooden folding chair, leaning back slightly with his hands resting on his legs or the chair arms.\n\nShots:\nShot 1 [0.00s-4.37s]: The shot opens with a medium close-up of \u003cchar1>, framed from the upper chest to the top of the head. He is positioned slightly left of center, angled towards the right where \u003cchar2> stands. \u003cchar1> is wearing a black shirt with distinct vertical white stitching. The lighting is natural daylight, casting soft highlights on the left side of \u003cchar1>'s forehead and nose, while the right side of his face is in slight shadow. His hair is thinning and light brown. As he pops up into frame, \u003cchar1> is smiling broadly, his mouth open showing his upper teeth, and his eyes crinkling at the corners as he asks with animated amusement, \"Since when?\" As the shot progresses, his smile fades; his lips close and press together slightly, and his expression shifts to a more neutral, serious, and contemplative look while his eyebrows raise slightly. On the right edge of the frame, the back of \u003cchar2>'s head and shoulder are visible, blurred by the shallow depth of field; \u003cchar2> wears a brown garment. The background consists entirely of out-of-focus green leaves and branches, creating a bokeh effect with dappled light filtering through, alongside a diagonal metal railing behind \u003cchar1>. The camera remains static throughout the duration, keeping \u003cchar1>'s changing facial expressions as the central focus.\nShot 2 [4.41s-5.74s]: This shot is a medium close-up of \u003cchar2>, framed from the chest up. He is positioned on the right side of the frame, facing left towards \u003cchar1>. \u003cchar2> has short grey hair and is wearing a brown fleece jacket over a light-colored polo shirt. The lighting is consistent with the previous shot, natural daylight illuminating his face from the front left and highlighting the soft texture of his fleece jacket. His expression is serious and engaged as he speaks directly to \u003cchar1>, saying in a measured tone, \"Never see your wallet in the bar, do we?\" His mouth moves deliberately and his eyes remain fixed on \u003cchar1>, with his eyebrows slightly furrowed to convey concentration. On the left edge of the frame, the back of \u003cchar1>'s head and ear are visible, heavily out of focus, serving as an over-the-shoulder anchor. The background is a wall of dark green foliage, slightly out of focus but denser and darker than before. The camera is static, maintaining steady focus on \u003cchar2>'s face to capture his dialogue and nuanced reaction within the shallow depth of field.\nShot 3 [5.77s-9.24s]: A wide shot establishes the scene in a sunny backyard patio area with a paved stone ground. On the left, \u003cchar1> stands next to a large silver and black gas BBQ grill, wearing his black shirt and blue jeans. Looking across at \u003cchar2>, \u003cchar1> asks \"Why?\" before bending forward at the waist to pick up a cardboard box from the ground near the grill's legs, which is white with blue and gold text reading \"Corona Extra\". Straightening up while taking out a bottle, \u003cchar1> adds in a casual tone, \"Just a beer.\" \u003cchar2> stands to the right of the grill, facing \u003cchar1>, wearing his brown fleece and jeans, observing his actions closely. To the right of the standing men, three other men are seated on wooden folding chairs arranged in a semi-circle: \u003cchar3> is closest to the center wearing a blue shirt and leaning forward with his arm on the chair back; \u003cchar4> is in the foreground with his back to the camera in a striped shirt; and \u003cchar5> is on the far right in profile wearing a yellow t-shirt and jeans, watching the exchange. Behind the group is a tall, dense green hedge filling the background under dappled sunlight, with a metal railing behind the grill. The static camera captures the entire social gathering.\nShot 4 [9.28s-10.61s]: The camera returns to a medium close-up of \u003cchar2>, framed from the chest up on the right side of the frame, facing left. His neatly combed grey hair catches the natural daylight, and the brown fleece jacket's texture is distinctly visible. Looking intently at \u003cchar1> with an earnest, focused expression and a slight tension in his furrowed brow, \u003cchar2> speaks clearly, saying \"That's your guilty conscience, Fitz.\" Natural light creates a soft sheen on \u003cchar2>'s forehead and emphasizes the contours around his mouth and eyes. On the left edge of the frame, the blurred back of \u003cchar1>'s head maintains the over-the-shoulder perspective against the dark green hedge background. The static shot allows the viewer to focus entirely on \u003cchar2>'s dialogue delivery, steady head posture, and subtle facial nuances during the serious interaction.\nShot 5 [10.64s-13.65s]: This shot is a medium close-up of \u003cchar1>, framed from the chest up and positioned on the left side of the frame. Wearing the black shirt with vertical white stitching prominently displayed down the front, he looks towards \u003cchar2> on the right. Initially, \u003cchar1> has a slight smile with his lips curved upwards and bright eyes. As he begins to speak, his expression becomes more animated and he tilts his head slightly while daylight illuminates his face and thinning hair. He delivers his retort in a relaxed, calm tone, saying \"It's a beer.\" On the right edge of the frame, \u003cchar2>'s shoulder and ear are visible out of focus. The background consists of sunlit green foliage behind a diagonal metal railing. The static camera captures \u003cchar1>'s natural blinking, clear mouth movements, and relaxed demeanor as he finishes speaking.\nShot 6 [13.68s-16.22s]: The final shot is a medium close-up of \u003cchar2>, framed from the chest up on the right side of the frame, facing left. His expression is noticeably more intense than in previous shots; his grey eyebrows are furrowed and his eyes are narrowed slightly as he looks directly at \u003cchar1>. Moving his head slightly to emphasize his words, \u003cchar2> opens his mouth and speaks in a firm, urgent manner, saying \"Come on, Fitz, I can see it in your face. Tell us.\" Natural daylight remains consistent across the scene, highlighting \u003cchar2>'s skin texture, short grey hair, brown fleece jacket, and polo shirt collar. On the left edge of the frame, the back of \u003cchar1>'s head is visible in soft blur against the dark green hedge background. The static camera holds sharp focus on \u003cchar2>'s face as he delivers his line with conviction."
+  },
+  {
+    "out": "0005",
+    "title": "Steady Beep",
+    "logline": "An ECG line, a white coat, and a quiet hospital room held together by the monitor's pulse.",
+    "setting": "Hospital ward",
+    "language": "English / SFX",
+    "duration": 17.21,
+    "video": "static/videos/0005.mp4",
+    "poster": "static/posters/0005.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 3,
+    "n_shots": 4,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Doctor in white coat",
+        "text": "A young adult male with a fair complexion and a slim, tall build. He has dark, straight hair cut in a layered style that sweeps across his forehead to the side. He is wearing a crisp white medical lab coat that is open at the front, revealing a dark, possibly black or deep brown, collared shirt underneath. The coat has standard lapels and long sleeves. He appears professional and focused, with a serious facial expression."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Patient in hospital bed",
+        "text": "A young adult female with short, dark hair that frames her face. She has a fair complexion and is lying supine. She is wearing a hospital gown with a distinctive pattern of white circles or dots on a dark grey or purple background. Several thin white wires from an ECG monitor are attached to her upper chest area. She is covered from the waist down by a fluffy white hospital blanket. Her eyes are closed or looking upward weakly."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Visitor in the chair",
+        "text": "A young adult male with short dark hair and wearing glasses. He has a slim build and is dressed casually in a plain white t-shirt with a black graphic or text on the left sleeve. He is wearing light beige or khaki trousers. He has a large, soft-sided beige canvas bag resting on his lap. He is seated in a dark wooden chair with armrests."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 3.32,
+        "text": "The shot is an extreme close-up of a digital medical monitor screen, filling the entire frame. The background of the screen displays a dark, reddish-brown gradient. A bright, glowing blue line traces an electrocardiogram waveform, moving steadily from left to right across the monitor display. The waveform demonstrates a regular cardiac rhythm with distinct P waves, tall narrow QRS complexes, and T waves, indicating a heartbeat. As the line traces steadily across the screen, the monitor emits rhythmic electronic tones, sounding \"Beep.\" and repeating with another \"Beep.\" at regular intervals. The glowing line has a slight pixelated or jagged texture, characteristic of digital displays. In the top left corner, a pink logo with stylized Chinese characters \"惡作劇2吻\" is visible. The light emitted from the screen serves as the primary illumination, creating a soft glow around the blue line. The waveform repeats consistently throughout the duration of the shot, suggesting a stable heart rate, with no other objects or subjects visible in this tight framing.",
+        "quotes": [
+          "Beep.",
+          "Beep.",
+          "惡作劇2吻"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 3.36,
+        "end": 11.12,
+        "text": "The scene cuts to a warmly lit hospital room in a medium shot at eye level. In the foreground, \u003cchar2> lies supine in a hospital bed, resting still and covered by a fluffy white blanket up to her waist. \u003cchar2> wears a patterned hospital gown with white dots on a dark background, and thin white ECG wires are attached across her chest, leading off-screen to the right toward the monitor. To the right of the bed, \u003cchar1> stands wearing a white doctor's coat over a dark collared shirt, holding a grey medical folder in both hands. The patient monitor continues its steady, periodic sequence of electronic signals, sounding \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", and \"Beep.\" as \u003cchar1> looks down at the medical chart and quietly flips through the pages to review them. In the background on the left, \u003cchar3> sits in a dark wooden armchair wearing a white t-shirt and beige pants, with a beige canvas bag resting on his lap. \u003cchar3> props his chin on his hand and watches the bed with a concerned and patient expression. Behind \u003cchar3>, beige curtains with a vertical wavy pattern hang down from ceiling to floor. On the right side of the bed, the medical monitor on a wheeled metal stand shows a glowing blue screen under the room's soft, yellowish ambient lighting.",
+        "quotes": [
+          "Beep.",
+          "Beep.",
+          "Beep.",
+          "Beep.",
+          "Beep.",
+          "Beep.",
+          "Beep.",
+          "Beep."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 11.16,
+        "end": 14.64,
+        "text": "A medium close-up focuses on \u003cchar1> from the chest up against a plain beige wall background. \u003cchar1> wears the crisp white medical coat with its lapels clearly visible over a dark collared shirt, with his dark hair styled in a layered side sweep across his forehead. As the medical monitor continues to emit its periodic electronic tones of \"Beep.\", \"Beep.\", \"Beep.\", and \"Beep.\", \u003cchar1> initially looks downward, inspecting the chart held just out of frame. He then lifts his gaze and turns his head slightly toward his left, looking toward the off-screen patient with a serious, focused, and attentive facial expression. Behind him on the wall, a white electrical outlet is visible, while to the right, a medical device with a small blue display screen stands slightly out of focus in the shallow depth of field. Soft indoor lighting illuminates the side of \u003cchar1>'s face and highlights the fabric of the white coat.",
+        "quotes": [
+          "Beep.",
+          "Beep.",
+          "Beep.",
+          "Beep."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 14.68,
+        "end": 17.24,
+        "text": "The camera cuts back to the wider medium shot of the hospital room, showing the same spatial arrangement as before. In the foreground, \u003cchar2> remains lying quietly and motionless in the bed, covered by the rumpled white blanket with the thin ECG wires visible on her dot-patterned gown. To the right of the bed, \u003cchar1> stands in his white lab coat, lowering the medical folder slightly while continuing to monitor the patient's state. The electronic equipment continues its steady rhythm, sounding \"Beep.\" followed by another \"Beep.\" across the room. In the background on the left, \u003cchar3> remains seated in the wooden chair, keeping his hand near his face as he silently watches \u003cchar1> and \u003cchar2>. The beige curtains with wavy patterns drape in the background, and the medical equipment stand on the right displays hanging cables beside the bedside table, sustaining a quiet and tense atmosphere.",
+        "quotes": [
+          "Beep.",
+          "Beep."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: A young adult male with a fair complexion and a slim, tall build. He has dark, straight hair cut in a layered style that sweeps across his forehead to the side. He is wearing a crisp white medical lab coat that is open at the front, revealing a dark, possibly black or deep brown, collared shirt underneath. The coat has standard lapels and long sleeves. He appears professional and focused, with a serious facial expression.\n\u003cchar2>: A young adult female with short, dark hair that frames her face. She has a fair complexion and is lying supine. She is wearing a hospital gown with a distinctive pattern of white circles or dots on a dark grey or purple background. Several thin white wires from an ECG monitor are attached to her upper chest area. She is covered from the waist down by a fluffy white hospital blanket. Her eyes are closed or looking upward weakly.\n\u003cchar3>: A young adult male with short dark hair and wearing glasses. He has a slim build and is dressed casually in a plain white t-shirt with a black graphic or text on the left sleeve. He is wearing light beige or khaki trousers. He has a large, soft-sided beige canvas bag resting on his lap. He is seated in a dark wooden chair with armrests.\n\nShots:\nShot 1 [0.00s-3.32s]: The shot is an extreme close-up of a digital medical monitor screen, filling the entire frame. The background of the screen displays a dark, reddish-brown gradient. A bright, glowing blue line traces an electrocardiogram waveform, moving steadily from left to right across the monitor display. The waveform demonstrates a regular cardiac rhythm with distinct P waves, tall narrow QRS complexes, and T waves, indicating a heartbeat. As the line traces steadily across the screen, the monitor emits rhythmic electronic tones, sounding \"Beep.\" and repeating with another \"Beep.\" at regular intervals. The glowing line has a slight pixelated or jagged texture, characteristic of digital displays. In the top left corner, a pink logo with stylized Chinese characters \"惡作劇2吻\" is visible. The light emitted from the screen serves as the primary illumination, creating a soft glow around the blue line. The waveform repeats consistently throughout the duration of the shot, suggesting a stable heart rate, with no other objects or subjects visible in this tight framing.\nShot 2 [3.36s-11.12s]: The scene cuts to a warmly lit hospital room in a medium shot at eye level. In the foreground, \u003cchar2> lies supine in a hospital bed, resting still and covered by a fluffy white blanket up to her waist. \u003cchar2> wears a patterned hospital gown with white dots on a dark background, and thin white ECG wires are attached across her chest, leading off-screen to the right toward the monitor. To the right of the bed, \u003cchar1> stands wearing a white doctor's coat over a dark collared shirt, holding a grey medical folder in both hands. The patient monitor continues its steady, periodic sequence of electronic signals, sounding \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", \"Beep.\", and \"Beep.\" as \u003cchar1> looks down at the medical chart and quietly flips through the pages to review them. In the background on the left, \u003cchar3> sits in a dark wooden armchair wearing a white t-shirt and beige pants, with a beige canvas bag resting on his lap. \u003cchar3> props his chin on his hand and watches the bed with a concerned and patient expression. Behind \u003cchar3>, beige curtains with a vertical wavy pattern hang down from ceiling to floor. On the right side of the bed, the medical monitor on a wheeled metal stand shows a glowing blue screen under the room's soft, yellowish ambient lighting.\nShot 3 [11.16s-14.64s]: A medium close-up focuses on \u003cchar1> from the chest up against a plain beige wall background. \u003cchar1> wears the crisp white medical coat with its lapels clearly visible over a dark collared shirt, with his dark hair styled in a layered side sweep across his forehead. As the medical monitor continues to emit its periodic electronic tones of \"Beep.\", \"Beep.\", \"Beep.\", and \"Beep.\", \u003cchar1> initially looks downward, inspecting the chart held just out of frame. He then lifts his gaze and turns his head slightly toward his left, looking toward the off-screen patient with a serious, focused, and attentive facial expression. Behind him on the wall, a white electrical outlet is visible, while to the right, a medical device with a small blue display screen stands slightly out of focus in the shallow depth of field. Soft indoor lighting illuminates the side of \u003cchar1>'s face and highlights the fabric of the white coat.\nShot 4 [14.68s-17.24s]: The camera cuts back to the wider medium shot of the hospital room, showing the same spatial arrangement as before. In the foreground, \u003cchar2> remains lying quietly and motionless in the bed, covered by the rumpled white blanket with the thin ECG wires visible on her dot-patterned gown. To the right of the bed, \u003cchar1> stands in his white lab coat, lowering the medical folder slightly while continuing to monitor the patient's state. The electronic equipment continues its steady rhythm, sounding \"Beep.\" followed by another \"Beep.\" across the room. In the background on the left, \u003cchar3> remains seated in the wooden chair, keeping his hand near his face as he silently watches \u003cchar1> and \u003cchar2>. The beige curtains with wavy patterns drape in the background, and the medical equipment stand on the right displays hanging cables beside the bedside table, sustaining a quiet and tense atmosphere."
+  },
+  {
+    "out": "0006",
+    "title": "If Anything Happens",
+    "logline": "A flag pin, a neck tattoo, a hand on an arm — three people in a red room arguing over who she is with now.",
+    "setting": "Private lounge",
+    "language": "English",
+    "duration": 16.5,
+    "video": "static/videos/0006.mp4",
+    "poster": "static/posters/0006.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 3,
+    "n_shots": 5,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Bald man, flag pin",
+        "text": "A bald man with light skin and a short, well-groomed beard and mustache. \u003cchar1> has a serious facial structure with defined jawline. \u003cchar1> is wearing a dark navy or black suit jacket that appears to be made of wool or a similar fine fabric. Underneath, \u003cchar1> wears a crisp white dress shirt with a standard collar. The tie is dark with a repeating pattern of orange and blue circles or geometric shapes. On the left lapel of the suit jacket, there is a small pin in the shape of the United States flag. \u003cchar1>'s ears are visible and close to the head. The lighting highlights the texture of \u003cchar1>'s skin and the stubble of the beard. The overall appearance is professional and authoritative."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man with neck tattoo",
+        "text": "A man with short dark hair, cut very short on the sides and slightly longer on top. \u003cchar2> has light skin and a goatee beard. There is a visible tattoo on the left side of \u003cchar2>'s neck, appearing to be script or symbols in black ink. \u003cchar2> is wearing a grey suit jacket, a grey dress shirt, and a dark tie with a subtle swirling pattern. On the left wrist, \u003cchar2> wears a watch with a black leather strap and a silver case. On the right ring finger, there is a gold ring with a square face, possibly set with stones. \u003cchar2>'s build is average. The clothing fits well. The tattoo adds a distinctive element to \u003cchar2>'s otherwise formal appearance."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Blonde woman, grey jacket",
+        "text": "A woman with long, wavy blonde hair that falls past the shoulders. \u003cchar3> has light skin and a slender build. \u003cchar3> is wearing a grey jacket that appears to be made of leather or a similar material, with a collar and metal snaps or buttons. Underneath the jacket, \u003cchar3> wears a plain white crew-neck t-shirt. \u003cchar3>'s hair is parted to the side and has a natural wave. The makeup is subtle, enhancing the eyes and lips. \u003cchar3>'s expression is often serious or concerned. The jacket has a slightly worn or casual look compared to the suits worn by the men. The white shirt provides a contrast to the grey jacket. \u003cchar3>'s posture is often upright and attentive."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 0.83,
+        "text": "Static close-up shot framing \u003cchar1> from the upper chest. \u003cchar1> is a bald man with a short, groomed beard and light skin. \u003cchar1> wears a dark navy or black suit jacket, a crisp white dress shirt, and a tie with a repeating pattern of orange and blue circles. A small United States flag pin is affixed to the left lapel of the jacket. \u003cchar1> begins with \u003cchar1>'s gaze cast downward, eyelids lowered, conveying a somber or contemplative mood amidst quiet room ambience. Slowly, \u003cchar1> lifts \u003cchar1>'s head and eyes to look forward, engaging with someone off-screen. The lighting is warm and soft, illuminating the right side of \u003cchar1>'s face more strongly, casting gentle shadows on the left. The background is out of focus, showing a window with a grid pattern and warm light filtering through, suggesting an interior space during the day. The depth of field is shallow, keeping the focus entirely on \u003cchar1>'s facial expression. The texture of \u003cchar1>'s suit jacket appears smooth and tailored. The tie knot is tight and centered. \u003cchar1>'s skin texture is visible, showing pores and stubble. The movement of \u003cchar1>'s head is slow and deliberate. The background window has a frosted or textured glass pane. The light coming through is diffused. The overall color palette is warm, with browns, oranges, and dark blues. The shot duration is short, capturing a moment of reflection before action. The camera angle is eye-level, creating a sense of equality or direct engagement with the viewer or other character. The background includes a blurred structure that looks like a shelf or partition with a checkered pattern on the left side. The light source creates a highlight on \u003cchar1>'s bald head. The shadows under \u003cchar1>'s chin are soft. The color of the tie is vibrant against the dark suit. The white shirt collar is stiff. The shot establishes \u003cchar1> as a figure of authority or importance due to the suit and flag pin.",
+        "quotes": []
+      },
+      {
+        "n": 2,
+        "start": 0.88,
+        "end": 5.0,
+        "text": "The shot begins with an extreme close-up on a hand, belonging to \u003cchar2>, resting on an arm covered in grey fabric. The hand wears a gold ring with a square face on the ring finger and a watch with a black leather strap and silver casing on the wrist. The camera then cuts to a medium close-up of \u003cchar2>, a man with short dark hair faded on the sides and a goatee. \u003cchar2> wears a grey suit jacket over a grey shirt and a dark tie with a subtle pattern. A tattoo is visible on the left side of \u003cchar2>'s neck. \u003cchar2> is speaking, with \u003cchar2>'s mouth moving and eyes wide, expressing intensity or urgency as \u003cchar2> says \"She'd give you that same advice.\" in a firm, direct tone. \u003cchar2> looks slightly off-camera to the right. The background is a deep red wall, dimly lit. The lighting is low-key, creating contrast on \u003cchar2>'s face. The camera is static. The focus shifts from the hand to \u003cchar2>'s face. The ring on \u003cchar2>'s finger catches the light, showing a metallic sheen. The watch face is dark. The grey fabric of \u003cchar3>'s sleeve has a slight sheen, suggesting leather or synthetic material. When the camera cuts to \u003cchar2>, the background wall has a subtle texture, possibly wallpaper or painted plaster. The lighting creates a rim light on \u003cchar2>'s hair. \u003cchar2>'s eyes are wide, showing the whites clearly. The tie has a swirling pattern. The shirt collar is buttoned up. The shot conveys a sense of intimacy or conspiracy due to the close proximity and touch. A glass of water is visible in the foreground on the left, out of focus. The hand on the arm suggests a connection or reassurance between the characters.",
+        "quotes": [
+          "She'd give you that same advice."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 5.05,
+        "end": 6.55,
+        "text": "Medium close-up of \u003cchar3>, a woman with long, wavy blonde hair parted to the side. \u003cchar3> has light skin and is wearing a grey jacket that appears to be leather or a similar material, over a white crew-neck t-shirt. \u003cchar3> is looking slightly to the left of the camera, then shifts \u003cchar3>'s gaze forward. \u003cchar3>'s expression is serious, with eyebrows slightly furrowed and lips pressed together, indicating concern or skepticism while remaining quiet. The lighting is warm, highlighting \u003cchar3>'s hair and face. The background is dark and out of focus, featuring a screen or wall with a geometric pattern, possibly wood or metal. The camera remains static throughout the shot. The depth of field isolates \u003cchar3> from the background. \u003cchar3>'s hair has highlights and lowlights, adding depth to the blonde color. The jacket has a collar with metal snaps or buttons. The white t-shirt is plain. \u003cchar3>'s makeup is natural, with defined eyelashes. The background screen has a repeating diamond or lattice pattern. The light falls on \u003cchar3>'s left cheek, creating a highlight. The shadow on the right side of \u003cchar3>'s face adds dimension. The shot is steady, allowing the viewer to focus on \u003cchar3>'s reaction. The mood is tense. The framing is tight on \u003cchar3>'s face, emphasizing the emotional state. The jacket material reflects light slightly, indicating a smooth texture. \u003cchar3>'s neck is visible above the t-shirt collar.",
+        "quotes": []
+      },
+      {
+        "n": 4,
+        "start": 6.59,
+        "end": 8.88,
+        "text": "Close-up shot of \u003cchar1>, similar to the first shot. \u003cchar1> is looking slightly to the right of the camera, speaking with visible tension in \u003cchar1>'s jaw and furrowed brow as \u003cchar1> delivers \"I'm telling you right now, if anything happens to her.\" in a low, warning voice. \u003cchar1>'s mouth moves distinctly as \u003cchar1> talks, and \u003cchar1>'s expression is earnest and serious. \u003cchar1>'s eyes are focused on the person \u003cchar1> is addressing. The lighting remains consistent, warm and directional from the right. The background shows a window with a grid pattern, blurred. \u003cchar1>'s suit, shirt, and tie are visible at the bottom of the frame. The camera is static. The shot emphasizes \u003cchar1>'s facial expressions and dialogue delivery. The focus is sharp on \u003cchar1>'s eyes and beard. \u003cchar1>'s eyebrows are slightly raised. The beard is trimmed short, covering the jawline and chin. The flag pin is small but distinct, with red, white, and blue colors. The window in the background has a wooden frame. The light source seems to be natural light from the window, supplemented by indoor lighting. The shot is a reaction shot, showing \u003cchar1>'s response in the conversation. The focus is sharp on the eyes. The depth of field blurs the background completely. The skin tone is even. The suit fabric looks woolen. \u003cchar1>'s head is slightly tilted. The expression suggests \u003cchar1> is explaining or pleading a case.",
+        "quotes": [
+          "I'm telling you right now, if anything happens to her."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 8.93,
+        "end": 16.02,
+        "text": "Medium shot framing \u003cchar2> and \u003cchar3> seated at a table. \u003cchar2> is on the left, wearing the grey suit, and \u003cchar3> is on the right, in the grey jacket. \u003cchar2> has \u003cchar2>'s left hand placed on \u003cchar3>'s right upper arm, a gesture of reassurance or connection. Both characters are looking up and to the left, towards \u003cchar1> who is standing or positioned higher. \u003cchar2> leans back in the chair, tilting \u003cchar2>'s head back, and asks \"Why would I wanna hurt Laurel?\" in an incredulous tone, followed after a brief pause by \"Hmm?\" while searching \u003cchar1>'s face. \u003cchar3> crosses \u003cchar3>'s arms over \u003cchar3>'s chest, maintaining a guarded and serious posture. \u003cchar2> then adds firmly, \"She's with me now.\" On the table in the foreground, there are clear glasses and dark cups, possibly for tea or coffee. The background features a red wall and a large window with a lattice design, casting a pattern of light and shadow on the wall. The lighting is warm and atmospheric. The camera is static. The table surface is dark wood. The glasses are clear and empty or contain water. The cups are black ceramic. \u003cchar2>'s suit jacket has a pocket square or detail on the pocket. \u003cchar3>'s hair falls over the jacket shoulder. The lattice window casts a grid of shadows on the red wall. The room feels like a private dining area or a lounge. The lighting is moody, with pools of light and shadow. \u003cchar2>'s posture is relaxed but attentive. \u003cchar3>'s posture is defensive. The interaction captures the reaction of the seated pair to the standing figure. The background wall is painted a deep red color. The window lattice is likely wood.",
+        "quotes": [
+          "Why would I wanna hurt Laurel?",
+          "Hmm?",
+          "She's with me now."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: A bald man with light skin and a short, well-groomed beard and mustache. \u003cchar1> has a serious facial structure with defined jawline. \u003cchar1> is wearing a dark navy or black suit jacket that appears to be made of wool or a similar fine fabric. Underneath, \u003cchar1> wears a crisp white dress shirt with a standard collar. The tie is dark with a repeating pattern of orange and blue circles or geometric shapes. On the left lapel of the suit jacket, there is a small pin in the shape of the United States flag. \u003cchar1>'s ears are visible and close to the head. The lighting highlights the texture of \u003cchar1>'s skin and the stubble of the beard. The overall appearance is professional and authoritative.\n\u003cchar2>: A man with short dark hair, cut very short on the sides and slightly longer on top. \u003cchar2> has light skin and a goatee beard. There is a visible tattoo on the left side of \u003cchar2>'s neck, appearing to be script or symbols in black ink. \u003cchar2> is wearing a grey suit jacket, a grey dress shirt, and a dark tie with a subtle swirling pattern. On the left wrist, \u003cchar2> wears a watch with a black leather strap and a silver case. On the right ring finger, there is a gold ring with a square face, possibly set with stones. \u003cchar2>'s build is average. The clothing fits well. The tattoo adds a distinctive element to \u003cchar2>'s otherwise formal appearance.\n\u003cchar3>: A woman with long, wavy blonde hair that falls past the shoulders. \u003cchar3> has light skin and a slender build. \u003cchar3> is wearing a grey jacket that appears to be made of leather or a similar material, with a collar and metal snaps or buttons. Underneath the jacket, \u003cchar3> wears a plain white crew-neck t-shirt. \u003cchar3>'s hair is parted to the side and has a natural wave. The makeup is subtle, enhancing the eyes and lips. \u003cchar3>'s expression is often serious or concerned. The jacket has a slightly worn or casual look compared to the suits worn by the men. The white shirt provides a contrast to the grey jacket. \u003cchar3>'s posture is often upright and attentive.\n\nShots:\nShot 1 [0.00s-0.83s]: Static close-up shot framing \u003cchar1> from the upper chest. \u003cchar1> is a bald man with a short, groomed beard and light skin. \u003cchar1> wears a dark navy or black suit jacket, a crisp white dress shirt, and a tie with a repeating pattern of orange and blue circles. A small United States flag pin is affixed to the left lapel of the jacket. \u003cchar1> begins with \u003cchar1>'s gaze cast downward, eyelids lowered, conveying a somber or contemplative mood amidst quiet room ambience. Slowly, \u003cchar1> lifts \u003cchar1>'s head and eyes to look forward, engaging with someone off-screen. The lighting is warm and soft, illuminating the right side of \u003cchar1>'s face more strongly, casting gentle shadows on the left. The background is out of focus, showing a window with a grid pattern and warm light filtering through, suggesting an interior space during the day. The depth of field is shallow, keeping the focus entirely on \u003cchar1>'s facial expression. The texture of \u003cchar1>'s suit jacket appears smooth and tailored. The tie knot is tight and centered. \u003cchar1>'s skin texture is visible, showing pores and stubble. The movement of \u003cchar1>'s head is slow and deliberate. The background window has a frosted or textured glass pane. The light coming through is diffused. The overall color palette is warm, with browns, oranges, and dark blues. The shot duration is short, capturing a moment of reflection before action. The camera angle is eye-level, creating a sense of equality or direct engagement with the viewer or other character. The background includes a blurred structure that looks like a shelf or partition with a checkered pattern on the left side. The light source creates a highlight on \u003cchar1>'s bald head. The shadows under \u003cchar1>'s chin are soft. The color of the tie is vibrant against the dark suit. The white shirt collar is stiff. The shot establishes \u003cchar1> as a figure of authority or importance due to the suit and flag pin.\nShot 2 [0.88s-5.00s]: The shot begins with an extreme close-up on a hand, belonging to \u003cchar2>, resting on an arm covered in grey fabric. The hand wears a gold ring with a square face on the ring finger and a watch with a black leather strap and silver casing on the wrist. The camera then cuts to a medium close-up of \u003cchar2>, a man with short dark hair faded on the sides and a goatee. \u003cchar2> wears a grey suit jacket over a grey shirt and a dark tie with a subtle pattern. A tattoo is visible on the left side of \u003cchar2>'s neck. \u003cchar2> is speaking, with \u003cchar2>'s mouth moving and eyes wide, expressing intensity or urgency as \u003cchar2> says \"She'd give you that same advice.\" in a firm, direct tone. \u003cchar2> looks slightly off-camera to the right. The background is a deep red wall, dimly lit. The lighting is low-key, creating contrast on \u003cchar2>'s face. The camera is static. The focus shifts from the hand to \u003cchar2>'s face. The ring on \u003cchar2>'s finger catches the light, showing a metallic sheen. The watch face is dark. The grey fabric of \u003cchar3>'s sleeve has a slight sheen, suggesting leather or synthetic material. When the camera cuts to \u003cchar2>, the background wall has a subtle texture, possibly wallpaper or painted plaster. The lighting creates a rim light on \u003cchar2>'s hair. \u003cchar2>'s eyes are wide, showing the whites clearly. The tie has a swirling pattern. The shirt collar is buttoned up. The shot conveys a sense of intimacy or conspiracy due to the close proximity and touch. A glass of water is visible in the foreground on the left, out of focus. The hand on the arm suggests a connection or reassurance between the characters.\nShot 3 [5.05s-6.55s]: Medium close-up of \u003cchar3>, a woman with long, wavy blonde hair parted to the side. \u003cchar3> has light skin and is wearing a grey jacket that appears to be leather or a similar material, over a white crew-neck t-shirt. \u003cchar3> is looking slightly to the left of the camera, then shifts \u003cchar3>'s gaze forward. \u003cchar3>'s expression is serious, with eyebrows slightly furrowed and lips pressed together, indicating concern or skepticism while remaining quiet. The lighting is warm, highlighting \u003cchar3>'s hair and face. The background is dark and out of focus, featuring a screen or wall with a geometric pattern, possibly wood or metal. The camera remains static throughout the shot. The depth of field isolates \u003cchar3> from the background. \u003cchar3>'s hair has highlights and lowlights, adding depth to the blonde color. The jacket has a collar with metal snaps or buttons. The white t-shirt is plain. \u003cchar3>'s makeup is natural, with defined eyelashes. The background screen has a repeating diamond or lattice pattern. The light falls on \u003cchar3>'s left cheek, creating a highlight. The shadow on the right side of \u003cchar3>'s face adds dimension. The shot is steady, allowing the viewer to focus on \u003cchar3>'s reaction. The mood is tense. The framing is tight on \u003cchar3>'s face, emphasizing the emotional state. The jacket material reflects light slightly, indicating a smooth texture. \u003cchar3>'s neck is visible above the t-shirt collar.\nShot 4 [6.59s-8.88s]: Close-up shot of \u003cchar1>, similar to the first shot. \u003cchar1> is looking slightly to the right of the camera, speaking with visible tension in \u003cchar1>'s jaw and furrowed brow as \u003cchar1> delivers \"I'm telling you right now, if anything happens to her.\" in a low, warning voice. \u003cchar1>'s mouth moves distinctly as \u003cchar1> talks, and \u003cchar1>'s expression is earnest and serious. \u003cchar1>'s eyes are focused on the person \u003cchar1> is addressing. The lighting remains consistent, warm and directional from the right. The background shows a window with a grid pattern, blurred. \u003cchar1>'s suit, shirt, and tie are visible at the bottom of the frame. The camera is static. The shot emphasizes \u003cchar1>'s facial expressions and dialogue delivery. The focus is sharp on \u003cchar1>'s eyes and beard. \u003cchar1>'s eyebrows are slightly raised. The beard is trimmed short, covering the jawline and chin. The flag pin is small but distinct, with red, white, and blue colors. The window in the background has a wooden frame. The light source seems to be natural light from the window, supplemented by indoor lighting. The shot is a reaction shot, showing \u003cchar1>'s response in the conversation. The focus is sharp on the eyes. The depth of field blurs the background completely. The skin tone is even. The suit fabric looks woolen. \u003cchar1>'s head is slightly tilted. The expression suggests \u003cchar1> is explaining or pleading a case.\nShot 5 [8.93s-16.02s]: Medium shot framing \u003cchar2> and \u003cchar3> seated at a table. \u003cchar2> is on the left, wearing the grey suit, and \u003cchar3> is on the right, in the grey jacket. \u003cchar2> has \u003cchar2>'s left hand placed on \u003cchar3>'s right upper arm, a gesture of reassurance or connection. Both characters are looking up and to the left, towards \u003cchar1> who is standing or positioned higher. \u003cchar2> leans back in the chair, tilting \u003cchar2>'s head back, and asks \"Why would I wanna hurt Laurel?\" in an incredulous tone, followed after a brief pause by \"Hmm?\" while searching \u003cchar1>'s face. \u003cchar3> crosses \u003cchar3>'s arms over \u003cchar3>'s chest, maintaining a guarded and serious posture. \u003cchar2> then adds firmly, \"She's with me now.\" On the table in the foreground, there are clear glasses and dark cups, possibly for tea or coffee. The background features a red wall and a large window with a lattice design, casting a pattern of light and shadow on the wall. The lighting is warm and atmospheric. The camera is static. The table surface is dark wood. The glasses are clear and empty or contain water. The cups are black ceramic. \u003cchar2>'s suit jacket has a pocket square or detail on the pocket. \u003cchar3>'s hair falls over the jacket shoulder. The lattice window casts a grid of shadows on the red wall. The room feels like a private dining area or a lounge. The lighting is moody, with pools of light and shadow. \u003cchar2>'s posture is relaxed but attentive. \u003cchar3>'s posture is defensive. The interaction captures the reaction of the seated pair to the standing figure. The background wall is painted a deep red color. The window lattice is likely wood."
+  },
+  {
+    "out": "0007",
+    "title": "Lost Memory",
+    "logline": "Outside the ambulance, a confused pedestrian; inside the car, sunglasses and a calm offer of hypnosis.",
+    "setting": "Street / car",
+    "language": "Chinese",
+    "duration": 17.93,
+    "video": "static/videos/0007.mp4",
+    "poster": "static/posters/0007.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man outside, blue jacket",
+        "text": "An Asian man appearing to be in his late 30s or 40s with a medium, slightly heavy build. He has short, straight black hair cut with bangs across the forehead. He sports a short, trimmed goatee and mustache with some grey hairs visible. He is wearing a dark blue zip-up jacket with white piping along the zipper line over a light blue and white plaid button-down shirt. A black backpack strap is visible over his left shoulder. His skin tone is light to medium, and his face shows some texture and pores."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man in car, sunglasses",
+        "text": "An Asian man appearing to be in his 40s or 50s with a receding hairline and short black hair on the sides. He wears large, thick-rimmed black square sunglasses that completely obscure his eyes. He is dressed in a light grey suit jacket with a subtle texture over a black collared shirt. His expression is typically stoic and serious. His skin tone is light to medium, and he has a clean-shaven face apart from slight stubble."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 1.75,
+        "text": "A static medium close-up shot frames \u003cchar1> from the upper chest upwards, positioned slightly to the left of the center. He is an Asian man with a round face, short black hair cut with bangs, and a trimmed goatee and mustache. He wears a dark blue zip-up jacket with white piping along the zipper line, layered over a light blue and white plaid button-down shirt. A thick black strap, likely from a backpack, rests on his left shoulder. His expression is one of distinct confusion or bewilderment; his eyebrows are furrowed, creating horizontal lines on his forehead, and his mouth is slightly agape, revealing his upper teeth. He gazes slightly off-camera to the right. The background is rendered in a soft, creamy bokeh, consisting of vertical green shapes suggesting trees and a block of mustard yellow, likely a building facade. Natural daylight illuminates the scene from the upper left, casting soft shadows on the right side of his face and neck. Throughout the duration of the shot, \u003cchar1> blinks slowly and shifts his weight slightly, causing the fabric of his jacket to crease. His eyes dart slightly, indicating he is processing information while faint ambient outdoor air and distant street noise filter through. The focus is sharp on his face, highlighting the texture of his skin and the individual hairs of his beard. The lighting suggests an overcast day or open shade, as there are no harsh specular highlights on his skin. The yellow structure in the background has dark vertical lines, possibly windows or pillars. The green foliage varies in shade from deep forest green to lighter lime green, indicating depth in the background. \u003cchar1>'s posture is upright but relaxed, though his facial tension suggests mental stress. He does not speak audibly, but his lip movements suggest a slight exhale or the beginning of an unvoiced breath.",
+        "quotes": []
+      },
+      {
+        "n": 2,
+        "start": 1.79,
+        "end": 4.5,
+        "text": "This shot is a static medium close-up of \u003cchar2> seated inside a vehicle, framed on the right side of the screen. He is an Asian man wearing large, black, square-framed sunglasses and a light grey suit jacket over a black shirt. His hair is short and dark with a receding hairline. He faces slightly left, towards the front of the car. Through the rear window behind him, a white vehicle, identifiable as an ambulance by the red cross symbol on the back doors, is visible but out of focus. The interior of the car features a grey headliner and a handle above the window. The lighting is dimmer here than outside, with reflections visible on the sunglasses. \u003cchar2> remains mostly still, exuding a calm or stoic demeanor, with only minor movements of his head. As his lips move in a measured, low tone, he says \"我能帮你找回失去的记忆\". The grey suit jacket has a visible weave texture, and the black shirt underneath is buttoned to the top. The window frame of the car is black and vertical on the right side of the frame. The ambulance in the background has blue text that is illegible due to the blur, while the red cross remains bright and distinct against the white vehicle. \u003cchar2>'s skin shows some shine on the forehead, indicating the interior lighting or warmth. He turns his head very slightly towards the camera and then back as his statement finishes. The shot maintains a serious, quiet interior vehicle tone through his controlled vocal cadence, lack of dramatic expression, and dark eyewear.",
+        "quotes": [
+          "我能帮你找回失去的记忆"
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.54,
+        "end": 6.54,
+        "text": "Returning to the outdoor setting, this static medium close-up frames \u003cchar1> similarly to the first shot. He continues to display an expression of confusion or disbelief. Moving his mouth with a blunt, skeptical delivery, \u003cchar1> utters \"能咋的\". His eyes squint slightly, perhaps due to the sunlight or his emotional state. The blue jacket and plaid shirt are clearly visible, as is the black backpack strap. The background remains a soft bokeh of green foliage and yellow architectural elements. The camera is static, keeping the focus entirely on \u003cchar1>'s facial reaction. The natural lighting highlights the texture of his skin and the details of his facial hair. He shifts his head slightly, indicating a reaction to the ongoing exchange. The green trees in the background sway imperceptibly, suggesting a light breeze. The yellow building in the background provides a strong color contrast to the green and the blue of \u003cchar1>'s jacket. \u003cchar1>'s eyebrows raise and lower slightly as he processes the interaction. His lips are dry, and he presses them together briefly before opening his mouth again as the background atmosphere hums.",
+        "quotes": [
+          "能咋的"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 6.58,
+        "end": 12.46,
+        "text": "A static medium close-up shows \u003cchar2> inside the car again. He is positioned on the right, looking towards the left of the frame. The large black sunglasses obscure his eyes, making his expression difficult to read, but his mouth moves steadily as he speaks. In a calm, deliberate voice, \u003cchar2> says \"催眠\". After a brief pause in which he holds his composed posture, he resumes speaking with equal poise, asking \"催眠听说过吗\". Continuing without hesitation, his lips move smoothly as he adds \"我是这方面的专家\". The grey suit jacket has a subtle texture. Behind him, the blurred white ambulance with the red cross remains a constant background element, providing context to the location. The car interior is dark grey. The lighting is consistent, with soft highlights on his forehead and cheek. The shot is static, emphasizing his stillness. The handle above the window is beige or light grey, and the window glass reflects some of the interior. \u003cchar2>'s hair is neatly combed back, and the collar of his black shirt is stiff and formal. The ambulance lights are not flashing, suggesting it is parked. The depth of field keeps \u003cchar2> sharp while rendering the background into abstract shapes of white and red. \u003cchar2> tilts his head slightly to the right, then returns to center as his final phrase concludes in the quiet vehicle interior.",
+        "quotes": [
+          "催眠",
+          "催眠听说过吗",
+          "我是这方面的专家"
+        ]
+      },
+      {
+        "n": 5,
+        "start": 12.5,
+        "end": 15.0,
+        "text": "This static medium close-up features \u003cchar1> outdoors once more. His expression has intensified slightly; he looks more puzzled or perhaps frustrated. His brow is furrowed, and his mouth remains slightly parted in silence under the ambient outdoor atmosphere. He wears the same blue jacket and plaid shirt. The background of green trees and yellow building parts is consistent. The natural light is bright, casting shadows under his chin. He blinks and moves his head slightly, silently reacting to the person off-camera. The focus is sharp on his face, capturing the details of his skin texture and facial hair. The black backpack strap remains visible, grounding him as a pedestrian or traveler. The plaid pattern on his shirt is a small check, and the blue jacket has a ribbed collar. \u003cchar1>'s ears are visible, and he has no earrings. The background yellow structure has a window with a dark frame, and the green leaves are dense, suggesting summer or late spring. \u003cchar1>'s neck shows some stubble extending from his chin. He shifts his gaze from right to center and back, processing the silence.",
+        "quotes": []
+      },
+      {
+        "n": 6,
+        "start": 15.04,
+        "end": 17.5,
+        "text": "The final shot is a static medium close-up of \u003cchar2> in the car. He maintains his stoic posture, wearing the grey suit and black sunglasses. He is framed on the right, looking left in silence. The background shows the out-of-focus rear of the white ambulance with its red cross. \u003cchar2> gives a very subtle nod or head adjustment without speaking. The interior of the car is visible, including the window frame and headliner. The lighting remains soft and interior-focused. His expression does not change significantly, maintaining an air of mystery or professionalism due to the sunglasses. The shot holds on his face as the clip ends with subdued room tone. The grey suit lapel is visible, and the black shirt collar is crisp. The sunglasses have a slight reflection of the car interior. \u003cchar2>'s jawline is firm, and the ambulance in the background remains stationary. The car window frame is metallic or plastic grey. \u003cchar2>'s hairline is visible above the sunglasses. The shot ends with \u003cchar2> looking straight ahead, unblinking.",
+        "quotes": []
+      }
+    ],
+    "prompt": "Characters:\n\u003cchar1>: An Asian man appearing to be in his late 30s or 40s with a medium, slightly heavy build. He has short, straight black hair cut with bangs across the forehead. He sports a short, trimmed goatee and mustache with some grey hairs visible. He is wearing a dark blue zip-up jacket with white piping along the zipper line over a light blue and white plaid button-down shirt. A black backpack strap is visible over his left shoulder. His skin tone is light to medium, and his face shows some texture and pores.\n\u003cchar2>: An Asian man appearing to be in his 40s or 50s with a receding hairline and short black hair on the sides. He wears large, thick-rimmed black square sunglasses that completely obscure his eyes. He is dressed in a light grey suit jacket with a subtle texture over a black collared shirt. His expression is typically stoic and serious. His skin tone is light to medium, and he has a clean-shaven face apart from slight stubble.\n\nShots:\nShot 1 [0.00s-1.75s]: A static medium close-up shot frames \u003cchar1> from the upper chest upwards, positioned slightly to the left of the center. He is an Asian man with a round face, short black hair cut with bangs, and a trimmed goatee and mustache. He wears a dark blue zip-up jacket with white piping along the zipper line, layered over a light blue and white plaid button-down shirt. A thick black strap, likely from a backpack, rests on his left shoulder. His expression is one of distinct confusion or bewilderment; his eyebrows are furrowed, creating horizontal lines on his forehead, and his mouth is slightly agape, revealing his upper teeth. He gazes slightly off-camera to the right. The background is rendered in a soft, creamy bokeh, consisting of vertical green shapes suggesting trees and a block of mustard yellow, likely a building facade. Natural daylight illuminates the scene from the upper left, casting soft shadows on the right side of his face and neck. Throughout the duration of the shot, \u003cchar1> blinks slowly and shifts his weight slightly, causing the fabric of his jacket to crease. His eyes dart slightly, indicating he is processing information while faint ambient outdoor air and distant street noise filter through. The focus is sharp on his face, highlighting the texture of his skin and the individual hairs of his beard. The lighting suggests an overcast day or open shade, as there are no harsh specular highlights on his skin. The yellow structure in the background has dark vertical lines, possibly windows or pillars. The green foliage varies in shade from deep forest green to lighter lime green, indicating depth in the background. \u003cchar1>'s posture is upright but relaxed, though his facial tension suggests mental stress. He does not speak audibly, but his lip movements suggest a slight exhale or the beginning of an unvoiced breath.\nShot 2 [1.79s-4.50s]: This shot is a static medium close-up of \u003cchar2> seated inside a vehicle, framed on the right side of the screen. He is an Asian man wearing large, black, square-framed sunglasses and a light grey suit jacket over a black shirt. His hair is short and dark with a receding hairline. He faces slightly left, towards the front of the car. Through the rear window behind him, a white vehicle, identifiable as an ambulance by the red cross symbol on the back doors, is visible but out of focus. The interior of the car features a grey headliner and a handle above the window. The lighting is dimmer here than outside, with reflections visible on the sunglasses. \u003cchar2> remains mostly still, exuding a calm or stoic demeanor, with only minor movements of his head. As his lips move in a measured, low tone, he says \"我能帮你找回失去的记忆\". The grey suit jacket has a visible weave texture, and the black shirt underneath is buttoned to the top. The window frame of the car is black and vertical on the right side of the frame. The ambulance in the background has blue text that is illegible due to the blur, while the red cross remains bright and distinct against the white vehicle. \u003cchar2>'s skin shows some shine on the forehead, indicating the interior lighting or warmth. He turns his head very slightly towards the camera and then back as his statement finishes. The shot maintains a serious, quiet interior vehicle tone through his controlled vocal cadence, lack of dramatic expression, and dark eyewear.\nShot 3 [4.54s-6.54s]: Returning to the outdoor setting, this static medium close-up frames \u003cchar1> similarly to the first shot. He continues to display an expression of confusion or disbelief. Moving his mouth with a blunt, skeptical delivery, \u003cchar1> utters \"能咋的\". His eyes squint slightly, perhaps due to the sunlight or his emotional state. The blue jacket and plaid shirt are clearly visible, as is the black backpack strap. The background remains a soft bokeh of green foliage and yellow architectural elements. The camera is static, keeping the focus entirely on \u003cchar1>'s facial reaction. The natural lighting highlights the texture of his skin and the details of his facial hair. He shifts his head slightly, indicating a reaction to the ongoing exchange. The green trees in the background sway imperceptibly, suggesting a light breeze. The yellow building in the background provides a strong color contrast to the green and the blue of \u003cchar1>'s jacket. \u003cchar1>'s eyebrows raise and lower slightly as he processes the interaction. His lips are dry, and he presses them together briefly before opening his mouth again as the background atmosphere hums.\nShot 4 [6.58s-12.46s]: A static medium close-up shows \u003cchar2> inside the car again. He is positioned on the right, looking towards the left of the frame. The large black sunglasses obscure his eyes, making his expression difficult to read, but his mouth moves steadily as he speaks. In a calm, deliberate voice, \u003cchar2> says \"催眠\". After a brief pause in which he holds his composed posture, he resumes speaking with equal poise, asking \"催眠听说过吗\". Continuing without hesitation, his lips move smoothly as he adds \"我是这方面的专家\". The grey suit jacket has a subtle texture. Behind him, the blurred white ambulance with the red cross remains a constant background element, providing context to the location. The car interior is dark grey. The lighting is consistent, with soft highlights on his forehead and cheek. The shot is static, emphasizing his stillness. The handle above the window is beige or light grey, and the window glass reflects some of the interior. \u003cchar2>'s hair is neatly combed back, and the collar of his black shirt is stiff and formal. The ambulance lights are not flashing, suggesting it is parked. The depth of field keeps \u003cchar2> sharp while rendering the background into abstract shapes of white and red. \u003cchar2> tilts his head slightly to the right, then returns to center as his final phrase concludes in the quiet vehicle interior.\nShot 5 [12.50s-15.00s]: This static medium close-up features \u003cchar1> outdoors once more. His expression has intensified slightly; he looks more puzzled or perhaps frustrated. His brow is furrowed, and his mouth remains slightly parted in silence under the ambient outdoor atmosphere. He wears the same blue jacket and plaid shirt. The background of green trees and yellow building parts is consistent. The natural light is bright, casting shadows under his chin. He blinks and moves his head slightly, silently reacting to the person off-camera. The focus is sharp on his face, capturing the details of his skin texture and facial hair. The black backpack strap remains visible, grounding him as a pedestrian or traveler. The plaid pattern on his shirt is a small check, and the blue jacket has a ribbed collar. \u003cchar1>'s ears are visible, and he has no earrings. The background yellow structure has a window with a dark frame, and the green leaves are dense, suggesting summer or late spring. \u003cchar1>'s neck shows some stubble extending from his chin. He shifts his gaze from right to center and back, processing the silence.\nShot 6 [15.04s-17.50s]: The final shot is a static medium close-up of \u003cchar2> in the car. He maintains his stoic posture, wearing the grey suit and black sunglasses. He is framed on the right, looking left in silence. The background shows the out-of-focus rear of the white ambulance with its red cross. \u003cchar2> gives a very subtle nod or head adjustment without speaking. The interior of the car is visible, including the window frame and headliner. The lighting remains soft and interior-focused. His expression does not change significantly, maintaining an air of mystery or professionalism due to the sunglasses. The shot holds on his face as the clip ends with subdued room tone. The grey suit lapel is visible, and the black shirt collar is crisp. The sunglasses have a slight reflection of the car interior. \u003cchar2>'s jawline is firm, and the ambulance in the background remains stationary. The car window frame is metallic or plastic grey. \u003cchar2>'s hairline is visible above the sunglasses. The shot ends with \u003cchar2> looking straight ahead, unblinking."
+  }
+]</script>
+  <script src="static/js/index.js?v=7"></script>
 </body>
 </html>
