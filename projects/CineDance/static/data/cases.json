@@ -531,13 +531,1213 @@
   },
   {
     "out": "0008",
+    "title": "Rain Search",
+    "logline": "Rain on the glass, two men in a moving car, splitting up to look for someone the hotel cannot find.",
+    "setting": "Car in rain",
+    "language": "Chinese",
+    "duration": 16.375,
+    "video": "static/videos/0008.mp4",
+    "poster": "static/posters/0008.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man, brown jacket",
+        "text": "An adult male with short, dark hair styled neatly with a side part. He has a clean-shaven face and a serious, focused expression. He is wearing a structured brown jacket, possibly a blazer, over a light blue collared shirt. His skin tone is fair. He is seated in the driver's seat of a car, gripping the steering wheel."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, denim jacket",
+        "text": "An adult male with short dark hair and round, wire-rimmed glasses. He is wearing a blue denim jacket with metal buttons over a plain white t-shirt. He is holding a small plastic beverage bottle with a straw. He is seated in the passenger seat. He appears relaxed but attentive."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 3.14,
+        "text": "The shot is a close-up profile of <char1> sitting in the driver's seat, facing right while steering. <char1> maintains a serious, focused expression with lips pressed together and eyes fixed on the wet road ahead. As the vehicle moves, <char2> speaks from off-focus left in a conversational tone, saying \"当时跟过沈畅了一段时间\". Rain streaks and droplets are visible across the car window behind <char1>, blurring the passing city streetlights into soft bokeh circles of white and yellow. <char2> is visible only as a soft, out-of-focus silhouette in the extreme foreground on the left edge of the frame, illuminated by reddish ambient light. The interior of the car is dimly lit, with warm ambient light reflecting subtly off <char1>'s face and cheek. The rich brown leather headrest of the driver's seat is clearly visible behind <char1>'s head. <char1> remains still and silent, focused on driving, while the background lights shift and glide past in the darkness.",
+        "quotes": [
+          "当时跟过沈畅了一段时间"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 3.17,
+        "end": 5.3,
+        "text": "A medium shot from the dashboard captures both <char1> and <char2> inside the front cabin. On the left, <char2> holds a rectangular photograph in his left hand, looking down at it closely while speaking in a calm voice, saying \"只是我去酒店打听都\". <char2> is dressed in a blue denim jacket over a white shirt and wears round glasses. On the right, <char1> grips the steering wheel firmly with both hands, looking straight ahead through the windshield with a neutral, concentrated expression. The car interior is dark, intermittently illuminated by passing streetlights and reflections casting moving shadows across the dashboard. A rearview mirror hangs at the top center, and red taillights from surrounding city traffic reflect through the rear glass as both men ride in the quiet car.",
+        "quotes": [
+          "只是我去酒店打听都"
+        ]
+      },
+      {
+        "n": 3,
+        "start": 5.34,
+        "end": 7.67,
+        "text": "An extreme close-up focuses directly on the rectangular photograph held steadily in a hand. The photo depicts a smiling man with dark hair leaning forward indoors, looking joyful in warm, dim lighting. Along the right vertical border of the photograph, printed Chinese text reads \"圖：兇嫌沈昌戎常出沒之酒店。(吳鎮學攝)\". The ambient background behind the photograph remains dark and completely out of focus. As the camera lingers on the picture, <char2>'s voice continues over the shot, saying \"找不太到这个人\" in a matter-of-fact tone. The hand holds the glossy photo steadily under the dim interior car light, revealing the paper texture and printed details clearly.",
+        "quotes": [
+          "找不太到这个人"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 7.71,
+        "end": 9.58,
+        "text": "Framed in a medium close-up profile from the driver's side, <char2> looks toward the passenger window while holding a small plastic beverage bottle with a white straw. The bottle features red and white labeling. Round wire-rimmed glasses sit on <char2>'s face, catching the moving glare of nighttime streetlights outside. In the blurred foreground on the right, <char1>'s profile is faintly visible. Streaks of traffic headlights and city lights flash past the window behind <char2>. Near the end of the shot, <char1> speaks in a calm, decisive tone, saying \"那就分头进行\" while <char2> quietly holds the straw near his mouth amid the low hum of the driving car.",
+        "quotes": [
+          "那就分头进行"
+        ]
+      },
+      {
+        "n": 5,
+        "start": 9.61,
+        "end": 13.85,
+        "text": "Returning to the wide dashboard perspective, both characters are seated in the vehicle's front cabin. On the left, <char2> continues sipping his drink from the bottle through the straw, looking ahead quietly. On the right, <char1> steers with both hands on the wheel, dressed in a brown blazer. <char1> speaks steadily, saying \"你去找那个妈妈桑\", and after a brief beat continues, \"我去找魏旭东\", while briefly shifting his gaze sideways toward <char2>. Intense red brake lights from traffic outside illuminate the car's interior, casting a deep crimson glow over their faces, seatbelts, and dark leather seats. The atmosphere remains quiet, punctuated by the mechanical hum of the moving car as <char1> maintains focus on the road ahead.",
+        "quotes": [
+          "你去找那个妈妈桑",
+          "我去找魏旭东"
+        ]
+      },
+      {
+        "n": 6,
+        "start": 13.88,
+        "end": 16.375,
+        "text": "The shot returns to a close-up profile of <char1> seated at the steering wheel, looking intently ahead with a calm, stoic expression. In the foreground on the left, <char2> is blurred in soft focus, holding his drink. The car window behind <char1> is dotted with raindrops, through which the blurred lights of city buildings and passing cars stream past. Low-key interior lighting defines <char1>'s neat dark hair and sharp cheekbone against the rich brown leather headrest. Toward the close of the shot, <char2> reacts from the passenger seat, saying \"不是啊\" in mild protest as the vehicle continues smoothly down the rainy urban road.",
+        "quotes": [
+          "不是啊"
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: An adult male with short, dark hair styled neatly with a side part. He has a clean-shaven face and a serious, focused expression. He is wearing a structured brown jacket, possibly a blazer, over a light blue collared shirt. His skin tone is fair. He is seated in the driver's seat of a car, gripping the steering wheel.\n<char2>: An adult male with short dark hair and round, wire-rimmed glasses. He is wearing a blue denim jacket with metal buttons over a plain white t-shirt. He is holding a small plastic beverage bottle with a straw. He is seated in the passenger seat. He appears relaxed but attentive.\n\nShots:\nShot 1 [0.00s-3.14s]: The shot is a close-up profile of <char1> sitting in the driver's seat, facing right while steering. <char1> maintains a serious, focused expression with lips pressed together and eyes fixed on the wet road ahead. As the vehicle moves, <char2> speaks from off-focus left in a conversational tone, saying \"当时跟过沈畅了一段时间\". Rain streaks and droplets are visible across the car window behind <char1>, blurring the passing city streetlights into soft bokeh circles of white and yellow. <char2> is visible only as a soft, out-of-focus silhouette in the extreme foreground on the left edge of the frame, illuminated by reddish ambient light. The interior of the car is dimly lit, with warm ambient light reflecting subtly off <char1>'s face and cheek. The rich brown leather headrest of the driver's seat is clearly visible behind <char1>'s head. <char1> remains still and silent, focused on driving, while the background lights shift and glide past in the darkness.\nShot 2 [3.17s-5.30s]: A medium shot from the dashboard captures both <char1> and <char2> inside the front cabin. On the left, <char2> holds a rectangular photograph in his left hand, looking down at it closely while speaking in a calm voice, saying \"只是我去酒店打听都\". <char2> is dressed in a blue denim jacket over a white shirt and wears round glasses. On the right, <char1> grips the steering wheel firmly with both hands, looking straight ahead through the windshield with a neutral, concentrated expression. The car interior is dark, intermittently illuminated by passing streetlights and reflections casting moving shadows across the dashboard. A rearview mirror hangs at the top center, and red taillights from surrounding city traffic reflect through the rear glass as both men ride in the quiet car.\nShot 3 [5.34s-7.67s]: An extreme close-up focuses directly on the rectangular photograph held steadily in a hand. The photo depicts a smiling man with dark hair leaning forward indoors, looking joyful in warm, dim lighting. Along the right vertical border of the photograph, printed Chinese text reads \"圖：兇嫌沈昌戎常出沒之酒店。(吳鎮學攝)\". The ambient background behind the photograph remains dark and completely out of focus. As the camera lingers on the picture, <char2>'s voice continues over the shot, saying \"找不太到这个人\" in a matter-of-fact tone. The hand holds the glossy photo steadily under the dim interior car light, revealing the paper texture and printed details clearly.\nShot 4 [7.71s-9.58s]: Framed in a medium close-up profile from the driver's side, <char2> looks toward the passenger window while holding a small plastic beverage bottle with a white straw. The bottle features red and white labeling. Round wire-rimmed glasses sit on <char2>'s face, catching the moving glare of nighttime streetlights outside. In the blurred foreground on the right, <char1>'s profile is faintly visible. Streaks of traffic headlights and city lights flash past the window behind <char2>. Near the end of the shot, <char1> speaks in a calm, decisive tone, saying \"那就分头进行\" while <char2> quietly holds the straw near his mouth amid the low hum of the driving car.\nShot 5 [9.61s-13.85s]: Returning to the wide dashboard perspective, both characters are seated in the vehicle's front cabin. On the left, <char2> continues sipping his drink from the bottle through the straw, looking ahead quietly. On the right, <char1> steers with both hands on the wheel, dressed in a brown blazer. <char1> speaks steadily, saying \"你去找那个妈妈桑\", and after a brief beat continues, \"我去找魏旭东\", while briefly shifting his gaze sideways toward <char2>. Intense red brake lights from traffic outside illuminate the car's interior, casting a deep crimson glow over their faces, seatbelts, and dark leather seats. The atmosphere remains quiet, punctuated by the mechanical hum of the moving car as <char1> maintains focus on the road ahead.\nShot 6 [13.88s-16.62s]: The shot returns to a close-up profile of <char1> seated at the steering wheel, looking intently ahead with a calm, stoic expression. In the foreground on the left, <char2> is blurred in soft focus, holding his drink. The car window behind <char1> is dotted with raindrops, through which the blurred lights of city buildings and passing cars stream past. Low-key interior lighting defines <char1>'s neat dark hair and sharp cheekbone against the rich brown leather headrest. Toward the close of the shot, <char2> reacts from the passenger seat, saying \"不是啊\" in mild protest as the vehicle continues smoothly down the rainy urban road."
+  },
+  {
+    "out": "0009",
+    "title": "Next of Kin",
+    "logline": "A quiet office, a secret location, and a careful ask for Sally's next of kin.",
+    "setting": "Office",
+    "language": "English",
+    "duration": 17.042,
+    "video": "static/videos/0009.mp4",
+    "poster": "static/posters/0009.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, orange headband",
+        "text": "A woman with dark skin and short, dark curly hair that is pulled back from her forehead by a reddish-orange patterned headband. She has dark eyes and eyebrows. She wears small gold stud earrings. Her attire consists of a blue denim jacket with visible white stitching on the collar, worn over a red, white, and black plaid button-down shirt. She appears to be middle-aged."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, dark suit",
+        "text": "A man with light skin and dark brown hair that is short and receding slightly at the temples. He is clean-shaven. He is wearing a dark navy or black suit jacket with a notched lapel, a light blue dress shirt, and a dark tie with a small, light-colored pattern. He appears to be middle-aged."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 3.08,
+        "text": "The shot opens on a medium close-up of <char1>, positioned slightly left of center against a blurred, neutral grey wall. <char1> is facing slightly right, directing <char1>'s gaze and speech toward an unseen person off-screen. <char1>'s mouth moves as <char1> speaks in a steady tone, saying \"Our location is secret, properly secret.\" Her lips part and close naturally with each word. Her expression is earnest and focused, with <char1>'s eyebrows slightly furrowed while <char1> delivers the statement. <char1> blinks slowly during the pause. The lighting is soft and diffuse, illuminating the right side of <char1>'s face while casting subtle shadows on the left. The blue denim of <char1>'s jacket is textured and worn, with white stitching visible along the collar. Underneath, the collar of a plaid shirt with red, black, and white checks is visible. A reddish headband holds back <char1>'s dark, curly hair. The background is out of focus, providing no distinct details other than a flat, neutral tone.",
+        "quotes": [
+          "Our location is secret, properly secret."
+        ]
+      },
+      {
+        "n": 2,
+        "start": 3.12,
+        "end": 6.44,
+        "text": "The camera cuts to a medium close-up of <char2>, framed slightly to the right of the shot. <char2> is angled slightly toward the left, facing the direction of <char1>. Initially, <char2>'s gaze is cast downward, <char2>'s eyelids lowered in quiet contemplation. <char2> then lifts <char2>'s head slightly and raises <char2>'s eyes to look forward, engaging directly with the person off-screen. As <char2> does so, <char2>'s mouth moves as <char2> speaks in a composed, measured voice, saying \"We're extremely keen to find Sally's next of kin, Miss Rice.\" His expression remains serious and contemplative throughout the delivery. <char2> wears a dark suit jacket over a light blue shirt, with a dark patterned tie neatly knotted at the neck. <char2>'s dark hair is swept back neatly. The background is dark and indistinct, appearing to be a shadowed corner of a room with a cool, teal-grey tone. The lighting is dimmer here than in the previous shot, with a key light hitting the right side of <char2>'s forehead and nose, leaving the left side of <char2>'s face in shadow.",
+        "quotes": [
+          "We're extremely keen to find Sally's next of kin, Miss Rice."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 6.48,
+        "end": 8.56,
+        "text": "The shot returns to <char1> in the same framing as before, positioned against the muted background. <char1> is now listening, but then parts <char1>'s lips to speak firmly, saying \"No idea.\" Her gaze remains fixed on the person off-screen to the right after speaking, her mouth relaxing closed. Her expression is neutral but attentive, her dark eyes steady. <char1> blinks once in the quiet moment that follows. The lighting remains consistent, soft and frontal across <char1>'s features. The details of <char1>'s clothing are clear: the rough texture of the denim jacket and the pattern of the plaid shirt beneath it. The headband across <char1>'s forehead is a muted red with a subtle pattern. The background remains a soft, out-of-focus grey wall, keeping the visual attention entirely on <char1>'s face. There is very little movement from <char1>, showing <char1> attentively absorbing the presence of the other speaker in the room.",
+        "quotes": [
+          "No idea."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 8.6,
+        "end": 10.84,
+        "text": "The camera cuts back to <char2> in a medium close-up. <char2> is looking down again, <char2>'s chin tucked slightly toward <char2>'s chest in silence. <char2> then lifts <char2>'s gaze to look directly at the person off-screen. His expression is serious, perhaps slightly weary, as <char2> maintains quiet eye contact without speaking a line of dialogue. The lapel of <char2>'s dark suit jacket is visible on the left side of the frame, neatly structured. The light blue dress shirt contrasts cleanly with the dark patterned tie knotted at <char2>'s collar. The background is a solid, dark wall, possibly painted a deep teal or grey, which remains softly out of focus. The subtle lighting highlights the texture of <char2>'s skin and the fine lines on <char2>'s forehead. <char2> maintains direct eye contact for a moment before looking back down slightly as the shot ends.",
+        "quotes": []
+      },
+      {
+        "n": 5,
+        "start": 10.88,
+        "end": 14.64,
+        "text": "The shot returns to <char1> framed from the chest up. <char1> is still listening quietly, <char1>'s expression serious and attentive. After a brief pause, <char1> speaks in a calm, matter-of-fact tone, saying \"But I could ask around.\" Her mouth moves clearly as <char1> delivers the sentence, before closing again. Her dark eyes are wide and focused on the speaker off-screen. <char1> does not move <char1>'s head, maintaining a steady posture throughout the exchange. The denim jacket collar frames <char1>'s neck, with the plaid shirt pattern clearly visible at the neckline. Her curly hair is voluminous around the patterned reddish headband. The lighting is consistent, soft and even across <char1>'s face, while the background remains a blurred, neutral surface.",
+        "quotes": [
+          "But I could ask around."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 14.68,
+        "end": 16.64,
+        "text": "The final shot shows <char2> looking toward the person off-screen in a medium close-up. A faint, knowing smile touches <char2>'s lips as <char2> raises <char2>'s eyes and speaks in a low, mild tone, saying \"We've got a couple of women.\" His eyes crinkle slightly at the corners during the delivery. <char2> then breaks eye contact, looking down and to <char2>'s right, concluding the interaction visually. <char2>'s dark suit jacket, light blue shirt, and tie are clearly visible under the focused key light that catches the side of <char2>'s face. The background remains dark and featureless in the room. The subtle movement is confined to <char2>'s facial expression, mouth movements, and the slight downward turn of <char2>'s head as the scene finishes.",
+        "quotes": [
+          "We've got a couple of women."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A woman with dark skin and short, dark curly hair that is pulled back from her forehead by a reddish-orange patterned headband. She has dark eyes and eyebrows. She wears small gold stud earrings. Her attire consists of a blue denim jacket with visible white stitching on the collar, worn over a red, white, and black plaid button-down shirt. She appears to be middle-aged.\n<char2>: A man with light skin and dark brown hair that is short and receding slightly at the temples. He is clean-shaven. He is wearing a dark navy or black suit jacket with a notched lapel, a light blue dress shirt, and a dark tie with a small, light-colored pattern. He appears to be middle-aged.\n\nShots:\nShot 1 [0.00s-3.08s]: The shot opens on a medium close-up of <char1>, positioned slightly left of center against a blurred, neutral grey wall. <char1> is facing slightly right, directing <char1>'s gaze and speech toward an unseen person off-screen. <char1>'s mouth moves as <char1> speaks in a steady tone, saying \"Our location is secret, properly secret.\" Her lips part and close naturally with each word. Her expression is earnest and focused, with <char1>'s eyebrows slightly furrowed while <char1> delivers the statement. <char1> blinks slowly during the pause. The lighting is soft and diffuse, illuminating the right side of <char1>'s face while casting subtle shadows on the left. The blue denim of <char1>'s jacket is textured and worn, with white stitching visible along the collar. Underneath, the collar of a plaid shirt with red, black, and white checks is visible. A reddish headband holds back <char1>'s dark, curly hair. The background is out of focus, providing no distinct details other than a flat, neutral tone.\nShot 2 [3.12s-6.44s]: The camera cuts to a medium close-up of <char2>, framed slightly to the right of the shot. <char2> is angled slightly toward the left, facing the direction of <char1>. Initially, <char2>'s gaze is cast downward, <char2>'s eyelids lowered in quiet contemplation. <char2> then lifts <char2>'s head slightly and raises <char2>'s eyes to look forward, engaging directly with the person off-screen. As <char2> does so, <char2>'s mouth moves as <char2> speaks in a composed, measured voice, saying \"We're extremely keen to find Sally's next of kin, Miss Rice.\" His expression remains serious and contemplative throughout the delivery. <char2> wears a dark suit jacket over a light blue shirt, with a dark patterned tie neatly knotted at the neck. <char2>'s dark hair is swept back neatly. The background is dark and indistinct, appearing to be a shadowed corner of a room with a cool, teal-grey tone. The lighting is dimmer here than in the previous shot, with a key light hitting the right side of <char2>'s forehead and nose, leaving the left side of <char2>'s face in shadow.\nShot 3 [6.48s-8.56s]: The shot returns to <char1> in the same framing as before, positioned against the muted background. <char1> is now listening, but then parts <char1>'s lips to speak firmly, saying \"No idea.\" Her gaze remains fixed on the person off-screen to the right after speaking, her mouth relaxing closed. Her expression is neutral but attentive, her dark eyes steady. <char1> blinks once in the quiet moment that follows. The lighting remains consistent, soft and frontal across <char1>'s features. The details of <char1>'s clothing are clear: the rough texture of the denim jacket and the pattern of the plaid shirt beneath it. The headband across <char1>'s forehead is a muted red with a subtle pattern. The background remains a soft, out-of-focus grey wall, keeping the visual attention entirely on <char1>'s face. There is very little movement from <char1>, showing <char1> attentively absorbing the presence of the other speaker in the room.\nShot 4 [8.60s-10.84s]: The camera cuts back to <char2> in a medium close-up. <char2> is looking down again, <char2>'s chin tucked slightly toward <char2>'s chest in silence. <char2> then lifts <char2>'s gaze to look directly at the person off-screen. His expression is serious, perhaps slightly weary, as <char2> maintains quiet eye contact without speaking a line of dialogue. The lapel of <char2>'s dark suit jacket is visible on the left side of the frame, neatly structured. The light blue dress shirt contrasts cleanly with the dark patterned tie knotted at <char2>'s collar. The background is a solid, dark wall, possibly painted a deep teal or grey, which remains softly out of focus. The subtle lighting highlights the texture of <char2>'s skin and the fine lines on <char2>'s forehead. <char2> maintains direct eye contact for a moment before looking back down slightly as the shot ends.\nShot 5 [10.88s-14.64s]: The shot returns to <char1> framed from the chest up. <char1> is still listening quietly, <char1>'s expression serious and attentive. After a brief pause, <char1> speaks in a calm, matter-of-fact tone, saying \"But I could ask around.\" Her mouth moves clearly as <char1> delivers the sentence, before closing again. Her dark eyes are wide and focused on the speaker off-screen. <char1> does not move <char1>'s head, maintaining a steady posture throughout the exchange. The denim jacket collar frames <char1>'s neck, with the plaid shirt pattern clearly visible at the neckline. Her curly hair is voluminous around the patterned reddish headband. The lighting is consistent, soft and even across <char1>'s face, while the background remains a blurred, neutral surface.\nShot 6 [14.68s-16.64s]: The final shot shows <char2> looking toward the person off-screen in a medium close-up. A faint, knowing smile touches <char2>'s lips as <char2> raises <char2>'s eyes and speaks in a low, mild tone, saying \"We've got a couple of women.\" His eyes crinkle slightly at the corners during the delivery. <char2> then breaks eye contact, looking down and to <char2>'s right, concluding the interaction visually. <char2>'s dark suit jacket, light blue shirt, and tie are clearly visible under the focused key light that catches the side of <char2>'s face. The background remains dark and featureless in the room. The subtle movement is confined to <char2>'s facial expression, mouth movements, and the slight downward turn of <char2>'s head as the scene finishes."
+  },
+  {
+    "out": "0010",
+    "title": "The Declaration",
+    "logline": "A dim room, a call for the W sixty-three, and a declaration laid on the desk.",
+    "setting": "Dim interior",
+    "language": "English",
+    "duration": 18.375,
+    "video": "static/videos/0010.mp4",
+    "poster": "static/posters/0010.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, navy blazer",
+        "text": "A woman with long, wavy brown hair that falls past her shoulders. She has a fair complexion and appears to be in her 30s or 40s. She is wearing a dark navy or black blazer with structured shoulders over a light blue collared shirt. Her makeup is natural, with defined eyelashes. She has a serious demeanor and is often seen looking down or listening intently."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Woman, red blazer",
+        "text": "A woman with shoulder-length dark brown hair, styled with a slight wave. She has a fair complexion and appears to be in her 40s or 50s. She is wearing a vibrant red blazer over a black top. She sits at a desk and gestures with her hands, often holding a pen. She appears authoritative and engaged in conversation, with expressive facial movements."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 2.54,
+        "text": "A close-up shot of <char1> in a dimly lit environment. <char1> is positioned on the left side of the frame, facing right in a three-quarter profile with <char1>'s long brown hair styled in loose waves over <char1>'s shoulders. Wearing a dark blazer over a light blue shirt, <char1> maintains a serious and focused expression while speaking, stating \"The W sixty-three.\" in a measured tone as <char1>'s lips move clearly. The background is dark and out of focus, suggesting a doorway or wall in a shadowed room. Soft, directional lighting illuminates the right side of <char1>'s face while leaving the left in shadow as <char1> keeps a steady gaze directed off-camera toward an unseen conversational partner.",
+        "quotes": [
+          "The W sixty-three."
+        ]
+      },
+      {
+        "n": 2,
+        "start": 2.59,
+        "end": 4.84,
+        "text": "A medium shot of <char2> sitting at a large wooden desk in a well-lit office, wearing a bright red blazer over a black top and facing left toward <char1>. In the foreground on the left, <char1> stands with <char1>'s back and side to the camera in a dark suit. <char2> gestures with <char2>'s right hand while holding a pen and speaking animatedly, stating \"I really need it because, excuse me.\" as an incoming telephone rings. <char2> pauses, raises <char2>'s index finger in a brief apologetic gesture, and reaches over to pick up the desk receiver. Behind <char2>, a framed picture hangs on the wall, a blue and red vase sits on a side table, and natural light streams in from a window on the right, illuminating papers and office supplies scattered across the desk.",
+        "quotes": [
+          "I really need it because, excuse me."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.88,
+        "end": 6.84,
+        "text": "A close-up shot of <char1> standing attentively. Off-screen, <char2> can be heard answering the phone, asking \"Yes?\" in a brief, brisk tone. <char1> looks down, lowering <char1>'s eyes momentarily, before looking back up toward <char2>. <char1>'s expression remains somber and focused, with lips slightly parted and a relaxed brow as <char1> processes the ongoing situation. The directional lighting highlights <char1>'s cheekbones and the texture of <char1>'s wavy brown hair. A plain wall with a framed document partially visible stands in the background on the left, and the static camera keeps full focus on <char1>'s subtle facial reactions.",
+        "quotes": [
+          "Yes?"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 6.88,
+        "end": 8.55,
+        "text": "A close-up insert shot from a slightly high angle focusing on the desk surface. <char1>'s hands, framed by the dark sleeves of <char1>'s tailored suit jacket, reach out toward a stack of papers and folders resting on the desk. With deliberate and precise movement, <char1>'s right hand slides a top paper off the pile, producing a soft rustle of paper against the folder below. The ambient lighting is dim, casting soft shadows across the desk surface and the white sheets with yellow folders underneath, while the indistinct background keeps the focus entirely on the hand movement.",
+        "quotes": []
+      },
+      {
+        "n": 5,
+        "start": 8.59,
+        "end": 12.89,
+        "text": "A close-up shot of <char1> framed from the chest up. As <char1> looks down at the document in hand, <char2>'s voice is heard concluding the phone call off-screen, saying \"Okay, thanks.\" before hanging up. <char1>'s brow furrows slightly with a concerned expression as <char1> inspects the page, then <char1> looks upward toward <char2> and asks \"Is this Seth's declaration?\" with clear enunciation. The soft directional lighting remains consistent, accentuating <char1>'s facial features against the dark background where the framed document is partially visible on the left.",
+        "quotes": [
+          "Okay, thanks.",
+          "Is this Seth's declaration?"
+        ]
+      },
+      {
+        "n": 6,
+        "start": 12.93,
+        "end": 18.23,
+        "text": "A wide shot of the office interior. <char1> stands on the left and hands the paper across the desk to <char2>, who reaches out to take it while answering \"Yes.\" in a direct tone. As <char1> turns and sits down in the armchair opposite the desk, <char2> examines the sheet and continues speaking, stating \"He just got it to me, which is why I wanted yours. What I didn't want was you reading his.\" in a firm and steady delivery. <char1> settles into the chair and begins to respond, saying \"He says.\" The room is illuminated by daylight entering through large draped windows on the right. A television mounted on the left wall shows the logo \"THE WHITE HOUSE WASHINGTON\", a cream sofa rests in the background, and neatly stacked books sit on the executive desk between them.",
+        "quotes": [
+          "Yes.",
+          "He just got it to me, which is why I wanted yours. What I didn't want was you reading his.",
+          "He says.",
+          "THE WHITE HOUSE WASHINGTON"
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A woman with long, wavy brown hair that falls past her shoulders. She has a fair complexion and appears to be in her 30s or 40s. She is wearing a dark navy or black blazer with structured shoulders over a light blue collared shirt. Her makeup is natural, with defined eyelashes. She has a serious demeanor and is often seen looking down or listening intently.\n<char2>: A woman with shoulder-length dark brown hair, styled with a slight wave. She has a fair complexion and appears to be in her 40s or 50s. She is wearing a vibrant red blazer over a black top. She sits at a desk and gestures with her hands, often holding a pen. She appears authoritative and engaged in conversation, with expressive facial movements.\n\nShots:\nShot 1 [0.00s-2.54s]: A close-up shot of <char1> in a dimly lit environment. <char1> is positioned on the left side of the frame, facing right in a three-quarter profile with <char1>'s long brown hair styled in loose waves over <char1>'s shoulders. Wearing a dark blazer over a light blue shirt, <char1> maintains a serious and focused expression while speaking, stating \"The W sixty-three.\" in a measured tone as <char1>'s lips move clearly. The background is dark and out of focus, suggesting a doorway or wall in a shadowed room. Soft, directional lighting illuminates the right side of <char1>'s face while leaving the left in shadow as <char1> keeps a steady gaze directed off-camera toward an unseen conversational partner.\nShot 2 [2.59s-4.84s]: A medium shot of <char2> sitting at a large wooden desk in a well-lit office, wearing a bright red blazer over a black top and facing left toward <char1>. In the foreground on the left, <char1> stands with <char1>'s back and side to the camera in a dark suit. <char2> gestures with <char2>'s right hand while holding a pen and speaking animatedly, stating \"I really need it because, excuse me.\" as an incoming telephone rings. <char2> pauses, raises <char2>'s index finger in a brief apologetic gesture, and reaches over to pick up the desk receiver. Behind <char2>, a framed picture hangs on the wall, a blue and red vase sits on a side table, and natural light streams in from a window on the right, illuminating papers and office supplies scattered across the desk.\nShot 3 [4.88s-6.84s]: A close-up shot of <char1> standing attentively. Off-screen, <char2> can be heard answering the phone, asking \"Yes?\" in a brief, brisk tone. <char1> looks down, lowering <char1>'s eyes momentarily, before looking back up toward <char2>. <char1>'s expression remains somber and focused, with lips slightly parted and a relaxed brow as <char1> processes the ongoing situation. The directional lighting highlights <char1>'s cheekbones and the texture of <char1>'s wavy brown hair. A plain wall with a framed document partially visible stands in the background on the left, and the static camera keeps full focus on <char1>'s subtle facial reactions.\nShot 4 [6.88s-8.55s]: A close-up insert shot from a slightly high angle focusing on the desk surface. <char1>'s hands, framed by the dark sleeves of <char1>'s tailored suit jacket, reach out toward a stack of papers and folders resting on the desk. With deliberate and precise movement, <char1>'s right hand slides a top paper off the pile, producing a soft rustle of paper against the folder below. The ambient lighting is dim, casting soft shadows across the desk surface and the white sheets with yellow folders underneath, while the indistinct background keeps the focus entirely on the hand movement.\nShot 5 [8.59s-12.89s]: A close-up shot of <char1> framed from the chest up. As <char1> looks down at the document in hand, <char2>'s voice is heard concluding the phone call off-screen, saying \"Okay, thanks.\" before hanging up. <char1>'s brow furrows slightly with a concerned expression as <char1> inspects the page, then <char1> looks upward toward <char2> and asks \"Is this Seth's declaration?\" with clear enunciation. The soft directional lighting remains consistent, accentuating <char1>'s facial features against the dark background where the framed document is partially visible on the left.\nShot 6 [12.93s-18.23s]: A wide shot of the office interior. <char1> stands on the left and hands the paper across the desk to <char2>, who reaches out to take it while answering \"Yes.\" in a direct tone. As <char1> turns and sits down in the armchair opposite the desk, <char2> examines the sheet and continues speaking, stating \"He just got it to me, which is why I wanted yours. What I didn't want was you reading his.\" in a firm and steady delivery. <char1> settles into the chair and begins to respond, saying \"He says.\" The room is illuminated by daylight entering through large draped windows on the right. A television mounted on the left wall shows the logo \"THE WHITE HOUSE WASHINGTON\", a cream sofa rests in the background, and neatly stacked books sit on the executive desk between them."
+  },
+  {
+    "out": "0011",
+    "title": "Willing Fate",
+    "logline": "In a palace chamber, she says meeting the emperor was her fate, and she accepts it.",
+    "setting": "Palace chamber",
+    "language": "Chinese",
+    "duration": 17.042,
+    "video": "static/videos/0011.mp4",
+    "poster": "static/posters/0011.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, court updo",
+        "text": "A woman with a fair complexion and dark hair pulled back into a high, elaborate updo. Her hair is adorned with numerous ornaments, including large red and gold floral pieces, white pearls, and a central gold forehead pendant with dangling pink beads. She wears long, dangling gold earrings with red beads. Her eyebrows are thin and arched, her eyes are lined with black eyeliner, and her lips are painted a soft pink. She wears a garment with a white collar and blue trim visible at the neckline."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, official hat",
+        "text": "A middle-aged man with a mustache and a small goatee, featuring dark hair and a fair complexion. He wears a tall, black official's hat with a gold ornament on the front and a structured, cylindrical shape. He is dressed in a dark blue robe with wide, flowing sleeves, featuring intricate silver or light blue embroidery in swirling patterns on the shoulders and chest, worn over a purple under-robe. His expression is typically serious and contemplative. He appears to be of high status, indicated by the quality of his clothing and the setting."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 3.47,
+        "text": "A static close-up shot frames <char1> from the upper chest to the top of her head, positioned slightly left of center. She is looking downwards and to the right, her gaze fixed on something out of frame below. Her expression is one of profound sadness or resignation, with her brows slightly furrowed and her lips initially pressed together in a soft line. She blinks slowly, her long eyelashes casting tiny shadows before she begins speaking in a subdued, sorrowful voice, saying \"陛下对臣妾好也罢，坏也罢。\" with her mouth moving in synchrony. The lighting is soft and diffuse, highlighting the smoothness of her pale skin and the intricate details of her elaborate headpiece. This headpiece features large red and gold floral ornaments, white pearls, and a central gold pendant resting on her forehead with dangling pink beads that catch the light. Long, dangling gold earrings with red beads hang from her ears, swaying almost imperceptibly. She wears a garment with a white collar and a strip of bright blue fabric visible at the neckline. The background is completely out of focus, rendered as a dark space filled with a grid-like pattern of bright, circular bokeh lights, suggesting a room illuminated by numerous candles or lanterns in the distance. The color palette is rich, contrasting the warm gold and red of her jewelry with the cool, dark tones of the background.",
+        "quotes": [
+          "陛下对臣妾好也罢，坏也罢。"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 3.5,
+        "end": 6.97,
+        "text": "A static medium shot captures <char2> seated at a low table or desk in a formal, traditionally decorated room. He is positioned in the center of the frame, wearing a tall, black official's hat with a gold emblem on the front and a dark blue robe with wide sleeves. The robe features intricate, swirling embroidery in silver or light blue thread on the shoulders and chest, over a purple under-garment. He holds a thin brush or writing implement in his right hand, poised over a white, cylindrical jade-like container on the desk as <char1>'s voice carries over off-screen from the previous line and pauses. Behind him, a large folding screen displays a painted landscape of blue mountains and misty clouds against a pale background. Flanking him on either side are tall, ornate candelabras made of gold, shaped like phoenixes with spread wings, holding multiple lit red candles that provide a warm, flickering illumination. <char2> looks down at the object on the desk, then slowly lifts his head and turns his gaze to his left, his expression serious and contemplative as <char1>'s off-screen voice begins to speak again in the background. The walls behind the screen have vertical red and white stripes. The lighting is warm and directional, coming from the candles, casting soft shadows on his face and the folds of his robe.",
+        "quotes": []
+      },
+      {
+        "n": 3,
+        "start": 7.01,
+        "end": 11.41,
+        "text": "The camera cuts back to a static close-up of <char1>, framing her face and upper shoulders in a similar composition to the first shot. She continues to look downwards, her expression remaining sorrowful as she completes \"遇到陛下，是臣妾的命。\" and after a brief pause states \"臣妾甘愿认命。\" with delicate, mournful vocal delivery and synchronized lip motion. Her lips part and move gently, and she blinks, her eyes glistening slightly, suggesting unshed tears. The elaborate hair ornaments remain a focal point, with the gold filigree and red beads standing out against her dark, neatly styled hair. The central forehead ornament with its dangling pink beads rests just above her eyebrows, and her long gold earrings hang against her neck. The background remains a soft blur of dark tones and bright, circular lights, creating a shallow depth of field that isolates her emotionally. The lighting is consistent, soft and flattering, emphasizing the pallor of her skin and the delicate features of her face as she finishes speaking.",
+        "quotes": [
+          "遇到陛下，是臣妾的命。",
+          "臣妾甘愿认命。"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 11.45,
+        "end": 13.15,
+        "text": "A static medium close-up frames <char2> from the chest up. He is initially looking down, then raises his eyes to look towards his left, making eye contact towards the off-screen <char1>. With a stern, solemn expression and a slight furrow in his brow, he moves his mouth and firmly utters \"行了。\" in a deep, cutting tone. The golden phoenix candelabra is clearly visible over his left shoulder, with the red candle flames burning steadily. The landscape screen is visible in the background, providing a painted backdrop to the scene, while the vertical red and white stripes of the wall are visible behind the screen. The warm lighting originating from the candles highlights the texture of his blue robe, the sheen of his golden hat ornament, and the sharp contours of his face as the camera remains steady on his reaction.",
+        "quotes": [
+          "行了。"
+        ]
+      },
+      {
+        "n": 5,
+        "start": 13.18,
+        "end": 14.31,
+        "text": "Another static close-up of <char1> fills the frame. She is looking down and slightly to the right, her gaze lowered in a gesture of submission or sadness in the quiet room. Her eyes are heavy-lidded, and she blinks slowly as her head remains slightly tilted forward in silence. The focus is sharp on her face, revealing the fine details of her makeup, including the winged eyeliner and the soft pink shade of her lips. The gold and red jewelry on her head contrasts vividly with her dark hair and pale skin, while the white and blue collar of her garment is visible at the bottom of the frame. The background remains a blur of lights, maintaining the atmospheric depth. The lighting highlights the curve of her cheek and the bridge of her nose, capturing her silent, crestfallen reaction to the exchange.",
+        "quotes": []
+      },
+      {
+        "n": 6,
+        "start": 14.35,
+        "end": 16.82,
+        "text": "A static medium shot shows <char2> seated at the desk, but the entire scene is heavily obscured by a thick, white haze or fog, creating a dreamlike or distant visual effect amid ambient silence. The figure of <char2> is visible in profile, facing left, looking down at the desk. His blue robe and tall hat are discernible but muted in color and detail due to the atmospheric obstruction. The candles in the background appear as diffuse, glowing orange orbs through the mist, losing their distinct flame shapes. The details of the room, including the screen and the candelabras, are softened and blurred. <char2> remains seated, his posture unchanged, suggesting a continuation of his previous action but viewed through a filter of memory or distance. The lighting is diffused by the fog, creating a low-contrast, ethereal look as the scene remains still.",
+        "quotes": []
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A woman with a fair complexion and dark hair pulled back into a high, elaborate updo. Her hair is adorned with numerous ornaments, including large red and gold floral pieces, white pearls, and a central gold forehead pendant with dangling pink beads. She wears long, dangling gold earrings with red beads. Her eyebrows are thin and arched, her eyes are lined with black eyeliner, and her lips are painted a soft pink. She wears a garment with a white collar and blue trim visible at the neckline.\n<char2>: A middle-aged man with a mustache and a small goatee, featuring dark hair and a fair complexion. He wears a tall, black official's hat with a gold ornament on the front and a structured, cylindrical shape. He is dressed in a dark blue robe with wide, flowing sleeves, featuring intricate silver or light blue embroidery in swirling patterns on the shoulders and chest, worn over a purple under-robe. His expression is typically serious and contemplative. He appears to be of high status, indicated by the quality of his clothing and the setting.\n\nShots:\nShot 1 [0.00s-3.47s]: A static close-up shot frames <char1> from the upper chest to the top of her head, positioned slightly left of center. She is looking downwards and to the right, her gaze fixed on something out of frame below. Her expression is one of profound sadness or resignation, with her brows slightly furrowed and her lips initially pressed together in a soft line. She blinks slowly, her long eyelashes casting tiny shadows before she begins speaking in a subdued, sorrowful voice, saying \"陛下对臣妾好也罢，坏也罢。\" with her mouth moving in synchrony. The lighting is soft and diffuse, highlighting the smoothness of her pale skin and the intricate details of her elaborate headpiece. This headpiece features large red and gold floral ornaments, white pearls, and a central gold pendant resting on her forehead with dangling pink beads that catch the light. Long, dangling gold earrings with red beads hang from her ears, swaying almost imperceptibly. She wears a garment with a white collar and a strip of bright blue fabric visible at the neckline. The background is completely out of focus, rendered as a dark space filled with a grid-like pattern of bright, circular bokeh lights, suggesting a room illuminated by numerous candles or lanterns in the distance. The color palette is rich, contrasting the warm gold and red of her jewelry with the cool, dark tones of the background.\nShot 2 [3.50s-6.97s]: A static medium shot captures <char2> seated at a low table or desk in a formal, traditionally decorated room. He is positioned in the center of the frame, wearing a tall, black official's hat with a gold emblem on the front and a dark blue robe with wide sleeves. The robe features intricate, swirling embroidery in silver or light blue thread on the shoulders and chest, over a purple under-garment. He holds a thin brush or writing implement in his right hand, poised over a white, cylindrical jade-like container on the desk as <char1>'s voice carries over off-screen from the previous line and pauses. Behind him, a large folding screen displays a painted landscape of blue mountains and misty clouds against a pale background. Flanking him on either side are tall, ornate candelabras made of gold, shaped like phoenixes with spread wings, holding multiple lit red candles that provide a warm, flickering illumination. <char2> looks down at the object on the desk, then slowly lifts his head and turns his gaze to his left, his expression serious and contemplative as <char1>'s off-screen voice begins to speak again in the background. The walls behind the screen have vertical red and white stripes. The lighting is warm and directional, coming from the candles, casting soft shadows on his face and the folds of his robe.\nShot 3 [7.01s-11.41s]: The camera cuts back to a static close-up of <char1>, framing her face and upper shoulders in a similar composition to the first shot. She continues to look downwards, her expression remaining sorrowful as she completes \"遇到陛下，是臣妾的命。\" and after a brief pause states \"臣妾甘愿认命。\" with delicate, mournful vocal delivery and synchronized lip motion. Her lips part and move gently, and she blinks, her eyes glistening slightly, suggesting unshed tears. The elaborate hair ornaments remain a focal point, with the gold filigree and red beads standing out against her dark, neatly styled hair. The central forehead ornament with its dangling pink beads rests just above her eyebrows, and her long gold earrings hang against her neck. The background remains a soft blur of dark tones and bright, circular lights, creating a shallow depth of field that isolates her emotionally. The lighting is consistent, soft and flattering, emphasizing the pallor of her skin and the delicate features of her face as she finishes speaking.\nShot 4 [11.45s-13.15s]: A static medium close-up frames <char2> from the chest up. He is initially looking down, then raises his eyes to look towards his left, making eye contact towards the off-screen <char1>. With a stern, solemn expression and a slight furrow in his brow, he moves his mouth and firmly utters \"行了。\" in a deep, cutting tone. The golden phoenix candelabra is clearly visible over his left shoulder, with the red candle flames burning steadily. The landscape screen is visible in the background, providing a painted backdrop to the scene, while the vertical red and white stripes of the wall are visible behind the screen. The warm lighting originating from the candles highlights the texture of his blue robe, the sheen of his golden hat ornament, and the sharp contours of his face as the camera remains steady on his reaction.\nShot 5 [13.18s-14.31s]: Another static close-up of <char1> fills the frame. She is looking down and slightly to the right, her gaze lowered in a gesture of submission or sadness in the quiet room. Her eyes are heavy-lidded, and she blinks slowly as her head remains slightly tilted forward in silence. The focus is sharp on her face, revealing the fine details of her makeup, including the winged eyeliner and the soft pink shade of her lips. The gold and red jewelry on her head contrasts vividly with her dark hair and pale skin, while the white and blue collar of her garment is visible at the bottom of the frame. The background remains a blur of lights, maintaining the atmospheric depth. The lighting highlights the curve of her cheek and the bridge of her nose, capturing her silent, crestfallen reaction to the exchange.\nShot 6 [14.35s-16.82s]: A static medium shot shows <char2> seated at the desk, but the entire scene is heavily obscured by a thick, white haze or fog, creating a dreamlike or distant visual effect amid ambient silence. The figure of <char2> is visible in profile, facing left, looking down at the desk. His blue robe and tall hat are discernible but muted in color and detail due to the atmospheric obstruction. The candles in the background appear as diffuse, glowing orange orbs through the mist, losing their distinct flame shapes. The details of the room, including the screen and the candelabras, are softened and blurred. <char2> remains seated, his posture unchanged, suggesting a continuation of his previous action but viewed through a filter of memory or distance. The lighting is diffused by the fog, creating a low-contrast, ethereal look as the scene remains still."
+  },
+  {
+    "out": "0012",
+    "title": "Bus to Seattle",
+    "logline": "At a sunny bus terminal, one woman asks where she is being taken, and the bus goes to Seattle.",
+    "setting": "Bus terminal",
+    "language": "English",
+    "duration": 17.708,
+    "video": "static/videos/0012.mp4",
+    "poster": "static/posters/0012.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, brown cardigan",
+        "text": "A young woman, appearing to be in her late twenties, with a slender build and fair skin. She has long, wavy, strawberry-blonde hair that falls past her shoulders. She is wearing a dark brown, textured cardigan over a light beige top featuring a vertical pattern of small dark shapes. Her lower body is clad in light grey or sage green trousers and grey ankle boots. She carries a large, slouchy tan leather bag on her right shoulder."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Woman, black cap",
+        "text": "A young woman, appearing to be in her late twenties, with a slim build and fair skin. She has blonde, shoulder-length hair tucked under a black baseball cap. A small hoop earring is visible in her left ear. She is wearing a black zip-up jacket over a black t-shirt and blue jeans. Her expression is often serious or focused."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 2.71,
+        "text": "A wide, static shot at eye level captures a busy bus terminal on a sunny day under the ambient rumble of idling engines and distant outdoor terminal sounds. The scene is dominated by a central covered walkway supported by curved blue metal arches overhead. To the left, a dark blue bus is parked at bay 6, and further back, another bus stands at bay 4. To the right, a blue and silver Greyhound bus is parked at bay 5. Blue circular signs displaying white numbers (6, 4, 2, 1, 3, 5) mark the respective bus bays along the concrete concourse. In the center midground, <char1> stands waiting, holding the shoulder strap of a large tan bag with both hands and looking towards the right. In the background, other passengers wait or walk near the buses, with tall palm trees visible in the far distance against a clear blue sky. <char2> enters the frame from the right foreground wearing a black cap and dark jacket, walking briskly past the camera towards the center where <char1> is standing, while bright sunlight casts long, sharp shadows from the overhead arches onto the concrete platform.",
+        "quotes": []
+      },
+      {
+        "n": 2,
+        "start": 2.75,
+        "end": 4.09,
+        "text": "A medium shot frames <char2> from the waist up, standing before a large blue and silver Greyhound bus on the sunlit platform. The sun is positioned behind the bus, creating a bright flare over the roofline and backlighting <char2>'s blonde hair escaping from her black baseball cap, which casts a dark shadow over her eyes. <char2> holds a blue envelope or ticket in both hands at waist level, looking down at it briefly before looking up and toward her left. The bus behind <char2> features a '100 years' logo visible on the side window alongside reflections of nearby palm trees. Maintaining a neutral, focused expression, <char2> shifts her weight slightly on the pavement as she holds the folded paper firmly in both hands amid the ambient outdoor station noise.",
+        "quotes": []
+      },
+      {
+        "n": 3,
+        "start": 4.13,
+        "end": 7.47,
+        "text": "A medium shot at eye level shows <char1> in the foreground on the left, facing right towards <char2>, who is partially visible on the right edge of the frame, showing her dark jacket shoulder and baseball cap. <char1> looks down at the blue envelope that <char2> extends outward into her space. <char1>'s brow furrows with concern as <char1> reaches out with her left hand to take the envelope, holding the strap of her slouchy tan shoulder bag with her right hand. <char1> looks up towards <char2> and asks \"Where are you taking me?\" in a questioning tone. In the softly blurred background, a man wearing sunglasses and a grey jacket walks from right to left, while other passengers stand near the numbered bus bays under the bright natural sunlight casting sharp shadows across <char1>'s face and clothing.",
+        "quotes": [
+          "Where are you taking me?"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 7.51,
+        "end": 9.63,
+        "text": "A close-up shot frames <char2> from the chest up, facing slightly left towards <char1> standing off-screen. The background shows the blurred dark blue exterior of a parked Greyhound bus. Bright sunlight strikes the right side of <char2>'s face and hair, emphasizing the texture of her black baseball cap and the strands of blonde hair peeking out around her ear, where a small hoop earring is visible. <char2> maintains steady eye contact with <char1> and utters \"Me? Nowhere.\" in a terse, direct delivery. The natural backlighting creates strong contrast across <char2>'s features, keeping one side of her serious face in shadow as her lips part and settle while looking directly ahead.",
+        "quotes": [
+          "Me? Nowhere."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 9.68,
+        "end": 13.8,
+        "text": "A wide shot at eye level returns to the covered bus terminal platform where <char1> and <char2> stand together in the center of the frame beneath the blue arched canopy. <char1> stands on the left holding her tan bag while looking down at the blue ticket in her hands, and <char2> stands on the right facing her. Over the hum of terminal activity, <char2> states \"This bus goes to Seattle, hits a couple stops in between.\" in a calm, clear voice while gesturing slightly with her hand. In the surrounding background, station activity continues as a worker in a high-visibility safety vest walks along the bus parked at bay 6 to the left, and other travelers carry luggage or walk towards the stairs near the bus bays marked by blue circular signs numbered 6, 4, 2, 1, 3, and 5 under the bright sunlight.",
+        "quotes": [
+          "This bus goes to Seattle, hits a couple stops in between."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 13.85,
+        "end": 17.68,
+        "text": "A close-up shot frames <char2> from the chest up, facing left towards the off-screen <char1>. In the soft-focus background, parts of the parked Greyhound bus and terminal canopy structure are visible under bright daylight. <char2> speaks with a serious, urgent expression, firmly telling <char1> \"You get out of here.\" <char2> tilts her head slightly, maintaining intense eye contact, before continuing with \"Forget this.\" After a brief pause, <char2> lowers her tone and adds \"Maybe it can blow up.\" while sunlight glints off the side of her black cap, her ear, and her blonde hair tucked neatly under the brim, as ambient bus terminal sounds hum quietly in the background.",
+        "quotes": [
+          "You get out of here.",
+          "Forget this.",
+          "Maybe it can blow up."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A young woman, appearing to be in her late twenties, with a slender build and fair skin. She has long, wavy, strawberry-blonde hair that falls past her shoulders. She is wearing a dark brown, textured cardigan over a light beige top featuring a vertical pattern of small dark shapes. Her lower body is clad in light grey or sage green trousers and grey ankle boots. She carries a large, slouchy tan leather bag on her right shoulder.\n<char2>: A young woman, appearing to be in her late twenties, with a slim build and fair skin. She has blonde, shoulder-length hair tucked under a black baseball cap. A small hoop earring is visible in her left ear. She is wearing a black zip-up jacket over a black t-shirt and blue jeans. Her expression is often serious or focused.\n\nShots:\nShot 1 [0.00s-2.71s]: A wide, static shot at eye level captures a busy bus terminal on a sunny day under the ambient rumble of idling engines and distant outdoor terminal sounds. The scene is dominated by a central covered walkway supported by curved blue metal arches overhead. To the left, a dark blue bus is parked at bay 6, and further back, another bus stands at bay 4. To the right, a blue and silver Greyhound bus is parked at bay 5. Blue circular signs displaying white numbers (6, 4, 2, 1, 3, 5) mark the respective bus bays along the concrete concourse. In the center midground, <char1> stands waiting, holding the shoulder strap of a large tan bag with both hands and looking towards the right. In the background, other passengers wait or walk near the buses, with tall palm trees visible in the far distance against a clear blue sky. <char2> enters the frame from the right foreground wearing a black cap and dark jacket, walking briskly past the camera towards the center where <char1> is standing, while bright sunlight casts long, sharp shadows from the overhead arches onto the concrete platform.\nShot 2 [2.75s-4.09s]: A medium shot frames <char2> from the waist up, standing before a large blue and silver Greyhound bus on the sunlit platform. The sun is positioned behind the bus, creating a bright flare over the roofline and backlighting <char2>'s blonde hair escaping from her black baseball cap, which casts a dark shadow over her eyes. <char2> holds a blue envelope or ticket in both hands at waist level, looking down at it briefly before looking up and toward her left. The bus behind <char2> features a '100 years' logo visible on the side window alongside reflections of nearby palm trees. Maintaining a neutral, focused expression, <char2> shifts her weight slightly on the pavement as she holds the folded paper firmly in both hands amid the ambient outdoor station noise.\nShot 3 [4.13s-7.47s]: A medium shot at eye level shows <char1> in the foreground on the left, facing right towards <char2>, who is partially visible on the right edge of the frame, showing her dark jacket shoulder and baseball cap. <char1> looks down at the blue envelope that <char2> extends outward into her space. <char1>'s brow furrows with concern as <char1> reaches out with her left hand to take the envelope, holding the strap of her slouchy tan shoulder bag with her right hand. <char1> looks up towards <char2> and asks \"Where are you taking me?\" in a questioning tone. In the softly blurred background, a man wearing sunglasses and a grey jacket walks from right to left, while other passengers stand near the numbered bus bays under the bright natural sunlight casting sharp shadows across <char1>'s face and clothing.\nShot 4 [7.51s-9.63s]: A close-up shot frames <char2> from the chest up, facing slightly left towards <char1> standing off-screen. The background shows the blurred dark blue exterior of a parked Greyhound bus. Bright sunlight strikes the right side of <char2>'s face and hair, emphasizing the texture of her black baseball cap and the strands of blonde hair peeking out around her ear, where a small hoop earring is visible. <char2> maintains steady eye contact with <char1> and utters \"Me? Nowhere.\" in a terse, direct delivery. The natural backlighting creates strong contrast across <char2>'s features, keeping one side of her serious face in shadow as her lips part and settle while looking directly ahead.\nShot 5 [9.68s-13.80s]: A wide shot at eye level returns to the covered bus terminal platform where <char1> and <char2> stand together in the center of the frame beneath the blue arched canopy. <char1> stands on the left holding her tan bag while looking down at the blue ticket in her hands, and <char2> stands on the right facing her. Over the hum of terminal activity, <char2> states \"This bus goes to Seattle, hits a couple stops in between.\" in a calm, clear voice while gesturing slightly with her hand. In the surrounding background, station activity continues as a worker in a high-visibility safety vest walks along the bus parked at bay 6 to the left, and other travelers carry luggage or walk towards the stairs near the bus bays marked by blue circular signs numbered 6, 4, 2, 1, 3, and 5 under the bright sunlight.\nShot 6 [13.85s-17.68s]: A close-up shot frames <char2> from the chest up, facing left towards the off-screen <char1>. In the soft-focus background, parts of the parked Greyhound bus and terminal canopy structure are visible under bright daylight. <char2> speaks with a serious, urgent expression, firmly telling <char1> \"You get out of here.\" <char2> tilts her head slightly, maintaining intense eye contact, before continuing with \"Forget this.\" After a brief pause, <char2> lowers her tone and adds \"Maybe it can blow up.\" while sunlight glints off the side of her black cap, her ear, and her blonde hair tucked neatly under the brim, as ambient bus terminal sounds hum quietly in the background."
+  },
+  {
+    "out": "0013",
+    "title": "You Guys Baking",
+    "logline": "A warm kitchen doorway, four people, and an easy invitation to help with the baking.",
+    "setting": "Kitchen",
+    "language": "English",
+    "duration": 17.708,
+    "video": "static/videos/0013.mp4",
+    "poster": "static/posters/0013.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 4,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, striped turtleneck",
+        "text": "A young adult woman with fair skin and blonde hair pulled back into a low bun or clip. She is wearing a black and white horizontal striped turtleneck long-sleeve shirt. She has a slender build."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Woman, plaid flannel",
+        "text": "A middle-aged woman with fair skin and shoulder-length blonde hair. She wears rectangular eyeglasses resting on top of her head. She is dressed in a blue and brown plaid flannel shirt, unbuttoned, over a mustard yellow top."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Woman, green stripes",
+        "text": "A young woman or teenager with fair skin and long, wavy brown hair. She is wearing a green and white horizontal striped t-shirt with a pink trim around the neckline."
+      },
+      {
+        "id": "char4",
+        "n": 4,
+        "label": "Man, plaid shirt",
+        "text": "A young adult man with fair skin and short dark brown hair. He is wearing a dark blue or black plaid button-down shirt over a maroon t-shirt."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 5.54,
+        "text": "The shot opens with <char1> emerging into a dimly lit doorway, framed symmetrically by dark wooden door jambs on the left and right. Wearing a black and white horizontal striped turtleneck long-sleeve top, she steps forward as the warm, yellow interior lighting casts soft shadows across her face. Looking slightly off-camera toward her right with a gentle, friendly expression, <char1> brings her hands together in front of her chest and rubs them gently. Behind her stretches a soft-focus hallway with glimpses of wall fixtures and hanging ornaments on the far right. Toward the end of the shot, <char1> smiles pleasantly and asks \"Need any help?\" in an upbeat, warm tone.",
+        "quotes": [
+          "Need any help?"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 5.58,
+        "end": 8.17,
+        "text": "In a warmly illuminated kitchen, <char2> stands on the left wearing an open blue and brown plaid flannel shirt over a mustard top with glasses perched atop her head. She holds a metal measuring cup and carefully pours white flour into a large metal mixing bowl held steady by <char3>, who wears a green striped shirt with pink collar trim. Beside them on the right, <char4> stands in a dark plaid shirt over a maroon t-shirt, looking on intently. Wooden cabinetry, a tiled backsplash, and an illuminated Christmas tree fill the background alongside a sign on the far right. As she tips the cup, <char2> looks up toward off-screen right with an inviting smile and responds \"Absolutely.\" in a cheerful, welcoming voice.",
+        "quotes": [
+          "Absolutely."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 8.21,
+        "end": 9.5,
+        "text": "The framing cuts back to <char1> standing within the wooden doorframe in her striped turtleneck sweater. Clasping her hands tightly beneath her chin, she beams with an open smile while gazing forward into the room. Warm, low-key lighting softly outlines her features against the darker background corridor, where a dark cabinet with hanging jewelry rests in shadow to the right. Looking at the others across the kitchen, <char1> asks \"You guys baking?\" with a light, curious vocal delivery.",
+        "quotes": [
+          "You guys baking?"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 9.54,
+        "end": 12.17,
+        "text": "Back at the kitchen island, <char2> smiles broadly on the left and announces \"Ding ding ding.\" in a playful, melodic tone while <char4> prepares to crack an egg into the mixing bowl and <char3> looks on attentively. In the foreground, the back of <char1>'s head and striped turtleneck enter from the right, walking closer to the counter. Continuing smoothly, <char2> asks \"Want to join us?\" with an encouraging smile. <char1> promptly answers \"Yeah.\" in an agreeable tone as <char4> cracks the egg shell over the bowl amid the cozy holiday kitchen decor.",
+        "quotes": [
+          "Ding ding ding.",
+          "Want to join us?",
+          "Yeah."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 12.21,
+        "end": 14.88,
+        "text": "<char4> stands on the left in his dark plaid button-down shirt, carefully separating an egg shell over the metal mixing bowl on the counter. To the right, <char1> stands in profile beside the wood-paneled refrigerator cabinetry, watching him with a relaxed smile. Warm ambient light gleams off the kitchen fixtures and a glowing orange salt lamp in the background. Looking at him, <char1> asks \"Ben, you bake?\" in a casual, conversational tone. <char4> drops the egg into the bowl, chuckles softly, and replies \"When I'm home, yeah.\" with a self-effacing grin.",
+        "quotes": [
+          "Ben, you bake?",
+          "When I'm home, yeah."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 14.92,
+        "end": 17.42,
+        "text": "Framed in a medium close-up, <char2> stands on the left in her plaid flannel shirt with glasses resting on her head, focused on measuring ingredients across the counter surface. On the right, <char3> in her green striped crewneck looks up toward <char1> off-screen, a mischievous grin appearing across her face. In the background, warm light illuminates a sign with red lettering reading 'GET YOUR...'. <char3> speaks up with dry humor, saying \"Nah, he just usually eats the frosting.\" while <char2> smiles quietly alongside her.",
+        "quotes": [
+          "Nah, he just usually eats the frosting."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A young adult woman with fair skin and blonde hair pulled back into a low bun or clip. She is wearing a black and white horizontal striped turtleneck long-sleeve shirt. She has a slender build.\n<char2>: A middle-aged woman with fair skin and shoulder-length blonde hair. She wears rectangular eyeglasses resting on top of her head. She is dressed in a blue and brown plaid flannel shirt, unbuttoned, over a mustard yellow top.\n<char3>: A young woman or teenager with fair skin and long, wavy brown hair. She is wearing a green and white horizontal striped t-shirt with a pink trim around the neckline.\n<char4>: A young adult man with fair skin and short dark brown hair. He is wearing a dark blue or black plaid button-down shirt over a maroon t-shirt.\n\nShots:\nShot 1 [0.00s-5.54s]: The shot opens with <char1> emerging into a dimly lit doorway, framed symmetrically by dark wooden door jambs on the left and right. Wearing a black and white horizontal striped turtleneck long-sleeve top, she steps forward as the warm, yellow interior lighting casts soft shadows across her face. Looking slightly off-camera toward her right with a gentle, friendly expression, <char1> brings her hands together in front of her chest and rubs them gently. Behind her stretches a soft-focus hallway with glimpses of wall fixtures and hanging ornaments on the far right. Toward the end of the shot, <char1> smiles pleasantly and asks \"Need any help?\" in an upbeat, warm tone.\nShot 2 [5.58s-8.17s]: In a warmly illuminated kitchen, <char2> stands on the left wearing an open blue and brown plaid flannel shirt over a mustard top with glasses perched atop her head. She holds a metal measuring cup and carefully pours white flour into a large metal mixing bowl held steady by <char3>, who wears a green striped shirt with pink collar trim. Beside them on the right, <char4> stands in a dark plaid shirt over a maroon t-shirt, looking on intently. Wooden cabinetry, a tiled backsplash, and an illuminated Christmas tree fill the background alongside a sign on the far right. As she tips the cup, <char2> looks up toward off-screen right with an inviting smile and responds \"Absolutely.\" in a cheerful, welcoming voice.\nShot 3 [8.21s-9.50s]: The framing cuts back to <char1> standing within the wooden doorframe in her striped turtleneck sweater. Clasping her hands tightly beneath her chin, she beams with an open smile while gazing forward into the room. Warm, low-key lighting softly outlines her features against the darker background corridor, where a dark cabinet with hanging jewelry rests in shadow to the right. Looking at the others across the kitchen, <char1> asks \"You guys baking?\" with a light, curious vocal delivery.\nShot 4 [9.54s-12.17s]: Back at the kitchen island, <char2> smiles broadly on the left and announces \"Ding ding ding.\" in a playful, melodic tone while <char4> prepares to crack an egg into the mixing bowl and <char3> looks on attentively. In the foreground, the back of <char1>'s head and striped turtleneck enter from the right, walking closer to the counter. Continuing smoothly, <char2> asks \"Want to join us?\" with an encouraging smile. <char1> promptly answers \"Yeah.\" in an agreeable tone as <char4> cracks the egg shell over the bowl amid the cozy holiday kitchen decor.\nShot 5 [12.21s-14.88s]: <char4> stands on the left in his dark plaid button-down shirt, carefully separating an egg shell over the metal mixing bowl on the counter. To the right, <char1> stands in profile beside the wood-paneled refrigerator cabinetry, watching him with a relaxed smile. Warm ambient light gleams off the kitchen fixtures and a glowing orange salt lamp in the background. Looking at him, <char1> asks \"Ben, you bake?\" in a casual, conversational tone. <char4> drops the egg into the bowl, chuckles softly, and replies \"When I'm home, yeah.\" with a self-effacing grin.\nShot 6 [14.92s-17.42s]: Framed in a medium close-up, <char2> stands on the left in her plaid flannel shirt with glasses resting on her head, focused on measuring ingredients across the counter surface. On the right, <char3> in her green striped crewneck looks up toward <char1> off-screen, a mischievous grin appearing across her face. In the background, warm light illuminates a sign with red lettering reading 'GET YOUR...'. <char3> speaks up with dry humor, saying \"Nah, he just usually eats the frosting.\" while <char2> smiles quietly alongside her."
+  },
+  {
+    "out": "0014",
+    "title": "Put Him On",
+    "logline": "A dim office and a landline: someone is put on the phone with news about Johnny Sack.",
+    "setting": "Office",
+    "language": "English",
+    "duration": 17.042,
+    "video": "static/videos/0014.mp4",
+    "poster": "static/posters/0014.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 2,
+    "n_shots": 5,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man, grey mustache",
+        "text": "An older Caucasian male with a receding hairline and thinning grey hair on the sides and back of his head. He has a prominent, thick grey mustache that covers his upper lip. His face shows signs of aging with visible wrinkles on his forehead and around his eyes. He is dressed in formal business attire, wearing a dark, likely charcoal or black, suit jacket with structured shoulders. Underneath, he wears a crisp white dress shirt with visible French cuffs and metallic cufflinks. A patterned tie, dark with lighter geometric or abstract designs, is knotted at his neck. He appears to be in a professional office environment."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, dark overcoat",
+        "text": "A middle-aged Caucasian male with a heavy build and a receding hairline, leaving the top of his head bald while dark brown hair remains on the sides and back. He has a distinct, fresh-looking scratch or cut running diagonally down his left cheek. He is wearing a heavy, dark wool overcoat that has patches of snow on the shoulder, indicating exposure to winter weather. Under the coat, a light-colored collared shirt is visible. He wears a gold ring with a red stone on his right ring finger. His expression is intense and strained, suggesting distress or anger."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 4.46,
+        "text": "The shot opens in a dimly lit office with warm, artificial interior lighting. <char1> stands near a wooden desk, holding a black landline telephone receiver to <char1>'s left ear with <char1>'s left hand while wearing a dark suit jacket, patterned necktie, and crisp white shirt with French cuffs. Taking off a black fedora hat with <char1>'s right hand and setting it aside, <char1> speaks firmly into the receiver, saying \"Absolutely. Put him on.\" Behind <char1> to the left, wooden Venetian blinds cover a window, casting horizontal striped shadows across the wall, while to the right stands a tall wooden bookshelf filled with uniform rows of red-spined legal volumes alongside a desk lamp with a silver base. On the desk in the foreground, a silver metal travel mug and a small dark sculpture rest on the surface. <char1> lowers <char1>'s body into a grey leather office chair, leaning forward slightly as <char1> settles in. Continuing to hold the receiver close to <char1>'s ear with a focused, serious expression beneath <char1>'s prominent grey mustache, <char1> calls out \"Anthony?\" into the phone.",
+        "quotes": [
+          "Absolutely. Put him on.",
+          "Anthony?"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 4.5,
+        "end": 8.72,
+        "text": "The scene cuts to an outdoor winter setting illuminated by overcast, diffuse daylight, framing <char2> in a close-up angled slightly from the side. Standing outside in the cold environment, <char2> holds a silver flip-phone to <char2>'s right ear with <char2>'s right hand, which displays a gold ring set with a red gemstone on <char2>'s ring finger. A fresh, reddish scratch runs diagonally down <char2>'s left cheek, and clumps of white snow stick to the shoulder and collar of <char2>'s dark wool overcoat above a light collared shirt. In the blurred background, a house with white siding and windows is surrounded by snow-covered ground, dark evergreen shrubs, and a diagonal white metal railing. With a furrowed brow and an urgent, intense delivery, <char2> speaks into the phone, saying \"The feds just hit Johnny Sack.\" <char2> squints against the winter air, looking downward and slightly upward before asking in a hushed, pressed tone, \"You heard anything?\" as <char2> waits intently for a reply.",
+        "quotes": [
+          "The feds just hit Johnny Sack.",
+          "You heard anything?"
+        ]
+      },
+      {
+        "n": 3,
+        "start": 8.76,
+        "end": 11.55,
+        "text": "Cutting back to the warm, artificially lit office interior, the camera frames <char1> in a tighter close-up focusing on <char1>'s face and upper shoulders. Warm directional lighting from the right illuminates <char1>'s forehead wrinkles, receding hairline, and grey mustache while casting shadows across the left side of <char1>'s face. Seated in the grey executive chair, <char1> holds the black landline handset to <char1>'s left ear with the coiled black telephone cord hanging down against <char1>'s dark suit jacket. In the softly blurred background, the tall wooden bookshelf holding rows of red-spined volumes and a partially visible framed photograph is discernible. With a calm, measured delivery and subtle movements of <char1>'s head, <char1> speaks into the receiver, saying \"I had Gendler on my cellphone all the way over here.\" <char1> keeps <char1>'s gaze directed slightly off-camera with a serious, concentrated expression, maintaining a steady posture in the chair.",
+        "quotes": [
+          "I had Gendler on my cellphone all the way over here."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 11.6,
+        "end": 13.55,
+        "text": "The shot returns to <char2> outdoors in a close-up framing at eye level, similar to the previous exterior composition. <char2> continues holding the silver flip-phone against <char2>'s right ear with <char2>'s right hand. The fresh red cut on <char2>'s left cheek remains clearly visible against <char2>'s pale skin, while scattered white snowflakes and clumps of snow cling to the dark wool fabric of <char2>'s heavy coat around <char2>'s collar, neck, and shoulder. In the background, the white diagonal metal railing is sharp in focus, set against mounds of piled white snow, dark green evergreen bushes, and the overcast winter exterior under flat, diffuse grey daylight. Over the line from the telephone receiver, <char1>'s voice comes through stating \"Jimmy Patrile was a cooperator.\" As <char1> speaks off-screen, <char2> remains silent, lowering <char2>'s eyes before shifting <char2>'s gaze slightly downward, keeping <char2>'s jaw clenched tight with a strained, distressed expression amidst the cold atmosphere.",
+        "quotes": [
+          "Jimmy Patrile was a cooperator."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 13.6,
+        "end": 16.85,
+        "text": "The final shot returns to a close-up of <char1> seated in the office chair, continuing the conversation on the telephone receiver held against <char1>'s left ear. Wooden Venetian blinds are visible in the background to the left, filtering soft ambient light across the wall, while the dark wooden bookshelf remains blurred behind him. The warm interior key light accentuates <char1>'s facial texture, grey mustache, and patterned tie above the crisp white shirt cuff. With an explanatory, sober demeanor, <char1> speaks into the telephone receiver, stating \"Brooklyn AUSA took down the whole Patrile crew, plus Johnny.\" As <char1> delivers the sentence, <char1>'s mouth moves distinctly while <char1>'s eyes look forward slightly off-axis, leaning back comfortably in the chair with the coiled handset cord resting across the dark lapel of <char1>'s suit as the scene concludes.",
+        "quotes": [
+          "Brooklyn AUSA took down the whole Patrile crew, plus Johnny."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: An older Caucasian male with a receding hairline and thinning grey hair on the sides and back of his head. He has a prominent, thick grey mustache that covers his upper lip. His face shows signs of aging with visible wrinkles on his forehead and around his eyes. He is dressed in formal business attire, wearing a dark, likely charcoal or black, suit jacket with structured shoulders. Underneath, he wears a crisp white dress shirt with visible French cuffs and metallic cufflinks. A patterned tie, dark with lighter geometric or abstract designs, is knotted at his neck. He appears to be in a professional office environment.\n<char2>: A middle-aged Caucasian male with a heavy build and a receding hairline, leaving the top of his head bald while dark brown hair remains on the sides and back. He has a distinct, fresh-looking scratch or cut running diagonally down his left cheek. He is wearing a heavy, dark wool overcoat that has patches of snow on the shoulder, indicating exposure to winter weather. Under the coat, a light-colored collared shirt is visible. He wears a gold ring with a red stone on his right ring finger. His expression is intense and strained, suggesting distress or anger.\n\nShots:\nShot 1 [0.00s-4.46s]: The shot opens in a dimly lit office with warm, artificial interior lighting. <char1> stands near a wooden desk, holding a black landline telephone receiver to <char1>'s left ear with <char1>'s left hand while wearing a dark suit jacket, patterned necktie, and crisp white shirt with French cuffs. Taking off a black fedora hat with <char1>'s right hand and setting it aside, <char1> speaks firmly into the receiver, saying \"Absolutely. Put him on.\" Behind <char1> to the left, wooden Venetian blinds cover a window, casting horizontal striped shadows across the wall, while to the right stands a tall wooden bookshelf filled with uniform rows of red-spined legal volumes alongside a desk lamp with a silver base. On the desk in the foreground, a silver metal travel mug and a small dark sculpture rest on the surface. <char1> lowers <char1>'s body into a grey leather office chair, leaning forward slightly as <char1> settles in. Continuing to hold the receiver close to <char1>'s ear with a focused, serious expression beneath <char1>'s prominent grey mustache, <char1> calls out \"Anthony?\" into the phone.\nShot 2 [4.50s-8.72s]: The scene cuts to an outdoor winter setting illuminated by overcast, diffuse daylight, framing <char2> in a close-up angled slightly from the side. Standing outside in the cold environment, <char2> holds a silver flip-phone to <char2>'s right ear with <char2>'s right hand, which displays a gold ring set with a red gemstone on <char2>'s ring finger. A fresh, reddish scratch runs diagonally down <char2>'s left cheek, and clumps of white snow stick to the shoulder and collar of <char2>'s dark wool overcoat above a light collared shirt. In the blurred background, a house with white siding and windows is surrounded by snow-covered ground, dark evergreen shrubs, and a diagonal white metal railing. With a furrowed brow and an urgent, intense delivery, <char2> speaks into the phone, saying \"The feds just hit Johnny Sack.\" <char2> squints against the winter air, looking downward and slightly upward before asking in a hushed, pressed tone, \"You heard anything?\" as <char2> waits intently for a reply.\nShot 3 [8.76s-11.55s]: Cutting back to the warm, artificially lit office interior, the camera frames <char1> in a tighter close-up focusing on <char1>'s face and upper shoulders. Warm directional lighting from the right illuminates <char1>'s forehead wrinkles, receding hairline, and grey mustache while casting shadows across the left side of <char1>'s face. Seated in the grey executive chair, <char1> holds the black landline handset to <char1>'s left ear with the coiled black telephone cord hanging down against <char1>'s dark suit jacket. In the softly blurred background, the tall wooden bookshelf holding rows of red-spined volumes and a partially visible framed photograph is discernible. With a calm, measured delivery and subtle movements of <char1>'s head, <char1> speaks into the receiver, saying \"I had Gendler on my cellphone all the way over here.\" <char1> keeps <char1>'s gaze directed slightly off-camera with a serious, concentrated expression, maintaining a steady posture in the chair.\nShot 4 [11.60s-13.55s]: The shot returns to <char2> outdoors in a close-up framing at eye level, similar to the previous exterior composition. <char2> continues holding the silver flip-phone against <char2>'s right ear with <char2>'s right hand. The fresh red cut on <char2>'s left cheek remains clearly visible against <char2>'s pale skin, while scattered white snowflakes and clumps of snow cling to the dark wool fabric of <char2>'s heavy coat around <char2>'s collar, neck, and shoulder. In the background, the white diagonal metal railing is sharp in focus, set against mounds of piled white snow, dark green evergreen bushes, and the overcast winter exterior under flat, diffuse grey daylight. Over the line from the telephone receiver, <char1>'s voice comes through stating \"Jimmy Patrile was a cooperator.\" As <char1> speaks off-screen, <char2> remains silent, lowering <char2>'s eyes before shifting <char2>'s gaze slightly downward, keeping <char2>'s jaw clenched tight with a strained, distressed expression amidst the cold atmosphere.\nShot 5 [13.60s-16.85s]: The final shot returns to a close-up of <char1> seated in the office chair, continuing the conversation on the telephone receiver held against <char1>'s left ear. Wooden Venetian blinds are visible in the background to the left, filtering soft ambient light across the wall, while the dark wooden bookshelf remains blurred behind him. The warm interior key light accentuates <char1>'s facial texture, grey mustache, and patterned tie above the crisp white shirt cuff. With an explanatory, sober demeanor, <char1> speaks into the telephone receiver, stating \"Brooklyn AUSA took down the whole Patrile crew, plus Johnny.\" As <char1> delivers the sentence, <char1>'s mouth moves distinctly while <char1>'s eyes look forward slightly off-axis, leaning back comfortably in the chair with the coiled handset cord resting across the dark lapel of <char1>'s suit as the scene concludes."
+  },
+  {
+    "out": "0015",
+    "title": "The Manor Gate",
+    "logline": "A stone manor, a vintage car, and the news that officers are already on the gate.",
+    "setting": "Manor gate",
+    "language": "English",
+    "duration": 16.375,
+    "video": "static/videos/0015.mp4",
+    "poster": "static/posters/0015.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 3,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man, navy three-piece",
+        "text": "An older Caucasian man with short, greying hair combed back and a receding hairline. He has a lean build and is wearing a navy blue three-piece suit with a notch lapel, a light blue dress shirt, and a dark navy tie with a small repeating geometric pattern. He appears to be in his 50s or 60s."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, charcoal suit",
+        "text": "A younger Caucasian man with short, dark curly hair and a thin mustache. He has a sturdy build and is wearing a dark charcoal or black suit jacket, a beige or light tan shirt, and a striped tie in shades of brown and cream. He appears to be in his 20s or 30s."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Woman, teal coat",
+        "text": "A Caucasian woman with shoulder-length wavy blonde or light brown hair that is windblown. She is wearing a dark teal or navy blue coat with a belt, over a white button-up shirt with small black polka dots and a wide collar. She wears gold hoop earrings and a thin gold necklace with a small pendant. She appears to be in her 30s or 40s."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 4.96,
+        "text": "The shot begins with the roof and windows of a teal vintage estate car filling the foreground, moving rapidly from right to left and obscuring the background. As the car clears the frame, a large, historic manor house built from honey-colored stone is revealed. The architecture features mullioned windows with leaded glass panes and intricate stone carvings around the window frames. In the center, there is a large arched wooden doorway flanked by stone pillars topped with decorative finials. <char1> and <char2> emerge from this doorway, walking side-by-side towards the camera with a serious demeanor, where <char1> is on the right and <char2> is on the left. As they stride forward, <char2> says in a conversational tone, \"I guess the Bettersons' name keeps coming up, doesn't it?\" To the right of the doorway, a police officer in a traditional uniform and helmet stands motionless at attention with hands clasped in front. A stone balustrade with diamond-shaped cutouts runs along the terrace behind the men. The lighting is flat and diffuse under an overcast sky, casting soft shadows across the weathered stone surfaces, while gravel scuffs gently underfoot on the paved driveway area as the foreground car drives out of frame.",
+        "quotes": [
+          "I guess the Bettersons' name keeps coming up, doesn't it?"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 5.0,
+        "end": 8.48,
+        "text": "In this medium close-up focusing entirely on <char3>, she is positioned slightly off-center to the right against a heavily blurred background of dark green foliage and the soft shape of a stone structure. Her shoulder-length wavy blonde hair is blown gently by the outdoor breeze, with light strands moving across her face. She is dressed in a dark teal coat with a wide collar over a white shirt patterned with small black polka dots, wearing gold hoop earrings and a delicate gold necklace visible at her open neckline. Her expression appears anxious and concerned with slightly furrowed brows and her mouth slightly open. Off-screen, <char1>'s calm and firm voice addresses her, saying, \"I'm sorry, you have to stay.\" Hearing this, <char3> looks slightly to the left of the lens towards the off-screen speaker, her gaze steady yet troubled as the natural diffuse overcast lighting softly illuminates her features and the texture of her clothing without harsh shadows.",
+        "quotes": [
+          "I'm sorry, you have to stay."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 8.52,
+        "end": 10.04,
+        "text": "A wide shot establishes the spatial relationship between the three main characters standing on a paved driveway in front of the stone manor house. <char2> stands on the left in his dark suit and striped tie, <char1> stands in the center wearing his navy three-piece suit, and <char3> is on the right with her back partially turned toward the camera. A weathered stone balustrade with diamond-shaped cutouts runs along the terrace behind them. <char1> and <char2> face <char3> directly, listening attentively. <char1> speaks in a measured, reassuring voice, telling her, \"Hopefully we'll be able to release you tomorrow.\" <char1> keeps his hands down by his sides while <char2> maintains an alert posture beside him. Behind <char3>, the rear section of a vintage white convertible car is visible, complete with its chrome bumper and tail lights. In the distance beyond the stone wall, bare autumn trees stand beneath a pale grey overcast sky, creating an even, cold atmosphere across the textured architecture.",
+        "quotes": [
+          "Hopefully we'll be able to release you tomorrow."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 10.08,
+        "end": 12.84,
+        "text": "This over-the-shoulder medium close-up frames <char3> facing left as she engages in conversation with <char1>, whose blurred blue suit shoulder and back of head occupy the foreground on the left edge of the frame. <char3>'s expression is earnest and focused; her eyes remain fixed on <char1> while she responds in a polite and composed tone, \"Gives me a chance to finish my research, at least.\" As she speaks, her lips move precisely and the gentle breeze continues to tousle strands of her blonde hair across her face. The distinct white polka-dot pattern of her shirt contrasts against the dark lapels of her belted coat, and her gold hoop earrings catch the cool ambient light. The background remains a soft blur of stone masonry and distant greenery, maintaining visual intimacy and tension during their direct exchange under the diffuse, overcast sky.",
+        "quotes": [
+          "Gives me a chance to finish my research, at least."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 12.88,
+        "end": 14.0,
+        "text": "A close-up shot focuses directly on <char1>'s face and upper torso against a completely blurred background of muted greens and weathered stone. He is dressed in his navy blue suit jacket, light blue dress shirt, and geometric patterned tie, with his grey hair neatly combed back. As he begins to speak, he initially looks down, his expression pensive, solemn, and slightly troubled with a subtle furrowing of his brow. He then raises his eyes to look directly across at <char3> off-screen, his gaze conveying quiet authority and seriousness. The diffuse daylight emphasizes the contours of his face and the lines around his eyes and mouth, while the fabric texture of his blue suit and the knot of his necktie remain sharply defined. He starts his sentence in a calm, authoritative cadence just before the camera cuts away.",
+        "quotes": []
+      },
+      {
+        "n": 6,
+        "start": 14.04,
+        "end": 16.375,
+        "text": "This over-the-shoulder close-up frames <char2> facing toward the right, looking across at <char1>, whose blurred ear, cheek, and side of the head appear in the soft foreground on the right edge of the frame. <char2> maintains a serious, watchful, and attentive expression, his dark curly hair and neat mustache clearly defined against his pale skin. He wears his dark suit jacket, tan shirt, and brown-striped necktie. In continuous synchronized dialogue from the previous angle, <char1>'s steady and firm voice delivers the line, \"Well, we just left the village and there'll be officers on the gate.\" <char2> listens closely without breaking his steady gaze on <char1>, capturing the subdued stillness and gravity of the moment against the softly out-of-focus honey-colored stone wall and window of the manor house behind him.",
+        "quotes": [
+          "Well, we just left the village and there'll be officers on the gate."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: An older Caucasian man with short, greying hair combed back and a receding hairline. He has a lean build and is wearing a navy blue three-piece suit with a notch lapel, a light blue dress shirt, and a dark navy tie with a small repeating geometric pattern. He appears to be in his 50s or 60s.\n<char2>: A younger Caucasian man with short, dark curly hair and a thin mustache. He has a sturdy build and is wearing a dark charcoal or black suit jacket, a beige or light tan shirt, and a striped tie in shades of brown and cream. He appears to be in his 20s or 30s.\n<char3>: A Caucasian woman with shoulder-length wavy blonde or light brown hair that is windblown. She is wearing a dark teal or navy blue coat with a belt, over a white button-up shirt with small black polka dots and a wide collar. She wears gold hoop earrings and a thin gold necklace with a small pendant. She appears to be in her 30s or 40s.\n\nShots:\nShot 1 [0.00s-4.96s]: The shot begins with the roof and windows of a teal vintage estate car filling the foreground, moving rapidly from right to left and obscuring the background. As the car clears the frame, a large, historic manor house built from honey-colored stone is revealed. The architecture features mullioned windows with leaded glass panes and intricate stone carvings around the window frames. In the center, there is a large arched wooden doorway flanked by stone pillars topped with decorative finials. <char1> and <char2> emerge from this doorway, walking side-by-side towards the camera with a serious demeanor, where <char1> is on the right and <char2> is on the left. As they stride forward, <char2> says in a conversational tone, \"I guess the Bettersons' name keeps coming up, doesn't it?\" To the right of the doorway, a police officer in a traditional uniform and helmet stands motionless at attention with hands clasped in front. A stone balustrade with diamond-shaped cutouts runs along the terrace behind the men. The lighting is flat and diffuse under an overcast sky, casting soft shadows across the weathered stone surfaces, while gravel scuffs gently underfoot on the paved driveway area as the foreground car drives out of frame.\nShot 2 [5.00s-8.48s]: In this medium close-up focusing entirely on <char3>, she is positioned slightly off-center to the right against a heavily blurred background of dark green foliage and the soft shape of a stone structure. Her shoulder-length wavy blonde hair is blown gently by the outdoor breeze, with light strands moving across her face. She is dressed in a dark teal coat with a wide collar over a white shirt patterned with small black polka dots, wearing gold hoop earrings and a delicate gold necklace visible at her open neckline. Her expression appears anxious and concerned with slightly furrowed brows and her mouth slightly open. Off-screen, <char1>'s calm and firm voice addresses her, saying, \"I'm sorry, you have to stay.\" Hearing this, <char3> looks slightly to the left of the lens towards the off-screen speaker, her gaze steady yet troubled as the natural diffuse overcast lighting softly illuminates her features and the texture of her clothing without harsh shadows.\nShot 3 [8.52s-10.04s]: A wide shot establishes the spatial relationship between the three main characters standing on a paved driveway in front of the stone manor house. <char2> stands on the left in his dark suit and striped tie, <char1> stands in the center wearing his navy three-piece suit, and <char3> is on the right with her back partially turned toward the camera. A weathered stone balustrade with diamond-shaped cutouts runs along the terrace behind them. <char1> and <char2> face <char3> directly, listening attentively. <char1> speaks in a measured, reassuring voice, telling her, \"Hopefully we'll be able to release you tomorrow.\" <char1> keeps his hands down by his sides while <char2> maintains an alert posture beside him. Behind <char3>, the rear section of a vintage white convertible car is visible, complete with its chrome bumper and tail lights. In the distance beyond the stone wall, bare autumn trees stand beneath a pale grey overcast sky, creating an even, cold atmosphere across the textured architecture.\nShot 4 [10.08s-12.84s]: This over-the-shoulder medium close-up frames <char3> facing left as she engages in conversation with <char1>, whose blurred blue suit shoulder and back of head occupy the foreground on the left edge of the frame. <char3>'s expression is earnest and focused; her eyes remain fixed on <char1> while she responds in a polite and composed tone, \"Gives me a chance to finish my research, at least.\" As she speaks, her lips move precisely and the gentle breeze continues to tousle strands of her blonde hair across her face. The distinct white polka-dot pattern of her shirt contrasts against the dark lapels of her belted coat, and her gold hoop earrings catch the cool ambient light. The background remains a soft blur of stone masonry and distant greenery, maintaining visual intimacy and tension during their direct exchange under the diffuse, overcast sky.\nShot 5 [12.88s-14.00s]: A close-up shot focuses directly on <char1>'s face and upper torso against a completely blurred background of muted greens and weathered stone. He is dressed in his navy blue suit jacket, light blue dress shirt, and geometric patterned tie, with his grey hair neatly combed back. As he begins to speak, he initially looks down, his expression pensive, solemn, and slightly troubled with a subtle furrowing of his brow. He then raises his eyes to look directly across at <char3> off-screen, his gaze conveying quiet authority and seriousness. The diffuse daylight emphasizes the contours of his face and the lines around his eyes and mouth, while the fabric texture of his blue suit and the knot of his necktie remain sharply defined. He starts his sentence in a calm, authoritative cadence just before the camera cuts away.\nShot 6 [14.04s-16.48s]: This over-the-shoulder close-up frames <char2> facing toward the right, looking across at <char1>, whose blurred ear, cheek, and side of the head appear in the soft foreground on the right edge of the frame. <char2> maintains a serious, watchful, and attentive expression, his dark curly hair and neat mustache clearly defined against his pale skin. He wears his dark suit jacket, tan shirt, and brown-striped necktie. In continuous synchronized dialogue from the previous angle, <char1>'s steady and firm voice delivers the line, \"Well, we just left the village and there'll be officers on the gate.\" <char2> listens closely without breaking his steady gaze on <char1>, capturing the subdued stillness and gravity of the moment against the softly out-of-focus honey-colored stone wall and window of the manor house behind him."
+  },
+  {
+    "out": "0016",
+    "title": "Three, Two, One",
+    "logline": "Cloche hats on a garden path, a countdown, and a posed photograph that was not so bad.",
+    "setting": "Garden path",
+    "language": "English",
+    "duration": 17.042,
+    "video": "static/videos/0016.mp4",
+    "poster": "static/posters/0016.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 8,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, beige cloche",
+        "text": "A young woman with shoulder-length curly light brown hair and a fair complexion. She wears a beige cloche hat with a teal ribbon band. Her outfit consists of a teal wool coat featuring a distinctive capelet layer over the shoulders with large buttons down the front and a structured collar. She wears light-colored gloves. Her expression is often serious or focused. The coat has large pockets and a flared skirt."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Woman, floral cloche",
+        "text": "A young woman with a short brown bob haircut. She wears a dark brown cloche hat adorned with embroidered colorful flowers in red, blue, and green. Her coat is a dark teal velvet material with a wide collar and long sleeves. A pink and green flower pin is attached to her left lapel. Underneath, a cream lace neckline is visible. She wears light gloves and has a soft, somewhat demure demeanor."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Woman, black coat",
+        "text": "An older woman with short blonde hair and red lipstick. She wears a black hat and a black coat. A blue and white striped scarf is tied around her neck. She operates a large wooden vintage camera on a tripod. Her hands are visible holding a cable release. She appears authoritative and focused on her task."
+      },
+      {
+        "id": "char4",
+        "n": 4,
+        "label": "Woman, maroon hat",
+        "text": "A woman with dark hair. She wears a maroon hat and a long black coat with buttons. A white flower pin is on her lapel. She holds a brown glove or purse in her hand. She stands on the far left of the group lineup. Her expression is neutral."
+      },
+      {
+        "id": "char5",
+        "n": 5,
+        "label": "Woman, green hat",
+        "text": "A woman with blonde hair. She wears a green hat with a white band. Her coat is green with a thick brown fur collar. A pink flower pin is on her lapel. She wears brown gloves. She stands next to the woman in black. Her posture is upright."
+      },
+      {
+        "id": "char6",
+        "n": 6,
+        "label": "Man, top hat",
+        "text": "A man with short brown hair. He wears a black top hat and a black tailcoat with striped trousers. A white flower is pinned to his lapel. He wears a grey waistcoat and a light tie. He enters the group lineup and stands in the center. He has a confident posture."
+      },
+      {
+        "id": "char7",
+        "n": 7,
+        "label": "Woman, fur stole",
+        "text": "A woman with a blonde bob. She wears a small black hat. Her outfit is a cream dress under a black coat, accessorized with a large grey fur stole around her shoulders and a pearl necklace. A gold buckle is at her waist. She wears light gloves. She stands next to the man in the top hat."
+      },
+      {
+        "id": "char8",
+        "n": 8,
+        "label": "Man, blue suit",
+        "text": "A man with reddish-brown hair. He is seen primarily from the back wearing a dark blue suit jacket. He stands on the far left edge of the frame in the wide shot, observing the group. His face is partially visible in profile."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 3.04,
+        "text": "The shot opens on an outdoor gravel path bordered by dense green trees and hedges in the background under natural daylight. <char1> and <char2> walk side by side towards the static camera. On the left, <char1> wears a teal capelet coat, light gloves, and a beige cloche hat with a teal band, looking slightly down and to the right with a serious expression. On the right, <char2> wears a dark teal velvet coat with a flower lapel pin, light gloves, and an embroidered floral hat, looking downward as an off-screen voice calls out \"Further together for me.\" in an instructional tone. Behind them in the soft-focus background, a uniformed figure walks away across the sun-dappled path. As the women step closer into the mid-ground, the off-screen voice says \"Lovely.\", while on-screen Chinese subtitles display at the bottom and soft outdoor ambient noise accompanies their movement.",
+        "quotes": [
+          "Further together for me.",
+          "Lovely."
+        ]
+      },
+      {
+        "n": 2,
+        "start": 3.08,
+        "end": 4.24,
+        "text": "Cutting to <char3>, the photographer stands outdoors in bright sunlight framed against lush green foliage and the edge of a distant building. She is dressed in a dark coat, a black hat, and a blue-and-white striped scarf knotted at her collar. Positioned beside a large wooden vintage camera mounted on a tripod with polished brass fittings, <char3> looks off-screen toward the subjects and counts aloud in a firm, measured tempo, saying \"Three, two, one.\" with visible lip movements. In her raised right hand, she grips the pneumatic cable release bulb, readying to take the picture as the countdown continues across the cut.",
+        "quotes": [
+          "Three, two, one."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.28,
+        "end": 5.04,
+        "text": "An extreme close-up centers on the front of the wooden camera box, displaying the rich wood grain, brass corner brackets, mechanical shutter dials, and a brass nameplate labeled 'SANDERSON' above the black circular lens assembly. Against the soft blurred greenery in the background, <char3>'s hand enters from the left holding the rubber shutter bulb and firmly squeezes it to trigger the exposure, while the tail of the preceding countdown audio fades out and ambient outdoor quiet fills the brief shot.",
+        "quotes": []
+      },
+      {
+        "n": 4,
+        "start": 5.08,
+        "end": 11.52,
+        "text": "In a wide shot on a cobblestone-and-gravel path beside a stone church, the assembled group stands in a formal row. From left to right, <char8> stands seen mostly from behind in a blue suit jacket; <char4> wears a maroon hat and black coat holding gloves; <char5> stands in a green coat with a brown fur collar; <char7> is dressed in a cream gown, pearl necklace, black coat, and grey fur stole; <char1> stands in her teal capelet coat; and <char2> is on the far right in dark teal velvet, while <char3> stands cropped on the far right operating the tripod camera. <char7> turns left and calls out \"Tom.\" in a casual tone. <char6>, dressed in a black top hat, tailcoat, grey waistcoat, and boutonniere, steps briskly into frame from the left, past <char8>, and slots himself between <char5> and <char7>, linking arms with both women. As the line adjusts and smiles under bright sunlight, <char3> counts down off-screen, saying \"Three, two, one.\" in a prompt voice.",
+        "quotes": [
+          "Tom.",
+          "Three, two, one."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 11.56,
+        "end": 12.12,
+        "text": "The camera cuts to a gloved hand holding up a circular metal flash reflector with an exposed bulb against the blue sky and green tree canopy. The bulb suddenly ignites with a blinding, full-screen flare of intense white light that briefly saturates the frame before dimming down to a faint orange filament glow, accompanied by the subtle electrical pop of the flash mechanism.",
+        "quotes": []
+      },
+      {
+        "n": 6,
+        "start": 12.16,
+        "end": 16.72,
+        "text": "Returning to the group standing before the textured stone church wall, <char4>, <char5>, <char6>, <char7>, <char1>, and <char2> remain linked arm-in-arm in bright sunlight as soft shadows fall behind them. From off-screen right, <char3> concludes with \"Thank you.\", prompting <char7> to smile and respond pleasantly with \"Thank you so much.\" The group begins to unfreeze their stiff poses. <char6> turns his head left toward <char5> and remarks in a light, conversational voice, \"That wasn't so bad, was it?\" Looking over at <char6> with a furrowed brow, <char5> responds with visible mouth movements, asking \"Do you think they've crashed and died?\" in a concerned, dry tone while <char1> and <char2> observe silently on the right.",
+        "quotes": [
+          "Thank you.",
+          "Thank you so much.",
+          "That wasn't so bad, was it?",
+          "Do you think they've crashed and died?"
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A young woman with shoulder-length curly light brown hair and a fair complexion. She wears a beige cloche hat with a teal ribbon band. Her outfit consists of a teal wool coat featuring a distinctive capelet layer over the shoulders with large buttons down the front and a structured collar. She wears light-colored gloves. Her expression is often serious or focused. The coat has large pockets and a flared skirt.\n<char2>: A young woman with a short brown bob haircut. She wears a dark brown cloche hat adorned with embroidered colorful flowers in red, blue, and green. Her coat is a dark teal velvet material with a wide collar and long sleeves. A pink and green flower pin is attached to her left lapel. Underneath, a cream lace neckline is visible. She wears light gloves and has a soft, somewhat demure demeanor.\n<char3>: An older woman with short blonde hair and red lipstick. She wears a black hat and a black coat. A blue and white striped scarf is tied around her neck. She operates a large wooden vintage camera on a tripod. Her hands are visible holding a cable release. She appears authoritative and focused on her task.\n<char4>: A woman with dark hair. She wears a maroon hat and a long black coat with buttons. A white flower pin is on her lapel. She holds a brown glove or purse in her hand. She stands on the far left of the group lineup. Her expression is neutral.\n<char5>: A woman with blonde hair. She wears a green hat with a white band. Her coat is green with a thick brown fur collar. A pink flower pin is on her lapel. She wears brown gloves. She stands next to the woman in black. Her posture is upright.\n<char6>: A man with short brown hair. He wears a black top hat and a black tailcoat with striped trousers. A white flower is pinned to his lapel. He wears a grey waistcoat and a light tie. He enters the group lineup and stands in the center. He has a confident posture.\n<char7>: A woman with a blonde bob. She wears a small black hat. Her outfit is a cream dress under a black coat, accessorized with a large grey fur stole around her shoulders and a pearl necklace. A gold buckle is at her waist. She wears light gloves. She stands next to the man in the top hat.\n<char8>: A man with reddish-brown hair. He is seen primarily from the back wearing a dark blue suit jacket. He stands on the far left edge of the frame in the wide shot, observing the group. His face is partially visible in profile.\n\nShots:\nShot 1 [0.00s-3.04s]: The shot opens on an outdoor gravel path bordered by dense green trees and hedges in the background under natural daylight. <char1> and <char2> walk side by side towards the static camera. On the left, <char1> wears a teal capelet coat, light gloves, and a beige cloche hat with a teal band, looking slightly down and to the right with a serious expression. On the right, <char2> wears a dark teal velvet coat with a flower lapel pin, light gloves, and an embroidered floral hat, looking downward as an off-screen voice calls out \"Further together for me.\" in an instructional tone. Behind them in the soft-focus background, a uniformed figure walks away across the sun-dappled path. As the women step closer into the mid-ground, the off-screen voice says \"Lovely.\", while on-screen Chinese subtitles display at the bottom and soft outdoor ambient noise accompanies their movement.\nShot 2 [3.08s-4.24s]: Cutting to <char3>, the photographer stands outdoors in bright sunlight framed against lush green foliage and the edge of a distant building. She is dressed in a dark coat, a black hat, and a blue-and-white striped scarf knotted at her collar. Positioned beside a large wooden vintage camera mounted on a tripod with polished brass fittings, <char3> looks off-screen toward the subjects and counts aloud in a firm, measured tempo, saying \"Three, two, one.\" with visible lip movements. In her raised right hand, she grips the pneumatic cable release bulb, readying to take the picture as the countdown continues across the cut.\nShot 3 [4.28s-5.04s]: An extreme close-up centers on the front of the wooden camera box, displaying the rich wood grain, brass corner brackets, mechanical shutter dials, and a brass nameplate labeled 'SANDERSON' above the black circular lens assembly. Against the soft blurred greenery in the background, <char3>'s hand enters from the left holding the rubber shutter bulb and firmly squeezes it to trigger the exposure, while the tail of the preceding countdown audio fades out and ambient outdoor quiet fills the brief shot.\nShot 4 [5.08s-11.52s]: In a wide shot on a cobblestone-and-gravel path beside a stone church, the assembled group stands in a formal row. From left to right, <char8> stands seen mostly from behind in a blue suit jacket; <char4> wears a maroon hat and black coat holding gloves; <char5> stands in a green coat with a brown fur collar; <char7> is dressed in a cream gown, pearl necklace, black coat, and grey fur stole; <char1> stands in her teal capelet coat; and <char2> is on the far right in dark teal velvet, while <char3> stands cropped on the far right operating the tripod camera. <char7> turns left and calls out \"Tom.\" in a casual tone. <char6>, dressed in a black top hat, tailcoat, grey waistcoat, and boutonniere, steps briskly into frame from the left, past <char8>, and slots himself between <char5> and <char7>, linking arms with both women. As the line adjusts and smiles under bright sunlight, <char3> counts down off-screen, saying \"Three, two, one.\" in a prompt voice.\nShot 5 [11.56s-12.12s]: The camera cuts to a gloved hand holding up a circular metal flash reflector with an exposed bulb against the blue sky and green tree canopy. The bulb suddenly ignites with a blinding, full-screen flare of intense white light that briefly saturates the frame before dimming down to a faint orange filament glow, accompanied by the subtle electrical pop of the flash mechanism.\nShot 6 [12.16s-16.72s]: Returning to the group standing before the textured stone church wall, <char4>, <char5>, <char6>, <char7>, <char1>, and <char2> remain linked arm-in-arm in bright sunlight as soft shadows fall behind them. From off-screen right, <char3> concludes with \"Thank you.\", prompting <char7> to smile and respond pleasantly with \"Thank you so much.\" The group begins to unfreeze their stiff poses. <char6> turns his head left toward <char5> and remarks in a light, conversational voice, \"That wasn't so bad, was it?\" Looking over at <char6> with a furrowed brow, <char5> responds with visible mouth movements, asking \"Do you think they've crashed and died?\" in a concerned, dry tone while <char1> and <char2> observe silently on the right."
+  },
+  {
+    "out": "0017",
+    "title": "Miss Brown",
+    "logline": "A toy-filled living room, two children, and the woman who has come to take care of them.",
+    "setting": "Living room",
+    "language": "English",
+    "duration": 17.042,
+    "video": "static/videos/0017.mp4",
+    "poster": "static/posters/0017.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 4,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Girl, yellow dress",
+        "text": "A young girl, approximately 5 to 7 years old, with fair skin and long, voluminous curly reddish-brown hair tied back with a large white bow. She is wearing a pale yellow, knee-length dress with short sleeves and a white cardigan over it. She wears white socks. Her expression shifts from focused exertion while playing an instrument to attentive stillness."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Boy, beige cardigan",
+        "text": "A young boy, approximately 6 to 8 years old, with fair skin and short brown hair styled in a neat bowl cut. He is dressed in a textured beige knit cardigan worn over a white collared shirt with a dark tie. He wears matching beige shorts and knee-high beige socks. His posture is often upright and attentive, with hands clasped in front of him."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Woman, white suit",
+        "text": "An adult woman with a tall, slender build and fair skin. She has dark hair styled in a sophisticated, high updo. She wears a sleeveless white suit consisting of a fitted vest-top with vertical silver buttons and a brooch on the left lapel, paired with a matching white pencil skirt. She accessorizes with pearl earrings. Her demeanor is stern and authoritative, often standing with perfect posture and hands behind her back."
+      },
+      {
+        "id": "char4",
+        "n": 4,
+        "label": "Woman, blue dress",
+        "text": "A young woman or older teenager with medium skin tone and dark, shoulder-length curly hair worn down. She is wearing a light blue, short-sleeved button-down dress with a collar and buttons down the front. She stands with her hands clasped in front of her, adopting a respectful and quiet posture next to the woman in white."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 1.54,
+        "text": "The scene opens in a dimly lit, spacious living room filled with toys. In the left foreground, <char1> stands holding a brass trumpet to <char1>'s lips, blowing into it with puffed cheeks, producing a blaring brass note. <char1> wears a pale yellow dress and white cardigan. In the right foreground, <char2> sits on the floor amidst a scattered collection of toys, including a wooden rocking horse and a train set, manipulating a toy with <char2>'s hands. In the background, near the large windows covered by patterned curtains, <char3> walks into the frame from the right wearing a white sleeveless suit. The windows reveal a gloomy, blue-tinted exterior with heavy rain streaking down the glass. A floor lamp with a white shade stands to the right. The room is cluttered with dolls, a teddy bear, and various playthings on a sofa and the floor. <char3> walks purposefully toward the center of the room, clapping <char3>'s hands once sharply to get attention, causing <char1> to lower the trumpet.",
+        "quotes": []
+      },
+      {
+        "n": 2,
+        "start": 1.58,
+        "end": 4.04,
+        "text": "The camera angle shifts to an over-the-shoulder perspective from behind two figures. In the immediate foreground left, the back of <char4>'s head with dark curly hair is visible. In the foreground right, the back of <char3> in <char3>'s white suit is visible. In the midground, <char2> and <char1> are now standing up, facing the women. <char2> stands on the left with <char2>'s hands clasped in front of <char2>'s beige shorts, looking attentive. <char1> stands on the right, hands behind <char1>'s back, looking slightly apprehensive. Between them is a low wooden coffee table covered in art supplies, papers, and toys. Behind the children, a large wooden door and a dollhouse on a cabinet are visible against a pinkish wall. The lighting is warm and interior, contrasting with the blue daylight from the windows. From off-screen foreground right, <char3> calls out firmly, \"Theo, Pepper.\"",
+        "quotes": [
+          "Theo, Pepper."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.08,
+        "end": 11.83,
+        "text": "The view reverses again to show <char3> and <char4> standing side-by-side facing the camera. <char3> is on the left, standing tall with <char3>'s hands behind <char3>'s back, <char3>'s expression serious and composed. <char4> stands to <char3>'s right, hands clasped in front of <char4>'s blue dress, looking on with a neutral expression. Behind them are tall windows with patterned curtains, through which heavy rain and dark trees are visible, casting a cool blue light into the room. In the foreground, the backs of <char1> on the left and <char2> on the right frame the shot; <char1>'s curly hair and yellow dress are visible, and <char2>'s beige sweater is visible. The room is filled with furniture, including armchairs and a sofa cluttered with dolls and toys, with a lamp on the right. <char3> speaks directly to the children, saying \"This is Miss Coventina Brown.\" After a brief pause, <char3> continues in a measured, formal tone, \"She is here to take care of you.\" <char3> then adds sternly, \"But not your toys. You will put them away yourselves, won't you?\" while keeping <char3>'s gaze fixed on them.",
+        "quotes": [
+          "This is Miss Coventina Brown.",
+          "She is here to take care of you.",
+          "But not your toys. You will put them away yourselves, won't you?"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 11.88,
+        "end": 13.54,
+        "text": "Returning to the over-the-shoulder angle, <char2> and <char1> stand in the center of the room. <char2> looks slightly down and then up, maintaining a polite posture with hands clasped. <char1> stands still, looking toward the women. The foreground is occupied by the out-of-focus shoulders of <char4> on the left and <char3> on the right. The coffee table between the groups is messy with crayons, a basket, and toys. In the background, the wooden double doors and the dollhouse on a dark wood cabinet are clearly visible under warm domestic light. In response, <char1> moves <char1>'s lips and replies obediently in a small voice, \"Yes, mummy.\" while <char2> looks attentively forward.",
+        "quotes": [
+          "Yes, mummy."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 13.58,
+        "end": 14.79,
+        "text": "The camera is positioned behind the children again, focusing on <char3> and <char4>. <char3> stands centrally, <char3>'s posture rigid and authoritative, while <char4> stands slightly behind and to the right of <char3>, hands clasped, listening quietly. The background windows show the continuing rain, providing a cool backlight that outlines the women's figures against the patterned curtains and wall sconce. To the left, <char1>'s head and shoulder are visible in the foreground, and to the right, <char2>'s shoulder is visible. <char3> speaks with crisp authority, saying \"Good. Now come greet her.\" as <char3> glances briefly toward <char4>.",
+        "quotes": [
+          "Good. Now come greet her."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 14.83,
+        "end": 17.042,
+        "text": "A close-up shot focuses on <char2>'s face and upper body. He wears his beige knit cardigan and tie. Behind him, slightly out of focus to the right, <char1> stands watching in <char1>'s yellow dress and white cardigan. The background shows the interior of the room, including a sofa with patterned upholstery and a red toy telephone. Soft lighting illuminates <char2>'s face as he looks up toward <char4> with a polite, earnest expression, articulating clearly, \"Pleased to meet you.\"",
+        "quotes": [
+          "Pleased to meet you."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A young girl, approximately 5 to 7 years old, with fair skin and long, voluminous curly reddish-brown hair tied back with a large white bow. She is wearing a pale yellow, knee-length dress with short sleeves and a white cardigan over it. She wears white socks. Her expression shifts from focused exertion while playing an instrument to attentive stillness.\n<char2>: A young boy, approximately 6 to 8 years old, with fair skin and short brown hair styled in a neat bowl cut. He is dressed in a textured beige knit cardigan worn over a white collared shirt with a dark tie. He wears matching beige shorts and knee-high beige socks. His posture is often upright and attentive, with hands clasped in front of him.\n<char3>: An adult woman with a tall, slender build and fair skin. She has dark hair styled in a sophisticated, high updo. She wears a sleeveless white suit consisting of a fitted vest-top with vertical silver buttons and a brooch on the left lapel, paired with a matching white pencil skirt. She accessorizes with pearl earrings. Her demeanor is stern and authoritative, often standing with perfect posture and hands behind her back.\n<char4>: A young woman or older teenager with medium skin tone and dark, shoulder-length curly hair worn down. She is wearing a light blue, short-sleeved button-down dress with a collar and buttons down the front. She stands with her hands clasped in front of her, adopting a respectful and quiet posture next to the woman in white.\n\nShots:\nShot 1 [0.00s-1.54s]: The scene opens in a dimly lit, spacious living room filled with toys. In the left foreground, <char1> stands holding a brass trumpet to <char1>'s lips, blowing into it with puffed cheeks, producing a blaring brass note. <char1> wears a pale yellow dress and white cardigan. In the right foreground, <char2> sits on the floor amidst a scattered collection of toys, including a wooden rocking horse and a train set, manipulating a toy with <char2>'s hands. In the background, near the large windows covered by patterned curtains, <char3> walks into the frame from the right wearing a white sleeveless suit. The windows reveal a gloomy, blue-tinted exterior with heavy rain streaking down the glass. A floor lamp with a white shade stands to the right. The room is cluttered with dolls, a teddy bear, and various playthings on a sofa and the floor. <char3> walks purposefully toward the center of the room, clapping <char3>'s hands once sharply to get attention, causing <char1> to lower the trumpet.\nShot 2 [1.58s-4.04s]: The camera angle shifts to an over-the-shoulder perspective from behind two figures. In the immediate foreground left, the back of <char4>'s head with dark curly hair is visible. In the foreground right, the back of <char3> in <char3>'s white suit is visible. In the midground, <char2> and <char1> are now standing up, facing the women. <char2> stands on the left with <char2>'s hands clasped in front of <char2>'s beige shorts, looking attentive. <char1> stands on the right, hands behind <char1>'s back, looking slightly apprehensive. Between them is a low wooden coffee table covered in art supplies, papers, and toys. Behind the children, a large wooden door and a dollhouse on a cabinet are visible against a pinkish wall. The lighting is warm and interior, contrasting with the blue daylight from the windows. From off-screen foreground right, <char3> calls out firmly, \"Theo, Pepper.\"\nShot 3 [4.08s-11.83s]: The view reverses again to show <char3> and <char4> standing side-by-side facing the camera. <char3> is on the left, standing tall with <char3>'s hands behind <char3>'s back, <char3>'s expression serious and composed. <char4> stands to <char3>'s right, hands clasped in front of <char4>'s blue dress, looking on with a neutral expression. Behind them are tall windows with patterned curtains, through which heavy rain and dark trees are visible, casting a cool blue light into the room. In the foreground, the backs of <char1> on the left and <char2> on the right frame the shot; <char1>'s curly hair and yellow dress are visible, and <char2>'s beige sweater is visible. The room is filled with furniture, including armchairs and a sofa cluttered with dolls and toys, with a lamp on the right. <char3> speaks directly to the children, saying \"This is Miss Coventina Brown.\" After a brief pause, <char3> continues in a measured, formal tone, \"She is here to take care of you.\" <char3> then adds sternly, \"But not your toys. You will put them away yourselves, won't you?\" while keeping <char3>'s gaze fixed on them.\nShot 4 [11.88s-13.54s]: Returning to the over-the-shoulder angle, <char2> and <char1> stand in the center of the room. <char2> looks slightly down and then up, maintaining a polite posture with hands clasped. <char1> stands still, looking toward the women. The foreground is occupied by the out-of-focus shoulders of <char4> on the left and <char3> on the right. The coffee table between the groups is messy with crayons, a basket, and toys. In the background, the wooden double doors and the dollhouse on a dark wood cabinet are clearly visible under warm domestic light. In response, <char1> moves <char1>'s lips and replies obediently in a small voice, \"Yes, mummy.\" while <char2> looks attentively forward.\nShot 5 [13.58s-14.79s]: The camera is positioned behind the children again, focusing on <char3> and <char4>. <char3> stands centrally, <char3>'s posture rigid and authoritative, while <char4> stands slightly behind and to the right of <char3>, hands clasped, listening quietly. The background windows show the continuing rain, providing a cool backlight that outlines the women's figures against the patterned curtains and wall sconce. To the left, <char1>'s head and shoulder are visible in the foreground, and to the right, <char2>'s shoulder is visible. <char3> speaks with crisp authority, saying \"Good. Now come greet her.\" as <char3> glances briefly toward <char4>.\nShot 6 [14.83s-17.25s]: A close-up shot focuses on <char2>'s face and upper body. He wears his beige knit cardigan and tie. Behind him, slightly out of focus to the right, <char1> stands watching in <char1>'s yellow dress and white cardigan. The background shows the interior of the room, including a sofa with patterned upholstery and a red toy telephone. Soft lighting illuminates <char2>'s face as he looks up toward <char4> with a polite, earnest expression, articulating clearly, \"Pleased to meet you.\""
+  },
+  {
+    "out": "0018",
+    "title": "Target Sighted",
+    "logline": "A train-station booth, radios, and a dark blue Lexus at the edge of the parking lot.",
+    "setting": "Train station",
+    "language": "English",
+    "duration": 17.708,
+    "video": "static/videos/0018.mp4",
+    "poster": "static/posters/0018.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 5,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man, striped tie",
+        "text": "Older male, balding with short grey hair on the sides, light skin tone. He is wearing a dark suit jacket, a white collared shirt, and a striped tie. He holds a black walkie-talkie."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, olive jacket",
+        "text": "Male with short brown hair and light skin tone. He is wearing a dark olive-green jacket over a dark t-shirt and grey trousers."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Officer, blue uniform",
+        "text": "Male with short dark hair and light skin tone. He is wearing a dark blue police uniform with a patch on the left shoulder, a black belt with a silver buckle, and dark trousers."
+      },
+      {
+        "id": "char4",
+        "n": 4,
+        "label": "Man, brown jacket",
+        "text": "Male with shaggy dark brown hair and light skin tone. He is wearing a brown jacket with white stripes on the collar and cuffs, and dark trousers."
+      },
+      {
+        "id": "char5",
+        "n": 5,
+        "label": "Man, grey jacket",
+        "text": "Male with short dark hair and light skin tone. He is wearing a grey textured jacket."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 1.96,
+        "text": "A medium shot captures <char3> standing inside a white glass booth at a train station under warm, hazy late afternoon light. Wearing a dark blue police uniform with a patch visible on <char3>'s left arm and a black utility belt, <char3> raises a black radio receiver to <char3>'s mouth with his right hand and says into the radio in a direct tone, \"This is Marx. I've got the target sighted.\" Through the transparent glass and the open door behind <char3>, a stationary white passenger train bearing blue chevron stripes and the number \"511\" sits on gravel-bedded tracks that extend into the distance to the left.",
+        "quotes": [
+          "This is Marx. I've got the target sighted.",
+          "511"
+        ]
+      },
+      {
+        "n": 2,
+        "start": 2.0,
+        "end": 4.84,
+        "text": "Inside a cavernous station hall illuminated by warm light through tall arched windows, <char1> and <char2> stand close together in profile. <char1>, dressed in a dark suit, white collared shirt, and striped tie, lifts a black handheld walkie-talkie to his mouth and asks in a brisk tone, \"What's your twenty?\" As <char2> in a dark olive-green jacket listens intently, the radio crackles back with <char3>'s off-screen voice replying, \"I'm on the train platform.\" <char1> lowers the radio slightly while looking at <char2>, against a soft-focus background of commuters walking and resting near massive interior columns.",
+        "quotes": [
+          "What's your twenty?",
+          "I'm on the train platform."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.88,
+        "end": 9.18,
+        "text": "The perspective looks through a partially obscured view framed on the right by the soft-focus silhouette of <char3>'s head and radio receiver. Across gravel-bedded railway tracks and a chain-link fence, a lone man in a dark suit walks along an elevated platform walkway while <char3>'s radio transmission continues clearly, \"Target is on the easternmost periphery, second level parking lot.\" Further past the fence, a dark sedan is parked in front of a multi-story beige building with rows of windows and safety railings. The camera pans smoothly across the railway yard, tracking movement along the exterior perimeter.",
+        "quotes": [
+          "Target is on the easternmost periphery, second level parking lot."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 9.22,
+        "end": 11.05,
+        "text": "A dynamic tracking shot moves alongside <char4> and <char5> as they run urgently across the tarmac. In the foreground, <char4>, wearing a brown jacket with white-striped collar and cuffs, turns his head back toward <char5>, gesturing with an outstretched left arm and shouting loudly, \"Open the door.\" Running closely behind in a textured grey jacket, <char5> hurries forward alongside <char4>. In the background, a large institutional beige building with grid windows and a black vertical-slat security fence rushes past along the sunlit perimeter road.",
+        "quotes": [
+          "Open the door."
+        ]
+      },
+      {
+        "n": 5,
+        "start": 11.1,
+        "end": 13.89,
+        "text": "The framing returns to <char3>'s surveillance vantage point, with <char3>'s out-of-focus head and shoulder occluding the right foreground. Across the gravel railway ballast and a tall chain-link fence, the dark sedan sits parked near the perimeter building while <char4> and <char5> approach its doors. Over the quiet ambient hum of the outdoor railway yard, <char3> speaks into the radio receiver in a steady, measured voice, \"They're getting into a dark blue Lexus.\" A rust-colored metal track buffer stands bolted to the rails in the mid-ground.",
+        "quotes": [
+          "They're getting into a dark blue Lexus."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 13.93,
+        "end": 17.48,
+        "text": "Inside the bustling station concourse, another man in a dark coat approaches <char1> and <char2>, urgently asking, \"What's the fastest way?\" <char1> points forward with an outstretched index finger and replies firmly, \"Straight out the bank.\" As the man in the dark coat pivots and begins running, he commands over his shoulder, \"Tell your man to stay out of sight.\" <char1> immediately raises the black walkie-talkie to his mouth while breaking into a sprint alongside <char2>, calling into the radio, \"Marx.\" Commuters blur in the background as the camera tracks backward with the men running across the marble floor beneath vaulted ceilings.",
+        "quotes": [
+          "What's the fastest way?",
+          "Straight out the bank.",
+          "Tell your man to stay out of sight.",
+          "Marx."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: Older male, balding with short grey hair on the sides, light skin tone. He is wearing a dark suit jacket, a white collared shirt, and a striped tie. He holds a black walkie-talkie.\n<char2>: Male with short brown hair and light skin tone. He is wearing a dark olive-green jacket over a dark t-shirt and grey trousers.\n<char3>: Male with short dark hair and light skin tone. He is wearing a dark blue police uniform with a patch on the left shoulder, a black belt with a silver buckle, and dark trousers.\n<char4>: Male with shaggy dark brown hair and light skin tone. He is wearing a brown jacket with white stripes on the collar and cuffs, and dark trousers.\n<char5>: Male with short dark hair and light skin tone. He is wearing a grey textured jacket.\n\nShots:\nShot 1 [0.00s-1.96s]: A medium shot captures <char3> standing inside a white glass booth at a train station under warm, hazy late afternoon light. Wearing a dark blue police uniform with a patch visible on <char3>'s left arm and a black utility belt, <char3> raises a black radio receiver to <char3>'s mouth with his right hand and says into the radio in a direct tone, \"This is Marx. I've got the target sighted.\" Through the transparent glass and the open door behind <char3>, a stationary white passenger train bearing blue chevron stripes and the number \"511\" sits on gravel-bedded tracks that extend into the distance to the left.\nShot 2 [2.00s-4.84s]: Inside a cavernous station hall illuminated by warm light through tall arched windows, <char1> and <char2> stand close together in profile. <char1>, dressed in a dark suit, white collared shirt, and striped tie, lifts a black handheld walkie-talkie to his mouth and asks in a brisk tone, \"What's your twenty?\" As <char2> in a dark olive-green jacket listens intently, the radio crackles back with <char3>'s off-screen voice replying, \"I'm on the train platform.\" <char1> lowers the radio slightly while looking at <char2>, against a soft-focus background of commuters walking and resting near massive interior columns.\nShot 3 [4.88s-9.18s]: The perspective looks through a partially obscured view framed on the right by the soft-focus silhouette of <char3>'s head and radio receiver. Across gravel-bedded railway tracks and a chain-link fence, a lone man in a dark suit walks along an elevated platform walkway while <char3>'s radio transmission continues clearly, \"Target is on the easternmost periphery, second level parking lot.\" Further past the fence, a dark sedan is parked in front of a multi-story beige building with rows of windows and safety railings. The camera pans smoothly across the railway yard, tracking movement along the exterior perimeter.\nShot 4 [9.22s-11.05s]: A dynamic tracking shot moves alongside <char4> and <char5> as they run urgently across the tarmac. In the foreground, <char4>, wearing a brown jacket with white-striped collar and cuffs, turns his head back toward <char5>, gesturing with an outstretched left arm and shouting loudly, \"Open the door.\" Running closely behind in a textured grey jacket, <char5> hurries forward alongside <char4>. In the background, a large institutional beige building with grid windows and a black vertical-slat security fence rushes past along the sunlit perimeter road.\nShot 5 [11.10s-13.89s]: The framing returns to <char3>'s surveillance vantage point, with <char3>'s out-of-focus head and shoulder occluding the right foreground. Across the gravel railway ballast and a tall chain-link fence, the dark sedan sits parked near the perimeter building while <char4> and <char5> approach its doors. Over the quiet ambient hum of the outdoor railway yard, <char3> speaks into the radio receiver in a steady, measured voice, \"They're getting into a dark blue Lexus.\" A rust-colored metal track buffer stands bolted to the rails in the mid-ground.\nShot 6 [13.93s-17.48s]: Inside the bustling station concourse, another man in a dark coat approaches <char1> and <char2>, urgently asking, \"What's the fastest way?\" <char1> points forward with an outstretched index finger and replies firmly, \"Straight out the bank.\" As the man in the dark coat pivots and begins running, he commands over his shoulder, \"Tell your man to stay out of sight.\" <char1> immediately raises the black walkie-talkie to his mouth while breaking into a sprint alongside <char2>, calling into the radio, \"Marx.\" Commuters blur in the background as the camera tracks backward with the men running across the marble floor beneath vaulted ceilings."
+  },
+  {
+    "out": "0019",
+    "title": "Chicago P.D.",
+    "logline": "A residential crosswalk, two detectives, and a short walk to the car.",
+    "setting": "Residential street",
+    "language": "English",
+    "duration": 17.708,
+    "video": "static/videos/0019.mp4",
+    "poster": "static/posters/0019.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 3,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Woman, navy bomber",
+        "text": "A woman with long, wavy brown hair that falls past her shoulders. She has a fair complexion and a slender, athletic build. She is wearing a dark navy blue quilted bomber-style jacket with a ribbed hem and cuffs. Underneath, a pink crew-neck top is visible at the neckline. She wears dark blue denim jeans that fit closely to her legs. She moves with urgency and purpose, her posture upright as she runs and then stands firmly."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Man, plaid flannel",
+        "text": "A man with short, somewhat messy brown hair and light facial stubble. He has a lean build and appears to be in his thirties. He is dressed in a dark blue and grey plaid flannel shirt worn open over a grey henley t-shirt. He wears blue jeans. Slung over his shoulder is a dark green canvas messenger bag with a visible red zipper pull or tag. He carries the bag on his left side, holding the strap with his left hand."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Man, denim jacket",
+        "text": "A man with short, styled brown hair swept to the side and a full, well-groomed brown beard. He has a muscular, broad-shouldered build. He wears a faded grey denim jacket with distressed details on the shoulders and chest pockets. Underneath, he wears a red and black buffalo plaid button-down shirt over a black t-shirt. He appears confident and assertive in his posture, often looking down or directly at others with a skeptical expression."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 6.76,
+        "text": "The shot begins with a high-angle view of the grey asphalt street surface, showing a circular metal manhole cover and white painted crosswalk stripes. The camera tilts up rapidly to reveal a residential street scene with parked cars lining both sides under green trees. <char1>, wearing a dark navy blue quilted jacket, pink top, and dark jeans, runs into the frame from the right, crossing the street toward the left sidewalk. She calls out \"John.\" followed by \"Hey, it's Fadell, right?\". <char2>, carrying a dark green canvas messenger bag and wearing a plaid shirt, walks into the frame from the left background toward <char1>. He replies \"Yeah.\" with a slight nod. The background features parked vehicles including a black SUV and a white van along with tan brick buildings under diffuse overcast daylight. <char1> and <char2> converge on the sidewalk near a black metal fence as Chinese subtitles appear at the bottom.",
+        "quotes": [
+          "John.",
+          "Hey, it's Fadell, right?",
+          "Yeah."
+        ]
+      },
+      {
+        "n": 2,
+        "start": 6.8,
+        "end": 8.76,
+        "text": "In a static medium shot framed at eye level from the waist up, <char2> and <char1> stand on the concrete sidewalk beside a black vertical bar metal fence. <char2> smiles slightly on the left holding his green shoulder bag strap, while <char1> faces him on the right in her quilted blue jacket. <char1> greets him saying \"Hey.\", to which <char2> responds \"Hey.\", before <char1> firmly adds \"Chicago P.D.\". Behind them through the metal fence, a grassy yard with green trees, a tan brick building with white-framed windows, and a black vintage-style street lamp post are visible under soft, even daylight. Chinese subtitles appear along the bottom of the frame.",
+        "quotes": [
+          "Hey.",
+          "Chicago P.D."
+        ]
+      },
+      {
+        "n": 3,
+        "start": 8.8,
+        "end": 10.59,
+        "text": "In an eye-level medium shot panning slightly left, <char3> enters from the left walking along a red brick pathway toward <char1> and <char2>, who are framed on the right edge. Wearing a faded grey denim jacket over a red-and-black plaid shirt, <char3> delivers the line \"We're gonna need you to come with us, pal.\" in a direct, assertive tone while looking at <char2>. Pedestrians walk away in the blurred background along the tree-lined sidewalk beside the black metal fence. Chinese subtitles appear across the bottom as the camera adjusts slightly to keep <char3> in focus.",
+        "quotes": [
+          "We're gonna need you to come with us, pal."
+        ]
+      },
+      {
+        "n": 4,
+        "start": 10.64,
+        "end": 12.89,
+        "text": "Framed in an over-the-shoulder medium shot from behind <char3>'s left shoulder, the camera focuses on <char2> and <char1> standing beside the prominent vertical bars of the black fence. Looking confused with furrowed brows and his mouth slightly open, <char2> asks <char3>, \"Guys don't ever quit, do you?\". Beside him, <char1> looks at <char3> with a guarded expression, while <char2> shifts his weight slightly. The shallow depth of field softly blurs the background residential building with stone stairs and a dark door, and Chinese subtitles are displayed at the bottom.",
+        "quotes": [
+          "Guys don't ever quit, do you?"
+        ]
+      },
+      {
+        "n": 5,
+        "start": 12.93,
+        "end": 15.06,
+        "text": "In an eye-level close-up framed against blurred green foliage, <char3> exhibits a skeptical expression, tilting his bearded head slightly in his faded grey denim jacket as he speaks the line \"What an incredibly keen observation, John.\". In the continuing interaction beside the black metal fence, <char1>, dressed in her navy blue quilted jacket, reaches out with her right hand and firmly grips <char2>'s left arm above the elbow. <char2> glances at <char1> and then looks back toward <char3>, while white Chinese subtitles update along the bottom of the screen under diffuse daylight.",
+        "quotes": [
+          "What an incredibly keen observation, John."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 15.1,
+        "end": 17.708,
+        "text": "In a static eye-level medium shot, <char1> says \"Let's go.\" as she and <char2> turn and walk out of the frame toward the right, with <char1> maintaining a firm grip on <char2>'s arm as they move together. <char3> remains standing in the center of the frame, shifting his weight and looking down at the ground before glancing slightly to his left with a resigned expression. He stands before the black metal fence, behind which sits a red brick residential building with black window railings, green grass, and hosta plantings under consistent overcast daylight.",
+        "quotes": [
+          "Let's go."
+        ]
+      }
+    ],
+    "prompt": "Characters:\n<char1>: A woman with long, wavy brown hair that falls past her shoulders. She has a fair complexion and a slender, athletic build. She is wearing a dark navy blue quilted bomber-style jacket with a ribbed hem and cuffs. Underneath, a pink crew-neck top is visible at the neckline. She wears dark blue denim jeans that fit closely to her legs. She moves with urgency and purpose, her posture upright as she runs and then stands firmly.\n<char2>: A man with short, somewhat messy brown hair and light facial stubble. He has a lean build and appears to be in his thirties. He is dressed in a dark blue and grey plaid flannel shirt worn open over a grey henley t-shirt. He wears blue jeans. Slung over his shoulder is a dark green canvas messenger bag with a visible red zipper pull or tag. He carries the bag on his left side, holding the strap with his left hand.\n<char3>: A man with short, styled brown hair swept to the side and a full, well-groomed brown beard. He has a muscular, broad-shouldered build. He wears a faded grey denim jacket with distressed details on the shoulders and chest pockets. Underneath, he wears a red and black buffalo plaid button-down shirt over a black t-shirt. He appears confident and assertive in his posture, often looking down or directly at others with a skeptical expression.\n\nShots:\nShot 1 [0.00s-6.76s]: The shot begins with a high-angle view of the grey asphalt street surface, showing a circular metal manhole cover and white painted crosswalk stripes. The camera tilts up rapidly to reveal a residential street scene with parked cars lining both sides under green trees. <char1>, wearing a dark navy blue quilted jacket, pink top, and dark jeans, runs into the frame from the right, crossing the street toward the left sidewalk. She calls out \"John.\" followed by \"Hey, it's Fadell, right?\". <char2>, carrying a dark green canvas messenger bag and wearing a plaid shirt, walks into the frame from the left background toward <char1>. He replies \"Yeah.\" with a slight nod. The background features parked vehicles including a black SUV and a white van along with tan brick buildings under diffuse overcast daylight. <char1> and <char2> converge on the sidewalk near a black metal fence as Chinese subtitles appear at the bottom.\nShot 2 [6.80s-8.76s]: In a static medium shot framed at eye level from the waist up, <char2> and <char1> stand on the concrete sidewalk beside a black vertical bar metal fence. <char2> smiles slightly on the left holding his green shoulder bag strap, while <char1> faces him on the right in her quilted blue jacket. <char1> greets him saying \"Hey.\", to which <char2> responds \"Hey.\", before <char1> firmly adds \"Chicago P.D.\". Behind them through the metal fence, a grassy yard with green trees, a tan brick building with white-framed windows, and a black vintage-style street lamp post are visible under soft, even daylight. Chinese subtitles appear along the bottom of the frame.\nShot 3 [8.80s-10.59s]: In an eye-level medium shot panning slightly left, <char3> enters from the left walking along a red brick pathway toward <char1> and <char2>, who are framed on the right edge. Wearing a faded grey denim jacket over a red-and-black plaid shirt, <char3> delivers the line \"We're gonna need you to come with us, pal.\" in a direct, assertive tone while looking at <char2>. Pedestrians walk away in the blurred background along the tree-lined sidewalk beside the black metal fence. Chinese subtitles appear across the bottom as the camera adjusts slightly to keep <char3> in focus.\nShot 4 [10.64s-12.89s]: Framed in an over-the-shoulder medium shot from behind <char3>'s left shoulder, the camera focuses on <char2> and <char1> standing beside the prominent vertical bars of the black fence. Looking confused with furrowed brows and his mouth slightly open, <char2> asks <char3>, \"Guys don't ever quit, do you?\". Beside him, <char1> looks at <char3> with a guarded expression, while <char2> shifts his weight slightly. The shallow depth of field softly blurs the background residential building with stone stairs and a dark door, and Chinese subtitles are displayed at the bottom.\nShot 5 [12.93s-15.06s]: In an eye-level close-up framed against blurred green foliage, <char3> exhibits a skeptical expression, tilting his bearded head slightly in his faded grey denim jacket as he speaks the line \"What an incredibly keen observation, John.\". In the continuing interaction beside the black metal fence, <char1>, dressed in her navy blue quilted jacket, reaches out with her right hand and firmly grips <char2>'s left arm above the elbow. <char2> glances at <char1> and then looks back toward <char3>, while white Chinese subtitles update along the bottom of the screen under diffuse daylight.\nShot 6 [15.10s-17.81s]: In a static eye-level medium shot, <char1> says \"Let's go.\" as she and <char2> turn and walk out of the frame toward the right, with <char1> maintaining a firm grip on <char2>'s arm as they move together. <char3> remains standing in the center of the frame, shifting his weight and looking down at the ground before glancing slightly to his left with a resigned expression. He stands before the black metal fence, behind which sits a red brick residential building with black window railings, green grass, and hosta plantings under consistent overcast daylight."
+  },
+  {
+    "out": "0020",
+    "title": "Where's Hendrix",
+    "logline": "A dry airfield under a wide sky, a few questions, and a man who says he is Mr. Crawford's CEO.",
+    "setting": "Airfield",
+    "language": "English",
+    "duration": 16.375,
+    "video": "static/videos/0020.mp4",
+    "poster": "static/posters/0020.jpg",
+    "resolution": "832×480",
+    "fps": 24,
+    "n_chars": 3,
+    "n_shots": 6,
+    "characters": [
+      {
+        "id": "char1",
+        "n": 1,
+        "label": "Man, navy shirt",
+        "text": "Bald head, light skin tone, muscular and tall build. He wears a dark navy blue short-sleeved button-up shirt with two chest pockets and epaulets. His lower body is clad in olive green cargo pants with large side pockets and multiple straps. He wears tan combat boots. An olive green strap runs diagonally across his chest, likely for a bag or weapon. He carries a black rifle with a scope in his hand. His expression is serious and focused. He has no facial hair."
+      },
+      {
+        "id": "char2",
+        "n": 2,
+        "label": "Woman, dark sunglasses",
+        "text": "Short dark brown hair styled in a pixie cut, slightly spiked at the front. She has a slim build. She wears large, dark wrap-around sunglasses that cover her eyes. Her outfit consists of a tailored black suit jacket with notch lapels over a white collared shirt with a ruffled front placket. She wears matching black suit trousers that are straight-legged. On her feet are black shoes. A silver watch is visible on her left wrist. Her posture is upright and confident."
+      },
+      {
+        "id": "char3",
+        "n": 3,
+        "label": "Man, grey suit",
+        "text": "Dark skin tone, short black hair. He has an athletic, tall build. He wears a light grey suit jacket and matching grey trousers, tailored to fit. Underneath, he wears a white dress shirt and a dark tie. He wears dark formal shoes. He moves with a steady, purposeful gait. His expression is neutral and professional as he walks towards the helicopter. He appears to be an associate or security personnel, maintaining a respectful distance from the main interaction."
+      }
+    ],
+    "shots": [
+      {
+        "n": 1,
+        "start": 0.0,
+        "end": 2.38,
+        "text": "Long shot, static camera, eye-level. An expansive, flat dirt field stretches across the foreground, composed of dry, reddish-brown earth with patches of sparse, yellowing grass and small rocks scattered near the bottom edge. Above, a vast blue sky is populated by a thick band of white cumulus clouds stretching horizontally across the middle of the frame, with smaller wisps of cloud higher up. In the immediate foreground left, the dark, angled tip of a helicopter rotor blade intrudes into the frame, stationary and sharp against the sky as ambient wind and distant engine hum sound across the open ground. In the mid-ground, a black sedan drives steadily towards the camera from the right side of the frame, its tires disturbing the dry surface and kicking up a faint trail of dust with the low rumble of its tires on dirt. The car's headlights are on or reflecting light. Through the windshield, <char2> is visible driving. The background features a ridge line covered in dense green trees and shrubs, separating the field from the sky, with hints of buildings or structures nestled among the trees on the left. The lighting is bright and natural, suggesting midday sun, casting distinct shadows beneath the trees in the distance and illuminating the texture of the dry ground.",
+        "quotes": []
+      },
+      {
+        "n": 2,
+        "start": 2.42,
+        "end": 4.71,
+        "text": "Medium close-up, telephoto lens, tracking the vehicle as it moves forward to the steady roar of its engine and crunching dirt. The front fascia of a black Lexus sedan dominates the frame, moving directly towards the camera position. The chrome mesh grille is central, featuring the silver Lexus logo in the middle. The angular headlights are clear, with orange reflectors visible on the outer edges. A white license plate is mounted centrally on the front bumper, displaying the text \"SUDAN\" in small letters at the top, \"AVOV\" in large black characters in the center, and \"KHARTOUM\" in smaller letters at the bottom. Through the windshield, <char2> is visible behind the wheel, wearing large dark sunglasses that cover her eyes. Her hands grip the steering wheel at the ten and two positions. She wears a light-colored top. The hood of the car is glossy, reflecting the blue sky and white clouds above. The background is a soft, out-of-focus blur of beige earth and green vegetation, indicating the car's speed on the dirt track. The sunlight creates strong highlights on the car's curves and windshield.",
+        "quotes": [
+          "SUDAN",
+          "AVOV",
+          "KHARTOUM"
+        ]
+      },
+      {
+        "n": 3,
+        "start": 4.75,
+        "end": 8.22,
+        "text": "Long shot, static, eye-level. On the left side of the frame, a large green utility helicopter rests on the ground, its black landing skids firmly planted on the reddish dirt. The tail boom extends towards the left, displaying the registration \"ZU-ELP\" in large white capital letters. <char1> stands near the open side door of the helicopter, facing away from the camera and towards the right, holding a black rifle at his side with the barrel pointing down. He wears cargo pants and a dark shirt. The black sedan arrives from the right mid-ground and comes to a complete halt in the center of the frame as the mechanical idle of the helicopter blades blends with braking sounds. Dust settles around the tires as it stops. <char2> opens the front driver-side door and steps out, while simultaneously, <char3> opens the rear passenger-side door on the opposite side. Both figures begin to exit the vehicle. <char1> projects <char1>'s voice across the clearing, asking \"Where's Hendrix?\" in a stern, straightforward tone. The environment is an open, dry field with a grassy embankment in the background. Trees line the horizon under a blue sky with scattered clouds. The lighting is bright daylight.",
+        "quotes": [
+          "ZU-ELP",
+          "Where's Hendrix?"
+        ]
+      },
+      {
+        "n": 4,
+        "start": 8.26,
+        "end": 13.6,
+        "text": "Medium shot, over-the-shoulder perspective from behind <char1>. <char1> occupies the left foreground, his back partially to the camera, revealing the olive green strap of his rifle slung across his back and his dark blue short-sleeved shirt. He holds the rifle in his right hand, barrel down. In the mid-ground, <char2> walks briskly towards him from the right side of the frame over the crunch of gravel and dry earth underfoot. She is dressed in a tailored black suit with a white shirt underneath, her arms swinging naturally at her sides. She wears dark sunglasses that hide her eyes. Her stride is purposeful and direct. As she advances, she articulates \"Hendrix is in hospital. Andre and the others are dead, so let's not fuck up anymore.\" with crisp, unhesitating authority. The black car is parked behind her to the right, its driver's door standing open. The ground is dry, uneven dirt with small stones. In the background, a grassy slope rises up to a line of trees and distant houses. The sky is blue with white clouds. <char1> remains stationary, his posture relaxed but alert, observing her approach before asking in a gruff voice, \"And who are you?\". She continues striding forward without slowing.",
+        "quotes": [
+          "Hendrix is in hospital. Andre and the others are dead, so let's not fuck up anymore.",
+          "And who are you?"
+        ]
+      },
+      {
+        "n": 5,
+        "start": 13.64,
+        "end": 14.89,
+        "text": "Medium shot, framed past the tail section of the green helicopter which dominates the left foreground. The yellow housing of the tail rotor is prominent, featuring a red arrow pointing left and the word \"DANGER\" in white capital letters on a red background. The green fuselage shows the white text \"ZU-ELP\" clearly. <char2> stands near the helicopter's open cabin door, facing <char1> who stands opposite her, partially obscured by the helicopter structure. In response to him, she speaks in a measured, collected tone, \"I'm Mr. Crawford's CEO.\", turning her attention toward the aircraft's doorway. <char3>, wearing a light grey suit, walks from the parked car in the background towards the helicopter, approaching the group from the right side with footsteps muffled against the dirt field. The car is visible in the distance, doors open. The ground is dusty and reddish-brown. The lighting remains bright and even, casting soft shadows under the helicopter skids. The helicopter's metal surface shows rivets and panel lines, indicating its utilitarian nature. The interaction between <char1> and <char2> appears focused.",
+        "quotes": [
+          "DANGER",
+          "ZU-ELP",
+          "I'm Mr. Crawford's CEO."
+        ]
+      },
+      {
+        "n": 6,
+        "start": 14.93,
+        "end": 16.375,
+        "text": "Medium close-up, eye-level. <char2> is in the process of entering the helicopter cabin on the left side of the frame, her body angled towards the dark interior as her speech finishes and she shifts her weight into the compartment. She is seen from the side and back. <char1> stands close to her on the right, looking directly at her face with a serious, intense expression. He has a bald head and light skin. He wears a dark blue short-sleeved shirt with two buttoned chest pockets. An olive green strap crosses his chest diagonally. The interior of the helicopter is shadowed and dark, contrasting with the bright exterior sunlight. The metal frame of the helicopter door is visible next to <char2>, painted grey, with small metal rivets and latch fittings reflecting the glare. In the right background, <char3> comes into view behind them. The background is a soft focus of green vegetation and blue sky. <char1> watches her intently as she climbs inside, his gaze fixed on her. The shot captures the close proximity between the characters.",
+        "quotes": []
+      }
+    ],
+    "prompt": "Characters:\n<char1>: Bald head, light skin tone, muscular and tall build. He wears a dark navy blue short-sleeved button-up shirt with two chest pockets and epaulets. His lower body is clad in olive green cargo pants with large side pockets and multiple straps. He wears tan combat boots. An olive green strap runs diagonally across his chest, likely for a bag or weapon. He carries a black rifle with a scope in his hand. His expression is serious and focused. He has no facial hair.\n<char2>: Short dark brown hair styled in a pixie cut, slightly spiked at the front. She has a slim build. She wears large, dark wrap-around sunglasses that cover her eyes. Her outfit consists of a tailored black suit jacket with notch lapels over a white collared shirt with a ruffled front placket. She wears matching black suit trousers that are straight-legged. On her feet are black shoes. A silver watch is visible on her left wrist. Her posture is upright and confident.\n<char3>: Dark skin tone, short black hair. He has an athletic, tall build. He wears a light grey suit jacket and matching grey trousers, tailored to fit. Underneath, he wears a white dress shirt and a dark tie. He wears dark formal shoes. He moves with a steady, purposeful gait. His expression is neutral and professional as he walks towards the helicopter. He appears to be an associate or security personnel, maintaining a respectful distance from the main interaction.\n\nShots:\nShot 1 [0.00s-2.38s]: Long shot, static camera, eye-level. An expansive, flat dirt field stretches across the foreground, composed of dry, reddish-brown earth with patches of sparse, yellowing grass and small rocks scattered near the bottom edge. Above, a vast blue sky is populated by a thick band of white cumulus clouds stretching horizontally across the middle of the frame, with smaller wisps of cloud higher up. In the immediate foreground left, the dark, angled tip of a helicopter rotor blade intrudes into the frame, stationary and sharp against the sky as ambient wind and distant engine hum sound across the open ground. In the mid-ground, a black sedan drives steadily towards the camera from the right side of the frame, its tires disturbing the dry surface and kicking up a faint trail of dust with the low rumble of its tires on dirt. The car's headlights are on or reflecting light. Through the windshield, <char2> is visible driving. The background features a ridge line covered in dense green trees and shrubs, separating the field from the sky, with hints of buildings or structures nestled among the trees on the left. The lighting is bright and natural, suggesting midday sun, casting distinct shadows beneath the trees in the distance and illuminating the texture of the dry ground.\nShot 2 [2.42s-4.71s]: Medium close-up, telephoto lens, tracking the vehicle as it moves forward to the steady roar of its engine and crunching dirt. The front fascia of a black Lexus sedan dominates the frame, moving directly towards the camera position. The chrome mesh grille is central, featuring the silver Lexus logo in the middle. The angular headlights are clear, with orange reflectors visible on the outer edges. A white license plate is mounted centrally on the front bumper, displaying the text \"SUDAN\" in small letters at the top, \"AVOV\" in large black characters in the center, and \"KHARTOUM\" in smaller letters at the bottom. Through the windshield, <char2> is visible behind the wheel, wearing large dark sunglasses that cover her eyes. Her hands grip the steering wheel at the ten and two positions. She wears a light-colored top. The hood of the car is glossy, reflecting the blue sky and white clouds above. The background is a soft, out-of-focus blur of beige earth and green vegetation, indicating the car's speed on the dirt track. The sunlight creates strong highlights on the car's curves and windshield.\nShot 3 [4.75s-8.22s]: Long shot, static, eye-level. On the left side of the frame, a large green utility helicopter rests on the ground, its black landing skids firmly planted on the reddish dirt. The tail boom extends towards the left, displaying the registration \"ZU-ELP\" in large white capital letters. <char1> stands near the open side door of the helicopter, facing away from the camera and towards the right, holding a black rifle at his side with the barrel pointing down. He wears cargo pants and a dark shirt. The black sedan arrives from the right mid-ground and comes to a complete halt in the center of the frame as the mechanical idle of the helicopter blades blends with braking sounds. Dust settles around the tires as it stops. <char2> opens the front driver-side door and steps out, while simultaneously, <char3> opens the rear passenger-side door on the opposite side. Both figures begin to exit the vehicle. <char1> projects <char1>'s voice across the clearing, asking \"Where's Hendrix?\" in a stern, straightforward tone. The environment is an open, dry field with a grassy embankment in the background. Trees line the horizon under a blue sky with scattered clouds. The lighting is bright daylight.\nShot 4 [8.26s-13.60s]: Medium shot, over-the-shoulder perspective from behind <char1>. <char1> occupies the left foreground, his back partially to the camera, revealing the olive green strap of his rifle slung across his back and his dark blue short-sleeved shirt. He holds the rifle in his right hand, barrel down. In the mid-ground, <char2> walks briskly towards him from the right side of the frame over the crunch of gravel and dry earth underfoot. She is dressed in a tailored black suit with a white shirt underneath, her arms swinging naturally at her sides. She wears dark sunglasses that hide her eyes. Her stride is purposeful and direct. As she advances, she articulates \"Hendrix is in hospital. Andre and the others are dead, so let's not fuck up anymore.\" with crisp, unhesitating authority. The black car is parked behind her to the right, its driver's door standing open. The ground is dry, uneven dirt with small stones. In the background, a grassy slope rises up to a line of trees and distant houses. The sky is blue with white clouds. <char1> remains stationary, his posture relaxed but alert, observing her approach before asking in a gruff voice, \"And who are you?\". She continues striding forward without slowing.\nShot 5 [13.64s-14.89s]: Medium shot, framed past the tail section of the green helicopter which dominates the left foreground. The yellow housing of the tail rotor is prominent, featuring a red arrow pointing left and the word \"DANGER\" in white capital letters on a red background. The green fuselage shows the white text \"ZU-ELP\" clearly. <char2> stands near the helicopter's open cabin door, facing <char1> who stands opposite her, partially obscured by the helicopter structure. In response to him, she speaks in a measured, collected tone, \"I'm Mr. Crawford's CEO.\", turning her attention toward the aircraft's doorway. <char3>, wearing a light grey suit, walks from the parked car in the background towards the helicopter, approaching the group from the right side with footsteps muffled against the dirt field. The car is visible in the distance, doors open. The ground is dusty and reddish-brown. The lighting remains bright and even, casting soft shadows under the helicopter skids. The helicopter's metal surface shows rivets and panel lines, indicating its utilitarian nature. The interaction between <char1> and <char2> appears focused.\nShot 6 [14.93s-16.39s]: Medium close-up, eye-level. <char2> is in the process of entering the helicopter cabin on the left side of the frame, her body angled towards the dark interior as her speech finishes and she shifts her weight into the compartment. She is seen from the side and back. <char1> stands close to her on the right, looking directly at her face with a serious, intense expression. He has a bald head and light skin. He wears a dark blue short-sleeved shirt with two buttoned chest pockets. An olive green strap crosses his chest diagonally. The interior of the helicopter is shadowed and dark, contrasting with the bright exterior sunlight. The metal frame of the helicopter door is visible next to <char2>, painted grey, with small metal rivets and latch fittings reflecting the glare. In the right background, <char3> comes into view behind them. The background is a soft focus of green vegetation and blue sky. <char1> watches her intently as she climbs inside, his gaze fixed on her. The shot captures the close proximity between the characters."
+  },
+  {
+    "out": "0021",
     "title": "Night Driveway",
     "logline": "A night driveway, a woman named Ebony, and the line that they are all family now.",
     "setting": "Night driveway",
     "language": "English",
     "duration": 30.375,
-    "video": "static/videos/0008.mp4",
-    "poster": "static/posters/0008.jpg",
+    "video": "static/videos/0021.mp4",
+    "poster": "static/posters/0021.jpg",
     "resolution": "832×480",
     "fps": 24,
     "n_chars": 3,
@@ -634,14 +1834,14 @@
     "prompt": "Characters:\n<char1>: a woman with reddish-brown hair pulled back, wearing a dark patterned dress under a dark jacket and carrying a shoulder bag.\n<char2>: a woman with long dark wavy hair wearing a burgundy-red top and a necklace, seated inside a parked car.\n<char3>: a man with short brown hair wearing a white collared button-up shirt and dark trousers, carrying a dark jacket.\n\nShots:\nShot 1 [0.00s-4.17s]: The shot cuts to a medium view of <char1> standing outdoors at night beside the dark car, seen from the chest up against the blurred backdrop of the driveway and house lighting. She wears her dark coat over the dark patterned high-neck dress with her reddish-brown hair pulled back, holding the strap of her shoulder bag. She turns her head slightly toward the driver's window with a cautious, attentive expression. An off-screen voice from inside the car—spoken by <char2>—states, <d>[English] Anton told me all about you.</d> <char1> listens without speaking, shifting her weight slightly as the voice begins to introduce herself, saying <d>[English] I'm Ebony.</d> The camera holds static on <char1> under soft exterior night lighting as faint crickets and outdoor ambience hum quietly.\nShot 2 [4.17s-8.58s]: The camera cuts to a medium close-up inside the car framing <char2> through the open driver's side window. She has long dark wavy hair, wears a burgundy-red top with a delicate necklace, and is illuminated by warm interior cabin lighting. Her introduction from the previous shot finishes as she smiles warmly and glances back over her right shoulder toward the shadowy rear seat, where an out-of-focus passenger sits in darkness. Turning back toward the window with a cheerful smile, <char2> speaks with synchronized mouth movement: <d>[English] You've already met Tyler.</d> She chuckles softly as she maintains eye contact through the window. The camera remains fixed on <char2>.\nShot 3 [8.58s-12.08s]: The camera cuts back to a wide establishing shot of the dark driveway with parked cars framing the lower foreground and the brightly lit Victorian house in the background. On the left, <char2> remains visible through the front window of her parked car, while <char1> stands on the driveway to the right of the vehicle, facing toward <char2> with her bag in hand. From the car on the left, <char2> speaks aloud: <d>[English] Guess we're all family now.</d> <char1> lowers her gaze slightly, hesitates, and responds with synchronized mouth movement: <d>[English] Yeah.</d> Night crickets, ambient outdoor atmosphere, and the steady glow from the house's porch and windows persist in the background.\nShot 4 [12.08s-13.83s]: The camera cuts back to the medium close-up of <char2> through the car window. She smiles broadly with her teeth showing, looking out at <char1> in the warm glow of the car's interior light. With visible synchronized mouth movement, <char2> delivers the final line: <d>[English] We are the initiates.</d> The shot holds on her smiling expression as the dialogue concludes, with soft nighttime ambience audible.\nShot 5 [13.83s-21.83s]: The segment opens in a medium shot on <char1> standing outside at night beside the dark car, resting one hand near the door frame against the background of the dimly lit driveway and the brightly illuminated house porch. Wearing her dark coat over the patterned high-neck dress with her hair swept back, she looks toward the driver's side with a bewildered and unsettled expression. She pauses, then speaks with synchronized mouth movement: <d>[English] What did you say?</d> Still watching the car intently, she calls out after a brief moment: <d>[English] Ebony?</d> Behind her in the background, <char3>, dressed in a white long-sleeved collared shirt and dark trousers and carrying a dark jacket, rushes out from the illuminated porch doorway and sprints across the driveway toward the vehicle. <char1> turns away from the car and walks off toward the right, exiting the frame. The camera holds on the driver's side as <char3> arrives, places both hands on the car's roof and upper door frame, and bends down to look through the open window at <char2>, who is seated in the driver's seat looking up at him. With synchronized mouth movement, <char3> delivers the line: <d>[English] Mummy wants to go home now.</d> He remains leaning into the open window looking at <char2> as the shot concludes under ambient nighttime sound.\nShot 6 [21.83s-23.04s]: The target segment opens in a medium shot on the rear side of a dark parked car at night. <char1>, wearing her dark coat over the high-neck patterned dress, bends down and climbs into the rear passenger seat of the vehicle, ducking her head inside as she enters. Towards the end of the shot, an off-screen male voice calls out: <d>[English] Now? Come on!</d> The camera remains static at car-level as <char1> disappears into the vehicle cabin.\nShot 7 [23.04s-30.00s]: The camera cuts to a wide static shot of the gravel driveway at night, with the brightly illuminated Victorian house in the background, a parked car in the right foreground, and the silver sedan parked on the left. <char3>, dressed in his white collared shirt and dark trousers, stands leaning over the roof and driver's window of the sedan, finishing his delivery to <char2> who is seated in the driver's seat. <char3> continues speaking with synchronized mouth movement: <d>[English] We need to drive, okay?</d> Pushing off the car roof, <char3> turns around and walks briskly across the driveway toward the house in the background. Seated inside the car in her burgundy-red top, <char2> watches him leave, then opens the driver-side door and steps out of the vehicle onto the gravel driveway. She closes the door behind her and begins walking across the open driveway in the direction <char3> went, heading toward the illuminated house as the camera holds static and the scene concludes under ambient outdoor nighttime sounds."
   },
   {
-    "out": "0009",
+    "out": "0022",
     "title": "Bar Plan",
     "logline": "At a dim bar, two people trade a few quiet lines about making the plan perfect.",
     "setting": "Bar",
     "language": "Mandarin",
     "duration": 30.375,
-    "video": "static/videos/0009.mp4",
-    "poster": "static/posters/0009.jpg",
+    "video": "static/videos/0022.mp4",
+    "poster": "static/posters/0022.jpg",
     "resolution": "832×480",
     "fps": 24,
     "n_chars": 2,
