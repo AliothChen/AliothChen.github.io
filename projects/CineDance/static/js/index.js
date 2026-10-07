@@ -49,12 +49,6 @@
     }
   }
 
-  const demoStat = $("#demo-stat");
-  if (demoStat && CASES.length) {
-    const avg = CASES.reduce((s, c) => s + c.duration, 0) / CASES.length;
-    demoStat.textContent = `${CASES.length} clips · ~${Math.round(avg)}s each`;
-  }
-
   const gallery = $("#gallery-grid");
   if (gallery) {
     gallery.innerHTML = CASES.map((c) => `
